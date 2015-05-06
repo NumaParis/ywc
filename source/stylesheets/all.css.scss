@@ -824,7 +824,7 @@ $cw : $screen-sm;
 #blog {
 	header {
 		padding-top: 70px;
-		max-width: $cw;
+		// max-width: $cw;
 		&.container {
 			@media screen and (min-width: $screen-md) {
 				padding-left: 0;
@@ -839,7 +839,7 @@ $cw : $screen-sm;
 		a {
 			color: black;
 		}
-		max-width: $screen-sm;
+		// max-width: $screen-sm;
 		&.buzz {
 			max-width: $screen-lg - 70;
 		}
@@ -1103,7 +1103,7 @@ button.navbar-toggle {
 }
 
 .bannier {
-	padding-top:70px;
+	padding-top: 60px;
 	margin-bottom: 60px;
 }
 
