@@ -1,70 +1,70 @@
 @charset "UTF-8";
-/* line 42, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 49, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 45, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 52, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 52, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 59, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 79, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 86, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
-/* line 84, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 91, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .clearfix:after {
   clear: both; }
 
-/* line 92, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 99, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 103, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 110, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .hide {
   display: none !important; }
 
-/* line 106, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 113, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .show {
   display: block !important; }
 
-/* line 109, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 116, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .invisible {
   visibility: hidden; }
 
-/* line 118, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 125, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .hidden {
   display: none !important; }
 
-/* line 122, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 129, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .text-left {
   text-align: left; }
 
-/* line 123, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 130, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .text-right {
   text-align: right; }
 
-/* line 124, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 131, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .text-center {
   text-align: center; }
 
-/* line 131, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 138, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .affix {
   z-index: 9000;
   position: fixed; }
 
-/* line 158, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 165, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 .btn {
   display: inline-block;
   margin-bottom: 0;
@@ -80,22 +80,22 @@ html {
   font-size: 14px;
   line-height: 1.42857;
   border-radius: 4px; }
-  /* line 175, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 182, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
-  /* line 181, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 188, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .btn:hover, .btn:focus, .btn.focus {
     color: #333;
     text-decoration: none; }
-  /* line 188, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 195, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .btn:active, .btn.active {
     outline: 0;
     background-image: none;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
-  /* line 195, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 202, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
     cursor: not-allowed;
     pointer-events: none;
@@ -325,17 +325,657 @@ td,
 th {
   padding: 0; }
 
+/* line 11, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 14, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 22, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 27, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  background-color: #fff; }
+
+/* line 36, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+/* line 48, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+a {
+  color: #337ab7;
+  text-decoration: none; }
+  /* line 52, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+  a:hover, a:focus {
+    color: black;
+    text-decoration: underline; }
+  /* line 58, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+  a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+
+/* line 69, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+figure {
+  margin: 0; }
+
+/* line 76, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+img {
+  vertical-align: middle; }
+
+/* line 81, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+/* line 86, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+.img-rounded {
+  border-radius: 6px; }
+
+/* line 93, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto; }
+
+/* line 106, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+.img-circle {
+  border-radius: 50%; }
+
+/* line 113, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee; }
+
+/* line 125, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+/* line 141, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto; }
+
+/* line 160, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
+[role="button"] {
+  cursor: pointer; }
+
+/* line 10, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0; }
+
+/* line 20, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5; }
+
+/* line 32, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold; }
+
+/* line 47, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 52, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal; }
+
+/* line 60, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+input[type="file"] {
+  display: block; }
+
+/* line 65, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+input[type="range"] {
+  display: block;
+  width: 100%; }
+
+/* line 71, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+select[multiple],
+select[size] {
+  height: auto; }
+
+/* line 77, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+
+/* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+output {
+  display: block;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555; }
+
+/* line 115, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
+  /* line 57, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+  .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+  /* line 103, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
+  .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1; }
+  /* line 107, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
+  .form-control:-ms-input-placeholder {
+    color: #999; }
+  /* line 108, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
+  .form-control::-webkit-input-placeholder {
+    color: #999; }
+  /* line 141, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #eeeeee;
+    opacity: 1; }
+  /* line 148, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-control[disabled], fieldset[disabled] .form-control {
+    cursor: not-allowed; }
+
+/* line 157, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+textarea.form-control {
+  height: auto; }
+
+/* line 169, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 182, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  input[type="date"],
+  input[type="time"],
+  input[type="datetime-local"],
+  input[type="month"] {
+    line-height: 34px; }
+    /* line 188, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    input[type="date"].input-sm, .input-group-sm input[type="date"],
+    input[type="time"].input-sm, .input-group-sm
+    input[type="time"],
+    input[type="datetime-local"].input-sm, .input-group-sm
+    input[type="datetime-local"],
+    input[type="month"].input-sm, .input-group-sm
+    input[type="month"] {
+      line-height: 30px; }
+    /* line 193, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    input[type="date"].input-lg, .input-group-lg input[type="date"],
+    input[type="time"].input-lg, .input-group-lg
+    input[type="time"],
+    input[type="datetime-local"].input-lg, .input-group-lg
+    input[type="datetime-local"],
+    input[type="month"].input-lg, .input-group-lg
+    input[type="month"] {
+      line-height: 46px; } }
+/* line 206, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.form-group {
+  margin-bottom: 15px; }
+
+/* line 215, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.radio,
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  /* line 222, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .radio label,
+  .checkbox label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer; }
+
+/* line 230, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9; }
+
+/* line 239, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.radio + .radio,
+.checkbox + .checkbox {
+  margin-top: -5px; }
+
+/* line 245, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.radio-inline,
+.checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer; }
+
+/* line 255, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px; }
+
+/* line 267, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+input[type="radio"][disabled], input[type="radio"].disabled, fieldset[disabled] input[type="radio"],
+input[type="checkbox"][disabled],
+input[type="checkbox"].disabled, fieldset[disabled]
+input[type="checkbox"] {
+  cursor: not-allowed; }
+
+/* line 276, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.radio-inline.disabled, fieldset[disabled] .radio-inline,
+.checkbox-inline.disabled, fieldset[disabled]
+.checkbox-inline {
+  cursor: not-allowed; }
+
+/* line 286, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.radio.disabled label, fieldset[disabled] .radio label,
+.checkbox.disabled label, fieldset[disabled]
+.checkbox label {
+  cursor: not-allowed; }
+
+/* line 298, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.form-control-static {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+  min-height: 34px; }
+  /* line 306, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-control-static.input-lg, .form-control-static.input-sm {
+    padding-left: 0;
+    padding-right: 0; }
+
+/* line 71, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+
+/* line 79, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+select.input-sm {
+  height: 30px;
+  line-height: 30px; }
+
+/* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+textarea.input-sm,
+select[multiple].input-sm {
+  height: auto; }
+
+/* line 71, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.form-group-sm .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+/* line 79, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.form-group-sm select.form-control {
+  height: 30px;
+  line-height: 30px; }
+/* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.form-group-sm textarea.form-control,
+.form-group-sm select[multiple].form-control {
+  height: auto; }
+/* line 327, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.form-group-sm .form-control-static {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  min-height: 32px; }
+
+/* line 71, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.input-lg {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33333;
+  border-radius: 6px; }
+
+/* line 79, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+select.input-lg {
+  height: 46px;
+  line-height: 46px; }
+
+/* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+textarea.input-lg,
+select[multiple].input-lg {
+  height: auto; }
+
+/* line 71, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.form-group-lg .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33333;
+  border-radius: 6px; }
+/* line 79, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.form-group-lg select.form-control {
+  height: 46px;
+  line-height: 46px; }
+/* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.form-group-lg textarea.form-control,
+.form-group-lg select[multiple].form-control {
+  height: auto; }
+/* line 341, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.form-group-lg .form-control-static {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33333;
+  min-height: 38px; }
+
+/* line 355, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.has-feedback {
+  position: relative; }
+  /* line 360, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .has-feedback .form-control {
+    padding-right: 42.5px; }
+
+/* line 365, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none; }
+
+/* line 377, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.input-lg + .form-control-feedback {
+  width: 46px;
+  height: 46px;
+  line-height: 46px; }
+
+/* line 382, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.input-sm + .form-control-feedback {
+  width: 30px;
+  height: 30px;
+  line-height: 30px; }
+
+/* line 8, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
+  color: #3c763d; }
+/* line 21, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-success .form-control {
+  border-color: #3c763d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 24, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+  .has-success .form-control:focus {
+    border-color: #2b542c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168; }
+/* line 31, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-success .input-group-addon {
+  color: #3c763d;
+  border-color: #3c763d;
+  background-color: #dff0d8; }
+/* line 37, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-success .form-control-feedback {
+  color: #3c763d; }
+
+/* line 8, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline, .has-warning.radio label, .has-warning.checkbox label, .has-warning.radio-inline label, .has-warning.checkbox-inline label {
+  color: #8a6d3b; }
+/* line 21, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-warning .form-control {
+  border-color: #8a6d3b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 24, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+  .has-warning .form-control:focus {
+    border-color: #66512c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b; }
+/* line 31, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-warning .input-group-addon {
+  color: #8a6d3b;
+  border-color: #8a6d3b;
+  background-color: #fcf8e3; }
+/* line 37, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-warning .form-control-feedback {
+  color: #8a6d3b; }
+
+/* line 8, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+  color: #a94442; }
+/* line 21, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 24, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+  .has-error .form-control:focus {
+    border-color: #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
+/* line 31, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-error .input-group-addon {
+  color: #a94442;
+  border-color: #a94442;
+  background-color: #f2dede; }
+/* line 37, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
+.has-error .form-control-feedback {
+  color: #a94442; }
+
+/* line 402, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.has-feedback label ~ .form-control-feedback {
+  top: 25px; }
+/* line 405, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0; }
+
+/* line 416, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373; }
+
+@media (min-width: 768px) {
+  /* line 441, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle; }
+  /* line 448, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle; }
+  /* line 455, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-inline .form-control-static {
+    display: inline-block; }
+  /* line 459, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-inline .input-group {
+    display: inline-table;
+    vertical-align: middle; }
+    /* line 463, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .form-inline .input-group .input-group-addon,
+    .form-inline .input-group .input-group-btn,
+    .form-inline .input-group .form-control {
+      width: auto; }
+  /* line 471, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-inline .input-group > .form-control {
+    width: 100%; }
+  /* line 475, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle; }
+  /* line 482, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-inline .radio,
+  .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle; }
+    /* line 489, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .form-inline .radio label,
+    .form-inline .checkbox label {
+      padding-left: 0; }
+  /* line 493, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-inline .radio input[type="radio"],
+  .form-inline .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0; }
+  /* line 500, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-inline .has-feedback .form-control-feedback {
+    top: 0; } }
+
+/* line 522, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px; }
+/* line 532, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.form-horizontal .radio,
+.form-horizontal .checkbox {
+  min-height: 27px; }
+/* line 538, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px; }
+  /* line 86, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  .form-horizontal .form-group:before, .form-horizontal .form-group:after {
+    content: " ";
+    display: table; }
+  /* line 91, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  .form-horizontal .form-group:after {
+    clear: both; }
+@media (min-width: 768px) {
+  /* line 545, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px; } }
+/* line 556, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+.form-horizontal .has-feedback .form-control-feedback {
+  right: 15px; }
+@media (min-width: 768px) {
+  /* line 566, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-horizontal .form-group-lg .control-label {
+    padding-top: 14.33333px; } }
+@media (min-width: 768px) {
+  /* line 573, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+  .form-horizontal .form-group-sm .control-label {
+    padding-top: 6px; } }
+
 /* line 10, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_grid.scss */
 .container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  /* line 79, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 86, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .container:before, .container:after {
     content: " ";
     display: table; }
-  /* line 84, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 91, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .container:after {
     clear: both; }
   @media (min-width: 768px) {
@@ -357,11 +997,11 @@ th {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  /* line 79, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 86, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .container-fluid:before, .container-fluid:after {
     content: " ";
     display: table; }
-  /* line 84, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 91, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .container-fluid:after {
     clear: both; }
 
@@ -369,11 +1009,11 @@ th {
 .row {
   margin-left: -15px;
   margin-right: -15px; }
-  /* line 79, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 86, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .row:before, .row:after {
     content: " ";
     display: table; }
-  /* line 84, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 91, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .row:after {
     clear: both; }
 
@@ -1216,882 +1856,707 @@ th {
   /* line 60, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-offset-12 {
     margin-left: 100%; } }
-/* line 6, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-table {
-  background-color: transparent; }
+/* line 10, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_component-animations.scss */
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear; }
+  /* line 13, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_component-animations.scss */
+  .fade.in {
+    opacity: 1; }
 
-/* line 9, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-caption {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  color: #777777;
-  text-align: left; }
+/* line 18, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_component-animations.scss */
+.collapse {
+  display: none; }
+  /* line 21, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_component-animations.scss */
+  .collapse.in {
+    display: block; }
 
-/* line 15, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-th {
-  text-align: left; }
+/* line 26, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_component-animations.scss */
+tr.collapse.in {
+  display: table-row; }
 
-/* line 22, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-.table {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 20px; }
-  /* line 31, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-  .table > thead > tr > th,
-  .table > thead > tr > td,
-  .table > tbody > tr > th,
-  .table > tbody > tr > td,
-  .table > tfoot > tr > th,
-  .table > tfoot > tr > td {
-    padding: 8px;
-    line-height: 1.42857;
-    vertical-align: top;
-    border-top: 1px solid #ddd; }
-  /* line 41, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-  .table > thead > tr > th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #ddd; }
-  /* line 50, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-  .table > caption + thead > tr:first-child > th,
-  .table > caption + thead > tr:first-child > td,
-  .table > colgroup + thead > tr:first-child > th,
-  .table > colgroup + thead > tr:first-child > td,
-  .table > thead:first-child > tr:first-child > th,
-  .table > thead:first-child > tr:first-child > td {
-    border-top: 0; }
-  /* line 57, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-  .table > tbody + tbody {
-    border-top: 2px solid #ddd; }
-  /* line 62, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-  .table .table {
-    background-color: #fff; }
+/* line 28, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_component-animations.scss */
+tbody.collapse.in {
+  display: table-row-group; }
 
-/* line 75, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-.table-condensed > thead > tr > th,
-.table-condensed > thead > tr > td,
-.table-condensed > tbody > tr > th,
-.table-condensed > tbody > tr > td,
-.table-condensed > tfoot > tr > th,
-.table-condensed > tfoot > tr > td {
-  padding: 5px; }
-
-/* line 88, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-.table-bordered {
-  border: 1px solid #ddd; }
-  /* line 94, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-  .table-bordered > thead > tr > th,
-  .table-bordered > thead > tr > td,
-  .table-bordered > tbody > tr > th,
-  .table-bordered > tbody > tr > td,
-  .table-bordered > tfoot > tr > th,
-  .table-bordered > tfoot > tr > td {
-    border: 1px solid #ddd; }
-  /* line 101, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-  .table-bordered > thead > tr > th,
-  .table-bordered > thead > tr > td {
-    border-bottom-width: 2px; }
-
-/* line 114, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-.table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #f9f9f9; }
-
-/* line 125, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-.table-hover > tbody > tr:hover {
-  background-color: #f5f5f5; }
-
-/* line 135, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-table col[class*="col-"] {
-  position: static;
-  float: none;
-  display: table-column; }
-
-/* line 143, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-table td[class*="col-"],
-table th[class*="col-"] {
-  position: static;
-  float: none;
-  display: table-cell; }
-
-/* line 9, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.active,
-.table > thead > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th,
-.table > tbody > tr > td.active,
-.table > tbody > tr > th.active,
-.table > tbody > tr.active > td,
-.table > tbody > tr.active > th,
-.table > tfoot > tr > td.active,
-.table > tfoot > tr > th.active,
-.table > tfoot > tr.active > td,
-.table > tfoot > tr.active > th {
-  background-color: #f5f5f5; }
-
-/* line 20, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.active:hover,
-.table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
-  background-color: #e8e8e8; }
-
-/* line 9, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.success,
-.table > thead > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th,
-.table > tbody > tr > td.success,
-.table > tbody > tr > th.success,
-.table > tbody > tr.success > td,
-.table > tbody > tr.success > th,
-.table > tfoot > tr > td.success,
-.table > tfoot > tr > th.success,
-.table > tfoot > tr.success > td,
-.table > tfoot > tr.success > th {
-  background-color: #dff0d8; }
-
-/* line 20, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.success:hover,
-.table-hover > tbody > tr > th.success:hover, .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr:hover > .success, .table-hover > tbody > tr.success:hover > th {
-  background-color: #d0e9c6; }
-
-/* line 9, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.info,
-.table > thead > tr > th.info, .table > thead > tr.info > td, .table > thead > tr.info > th,
-.table > tbody > tr > td.info,
-.table > tbody > tr > th.info,
-.table > tbody > tr.info > td,
-.table > tbody > tr.info > th,
-.table > tfoot > tr > td.info,
-.table > tfoot > tr > th.info,
-.table > tfoot > tr.info > td,
-.table > tfoot > tr.info > th {
-  background-color: #d9edf7; }
-
-/* line 20, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.info:hover,
-.table-hover > tbody > tr > th.info:hover, .table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr.info:hover > th {
-  background-color: #c4e3f3; }
-
-/* line 9, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.warning,
-.table > thead > tr > th.warning, .table > thead > tr.warning > td, .table > thead > tr.warning > th,
-.table > tbody > tr > td.warning,
-.table > tbody > tr > th.warning,
-.table > tbody > tr.warning > td,
-.table > tbody > tr.warning > th,
-.table > tfoot > tr > td.warning,
-.table > tfoot > tr > th.warning,
-.table > tfoot > tr.warning > td,
-.table > tfoot > tr.warning > th {
-  background-color: #fcf8e3; }
-
-/* line 20, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.warning:hover,
-.table-hover > tbody > tr > th.warning:hover, .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr:hover > .warning, .table-hover > tbody > tr.warning:hover > th {
-  background-color: #faf2cc; }
-
-/* line 9, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.danger,
-.table > thead > tr > th.danger, .table > thead > tr.danger > td, .table > thead > tr.danger > th,
-.table > tbody > tr > td.danger,
-.table > tbody > tr > th.danger,
-.table > tbody > tr.danger > td,
-.table > tbody > tr.danger > th,
-.table > tfoot > tr > td.danger,
-.table > tfoot > tr > th.danger,
-.table > tfoot > tr.danger > td,
-.table > tfoot > tr.danger > th {
-  background-color: #f2dede; }
-
-/* line 20, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.danger:hover,
-.table-hover > tbody > tr > th.danger:hover, .table-hover > tbody > tr.danger:hover > td, .table-hover > tbody > tr:hover > .danger, .table-hover > tbody > tr.danger:hover > th {
-  background-color: #ebcccc; }
-
-/* line 171, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-.table-responsive {
-  overflow-x: auto;
-  min-height: 0.01%; }
-  @media screen and (max-width: 767px) {
-    /* line 171, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-    .table-responsive {
-      width: 100%;
-      margin-bottom: 15px;
-      overflow-y: hidden;
-      -ms-overflow-style: -ms-autohiding-scrollbar;
-      border: 1px solid #ddd; }
-      /* line 183, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-      .table-responsive > .table {
-        margin-bottom: 0; }
-        /* line 191, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-        .table-responsive > .table > thead > tr > th,
-        .table-responsive > .table > thead > tr > td,
-        .table-responsive > .table > tbody > tr > th,
-        .table-responsive > .table > tbody > tr > td,
-        .table-responsive > .table > tfoot > tr > th,
-        .table-responsive > .table > tfoot > tr > td {
-          white-space: nowrap; }
-      /* line 200, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-      .table-responsive > .table-bordered {
-        border: 0; }
-        /* line 208, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-        .table-responsive > .table-bordered > thead > tr > th:first-child,
-        .table-responsive > .table-bordered > thead > tr > td:first-child,
-        .table-responsive > .table-bordered > tbody > tr > th:first-child,
-        .table-responsive > .table-bordered > tbody > tr > td:first-child,
-        .table-responsive > .table-bordered > tfoot > tr > th:first-child,
-        .table-responsive > .table-bordered > tfoot > tr > td:first-child {
-          border-left: 0; }
-        /* line 212, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-        .table-responsive > .table-bordered > thead > tr > th:last-child,
-        .table-responsive > .table-bordered > thead > tr > td:last-child,
-        .table-responsive > .table-bordered > tbody > tr > th:last-child,
-        .table-responsive > .table-bordered > tbody > tr > td:last-child,
-        .table-responsive > .table-bordered > tfoot > tr > th:last-child,
-        .table-responsive > .table-bordered > tfoot > tr > td:last-child {
-          border-right: 0; }
-        /* line 225, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_tables.scss */
-        .table-responsive > .table-bordered > tbody > tr:last-child > th,
-        .table-responsive > .table-bordered > tbody > tr:last-child > td,
-        .table-responsive > .table-bordered > tfoot > tr:last-child > th,
-        .table-responsive > .table-bordered > tfoot > tr:last-child > td {
-          border-bottom: 0; } }
-
-/* line 11, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 14, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 22, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-html {
-  font-size: 10px;
-  -webkit-tap-highlight-color: transparent; }
-
-/* line 27, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857;
-  background-color: #fff; }
-
-/* line 36, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-input,
-button,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit; }
-
-/* line 48, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-a {
-  color: #337ab7;
-  text-decoration: none; }
-  /* line 52, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-  a:hover, a:focus {
-    color: #23527c;
-    text-decoration: underline; }
-  /* line 58, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-  a:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px; }
-
-/* line 69, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-figure {
-  margin: 0; }
-
-/* line 76, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-img {
-  vertical-align: middle; }
-
-/* line 81, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto; }
-
-/* line 86, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-.img-rounded {
-  border-radius: 6px; }
-
-/* line 93, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-.img-thumbnail {
-  padding: 4px;
-  line-height: 1.42857;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  display: inline-block;
-  max-width: 100%;
-  height: auto; }
-
-/* line 106, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-.img-circle {
-  border-radius: 50%; }
-
-/* line 113, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #eeeeee; }
-
-/* line 125, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
+/* line 30, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_component-animations.scss */
+.collapsing {
+  position: relative;
+  height: 0;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0; }
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease; }
 
-/* line 141, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-.sr-only-focusable:active, .sr-only-focusable:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  clip: auto; }
-
-/* line 160, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_scaffolding.scss */
-[role="button"] {
-  cursor: pointer; }
-
-/* line 10, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-fieldset {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  min-width: 0; }
-
-/* line 20, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-legend {
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin-bottom: 20px;
-  font-size: 21px;
-  line-height: inherit;
-  color: #333333;
-  border: 0;
-  border-bottom: 1px solid #e5e5e5; }
-
-/* line 32, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-label {
-  display: inline-block;
-  max-width: 100%;
-  margin-bottom: 5px;
-  font-weight: bold; }
-
-/* line 47, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-input[type="search"] {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 52, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-input[type="radio"],
-input[type="checkbox"] {
-  margin: 4px 0 0;
-  margin-top: 1px \9;
-  line-height: normal; }
-
-/* line 60, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-input[type="file"] {
-  display: block; }
-
-/* line 65, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-input[type="range"] {
-  display: block;
-  width: 100%; }
-
-/* line 71, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-select[multiple],
-select[size] {
-  height: auto; }
-
-/* line 77, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-input[type="file"]:focus,
-input[type="radio"]:focus,
-input[type="checkbox"]:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px; }
-
-/* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-output {
-  display: block;
-  padding-top: 7px;
-  font-size: 14px;
-  line-height: 1.42857;
-  color: #555555; }
-
-/* line 115, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.form-control {
-  display: block;
-  width: 100%;
-  height: 34px;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857;
-  color: #555555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
-  /* line 57, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-  .form-control:focus {
-    border-color: #66afe9;
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
-  /* line 103, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
-  .form-control::-moz-placeholder {
-    color: #999;
-    opacity: 1; }
-  /* line 107, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
-  .form-control:-ms-input-placeholder {
-    color: #999; }
-  /* line 108, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
-  .form-control::-webkit-input-placeholder {
-    color: #999; }
-  /* line 141, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-    background-color: #eeeeee;
-    opacity: 1; }
-  /* line 148, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-control[disabled], fieldset[disabled] .form-control {
-    cursor: not-allowed; }
-
-/* line 157, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-textarea.form-control {
-  height: auto; }
-
-/* line 169, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-input[type="search"] {
-  -webkit-appearance: none; }
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 182, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  input[type="date"],
-  input[type="time"],
-  input[type="datetime-local"],
-  input[type="month"] {
-    line-height: 34px; }
-    /* line 188, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-    input[type="date"].input-sm, .input-group-sm input[type="date"],
-    input[type="time"].input-sm, .input-group-sm
-    input[type="time"],
-    input[type="datetime-local"].input-sm, .input-group-sm
-    input[type="datetime-local"],
-    input[type="month"].input-sm, .input-group-sm
-    input[type="month"] {
-      line-height: 30px; }
-    /* line 193, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-    input[type="date"].input-lg, .input-group-lg input[type="date"],
-    input[type="time"].input-lg, .input-group-lg
-    input[type="time"],
-    input[type="datetime-local"].input-lg, .input-group-lg
-    input[type="datetime-local"],
-    input[type="month"].input-lg, .input-group-lg
-    input[type="month"] {
-      line-height: 46px; } }
-/* line 206, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.form-group {
-  margin-bottom: 15px; }
-
-/* line 215, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.radio,
-.checkbox {
-  position: relative;
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-  /* line 222, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .radio label,
-  .checkbox label {
-    min-height: 20px;
-    padding-left: 20px;
-    margin-bottom: 0;
-    font-weight: normal;
-    cursor: pointer; }
-
-/* line 230, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.radio input[type="radio"],
-.radio-inline input[type="radio"],
-.checkbox input[type="checkbox"],
-.checkbox-inline input[type="checkbox"] {
-  position: absolute;
-  margin-left: -20px;
-  margin-top: 4px \9; }
-
-/* line 239, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.radio + .radio,
-.checkbox + .checkbox {
-  margin-top: -5px; }
-
-/* line 245, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.radio-inline,
-.checkbox-inline {
-  position: relative;
-  display: inline-block;
-  padding-left: 20px;
+/* line 9, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+.nav {
   margin-bottom: 0;
-  vertical-align: middle;
-  font-weight: normal;
-  cursor: pointer; }
-
-/* line 255, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.radio-inline + .radio-inline,
-.checkbox-inline + .checkbox-inline {
-  margin-top: 0;
-  margin-left: 10px; }
-
-/* line 267, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-input[type="radio"][disabled], input[type="radio"].disabled, fieldset[disabled] input[type="radio"],
-input[type="checkbox"][disabled],
-input[type="checkbox"].disabled, fieldset[disabled]
-input[type="checkbox"] {
-  cursor: not-allowed; }
-
-/* line 276, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.radio-inline.disabled, fieldset[disabled] .radio-inline,
-.checkbox-inline.disabled, fieldset[disabled]
-.checkbox-inline {
-  cursor: not-allowed; }
-
-/* line 286, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.radio.disabled label, fieldset[disabled] .radio label,
-.checkbox.disabled label, fieldset[disabled]
-.checkbox label {
-  cursor: not-allowed; }
-
-/* line 298, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.form-control-static {
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin-bottom: 0;
-  min-height: 34px; }
-  /* line 306, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-control-static.input-lg, .form-control-static.input-sm {
-    padding-left: 0;
-    padding-right: 0; }
-
-/* line 71, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.input-sm {
-  height: 30px;
-  padding: 5px 10px;
-  font-size: 12px;
-  line-height: 1.5;
-  border-radius: 3px; }
-
-/* line 79, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-select.input-sm {
-  height: 30px;
-  line-height: 30px; }
-
-/* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-textarea.input-sm,
-select[multiple].input-sm {
-  height: auto; }
-
-/* line 71, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.form-group-sm .form-control {
-  height: 30px;
-  padding: 5px 10px;
-  font-size: 12px;
-  line-height: 1.5;
-  border-radius: 3px; }
-/* line 79, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.form-group-sm select.form-control {
-  height: 30px;
-  line-height: 30px; }
-/* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.form-group-sm textarea.form-control,
-.form-group-sm select[multiple].form-control {
-  height: auto; }
-/* line 327, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.form-group-sm .form-control-static {
-  height: 30px;
-  padding: 5px 10px;
-  font-size: 12px;
-  line-height: 1.5;
-  min-height: 32px; }
-
-/* line 71, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.input-lg {
-  height: 46px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33333;
-  border-radius: 6px; }
-
-/* line 79, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-select.input-lg {
-  height: 46px;
-  line-height: 46px; }
-
-/* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-textarea.input-lg,
-select[multiple].input-lg {
-  height: auto; }
-
-/* line 71, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.form-group-lg .form-control {
-  height: 46px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33333;
-  border-radius: 6px; }
-/* line 79, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.form-group-lg select.form-control {
-  height: 46px;
-  line-height: 46px; }
-/* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.form-group-lg textarea.form-control,
-.form-group-lg select[multiple].form-control {
-  height: auto; }
-/* line 341, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.form-group-lg .form-control-static {
-  height: 46px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33333;
-  min-height: 38px; }
-
-/* line 355, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.has-feedback {
-  position: relative; }
-  /* line 360, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .has-feedback .form-control {
-    padding-right: 42.5px; }
-
-/* line 365, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.form-control-feedback {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-  display: block;
-  width: 34px;
-  height: 34px;
-  line-height: 34px;
-  text-align: center;
-  pointer-events: none; }
-
-/* line 377, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.input-lg + .form-control-feedback {
-  width: 46px;
-  height: 46px;
-  line-height: 46px; }
-
-/* line 382, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.input-sm + .form-control-feedback {
-  width: 30px;
-  height: 30px;
-  line-height: 30px; }
-
-/* line 8, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-success .help-block,
-.has-success .control-label,
-.has-success .radio,
-.has-success .checkbox,
-.has-success .radio-inline,
-.has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
-  color: #3c763d; }
-/* line 21, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-success .form-control {
-  border-color: #3c763d;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
-  /* line 24, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-  .has-success .form-control:focus {
-    border-color: #2b542c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168; }
-/* line 31, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-success .input-group-addon {
-  color: #3c763d;
-  border-color: #3c763d;
-  background-color: #dff0d8; }
-/* line 37, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-success .form-control-feedback {
-  color: #3c763d; }
-
-/* line 8, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-warning .help-block,
-.has-warning .control-label,
-.has-warning .radio,
-.has-warning .checkbox,
-.has-warning .radio-inline,
-.has-warning .checkbox-inline, .has-warning.radio label, .has-warning.checkbox label, .has-warning.radio-inline label, .has-warning.checkbox-inline label {
-  color: #8a6d3b; }
-/* line 21, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-warning .form-control {
-  border-color: #8a6d3b;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
-  /* line 24, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-  .has-warning .form-control:focus {
-    border-color: #66512c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b; }
-/* line 31, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-warning .input-group-addon {
-  color: #8a6d3b;
-  border-color: #8a6d3b;
-  background-color: #fcf8e3; }
-/* line 37, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-warning .form-control-feedback {
-  color: #8a6d3b; }
-
-/* line 8, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-error .help-block,
-.has-error .control-label,
-.has-error .radio,
-.has-error .checkbox,
-.has-error .radio-inline,
-.has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
-  color: #a94442; }
-/* line 21, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-error .form-control {
-  border-color: #a94442;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
-  /* line 24, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-  .has-error .form-control:focus {
-    border-color: #843534;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
-/* line 31, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-error .input-group-addon {
-  color: #a94442;
-  border-color: #a94442;
-  background-color: #f2dede; }
-/* line 37, /Users/marius/sites/ywc/source/stylesheets/bootstrap/mixins/_forms.scss */
-.has-error .form-control-feedback {
-  color: #a94442; }
-
-/* line 402, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.has-feedback label ~ .form-control-feedback {
-  top: 25px; }
-/* line 405, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.has-feedback label.sr-only ~ .form-control-feedback {
-  top: 0; }
-
-/* line 416, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.help-block {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  color: #737373; }
-
-@media (min-width: 768px) {
-  /* line 441, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-inline .form-group {
-    display: inline-block;
-    margin-bottom: 0;
-    vertical-align: middle; }
-  /* line 448, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-inline .form-control {
-    display: inline-block;
-    width: auto;
-    vertical-align: middle; }
-  /* line 455, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-inline .form-control-static {
-    display: inline-block; }
-  /* line 459, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-inline .input-group {
-    display: inline-table;
-    vertical-align: middle; }
-    /* line 463, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-    .form-inline .input-group .input-group-addon,
-    .form-inline .input-group .input-group-btn,
-    .form-inline .input-group .form-control {
-      width: auto; }
-  /* line 471, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-inline .input-group > .form-control {
-    width: 100%; }
-  /* line 475, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-inline .control-label {
-    margin-bottom: 0;
-    vertical-align: middle; }
-  /* line 482, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-inline .radio,
-  .form-inline .checkbox {
-    display: inline-block;
-    margin-top: 0;
-    margin-bottom: 0;
-    vertical-align: middle; }
-    /* line 489, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-    .form-inline .radio label,
-    .form-inline .checkbox label {
-      padding-left: 0; }
-  /* line 493, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-inline .radio input[type="radio"],
-  .form-inline .checkbox input[type="checkbox"] {
-    position: relative;
-    margin-left: 0; }
-  /* line 500, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-inline .has-feedback .form-control-feedback {
-    top: 0; } }
-
-/* line 522, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.form-horizontal .radio,
-.form-horizontal .checkbox,
-.form-horizontal .radio-inline,
-.form-horizontal .checkbox-inline {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 7px; }
-/* line 532, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.form-horizontal .radio,
-.form-horizontal .checkbox {
-  min-height: 27px; }
-/* line 538, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.form-horizontal .form-group {
-  margin-left: -15px;
-  margin-right: -15px; }
-  /* line 79, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
-  .form-horizontal .form-group:before, .form-horizontal .form-group:after {
+  padding-left: 0;
+  list-style: none; }
+  /* line 86, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  .nav:before, .nav:after {
     content: " ";
     display: table; }
-  /* line 84, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
-  .form-horizontal .form-group:after {
+  /* line 91, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  .nav:after {
     clear: both; }
-@media (min-width: 768px) {
-  /* line 545, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-horizontal .control-label {
-    text-align: right;
-    margin-bottom: 0;
-    padding-top: 7px; } }
-/* line 556, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-.form-horizontal .has-feedback .form-control-feedback {
-  right: 15px; }
-@media (min-width: 768px) {
-  /* line 566, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-horizontal .form-group-lg .control-label {
-    padding-top: 14.33333px; } }
-@media (min-width: 768px) {
-  /* line 573, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
-  .form-horizontal .form-group-sm .control-label {
-    padding-top: 6px; } }
+  /* line 15, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav > li {
+    position: relative;
+    display: block; }
+    /* line 19, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+    .nav > li > a {
+      position: relative;
+      display: block;
+      padding: 10px 15px; }
+      /* line 23, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+      .nav > li > a:hover, .nav > li > a:focus {
+        text-decoration: none;
+        background-color: #eeeeee; }
+    /* line 31, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+    .nav > li.disabled > a {
+      color: #777777; }
+      /* line 34, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+      .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+        color: #777777;
+        text-decoration: none;
+        background-color: transparent;
+        cursor: not-allowed; }
+  /* line 46, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #eeeeee;
+    border-color: #337ab7; }
+  /* line 59, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav .nav-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5; }
+  /* line 66, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav > li > a > img {
+    max-width: none; }
 
-/* line 27, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 76, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+.nav-tabs {
+  border-bottom: 1px solid #ddd; }
+  /* line 78, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px; }
+    /* line 84, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+    .nav-tabs > li > a {
+      margin-right: 2px;
+      line-height: 1.42857;
+      border: 1px solid transparent;
+      border-radius: 4px 4px 0 0; }
+      /* line 89, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+      .nav-tabs > li > a:hover {
+        border-color: #eeeeee #eeeeee #ddd; }
+    /* line 96, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+      color: #555555;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-bottom-color: transparent;
+      cursor: default; }
+
+/* line 118, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+.nav-pills > li {
+  float: left; }
+  /* line 122, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav-pills > li > a {
+    border-radius: 4px; }
+  /* line 125, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav-pills > li + li {
+    margin-left: 2px; }
+  /* line 131, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #337ab7; }
+
+/* line 144, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+.nav-stacked > li {
+  float: none; }
+  /* line 146, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav-stacked > li + li {
+    margin-top: 2px;
+    margin-left: 0; }
+
+/* line 160, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+.nav-justified, .nav-tabs.nav-justified {
+  width: 100%; }
+  /* line 163, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav-justified > li, .nav-tabs.nav-justified > li {
+    float: none; }
+    /* line 165, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+    .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+      text-align: center;
+      margin-bottom: 5px; }
+  /* line 171, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto; }
+  @media (min-width: 768px) {
+    /* line 177, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+    .nav-justified > li, .nav-tabs.nav-justified > li {
+      display: table-cell;
+      width: 1%; }
+      /* line 180, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+      .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+        margin-bottom: 0; } }
+
+/* line 190, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+.nav-tabs-justified, .nav-tabs.nav-justified {
+  border-bottom: 0; }
+  /* line 193, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px; }
+  /* line 199, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover,
+  .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus,
+  .nav-tabs.nav-justified > .active > a:focus {
+    border: 1px solid #ddd; }
+  @media (min-width: 768px) {
+    /* line 206, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+    .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+      border-bottom: 1px solid #ddd;
+      border-radius: 4px 4px 0 0; }
+    /* line 210, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+    .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+    .nav-tabs-justified > .active > a:hover,
+    .nav-tabs.nav-justified > .active > a:hover,
+    .nav-tabs-justified > .active > a:focus,
+    .nav-tabs.nav-justified > .active > a:focus {
+      border-bottom-color: #fff; } }
+
+/* line 224, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+.tab-content > .tab-pane {
+  display: none; }
+/* line 227, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+.tab-content > .active {
+  display: block; }
+
+/* line 237, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navs.scss */
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0; }
+
+/* line 11, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent; }
+  /* line 86, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  .navbar:before, .navbar:after {
+    content: " ";
+    display: table; }
+  /* line 91, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  .navbar:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    /* line 11, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar {
+      border-radius: 4px; } }
+
+/* line 86, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+.navbar-header:before, .navbar-header:after {
+  content: " ";
+  display: table; }
+/* line 91, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+.navbar-header:after {
+  clear: both; }
+@media (min-width: 768px) {
+  /* line 29, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-header {
+    float: left; } }
+
+/* line 48, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-collapse {
+  overflow-x: visible;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch; }
+  /* line 86, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  .navbar-collapse:before, .navbar-collapse:after {
+    content: " ";
+    display: table; }
+  /* line 91, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  .navbar-collapse:after {
+    clear: both; }
+  /* line 57, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-collapse.in {
+    overflow-y: auto; }
+  @media (min-width: 768px) {
+    /* line 48, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-collapse {
+      width: auto;
+      border-top: 0;
+      box-shadow: none; }
+      /* line 66, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+      .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important; }
+      /* line 73, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+      .navbar-collapse.in {
+        overflow-y: visible; }
+      /* line 79, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+      .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        padding-left: 0;
+        padding-right: 0; } }
+
+/* line 90, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: 340px; }
+  @media (max-device-width: 480px) and (orientation: landscape) {
+    /* line 90, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+      max-height: 200px; } }
+
+/* line 106, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.container > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px; }
+  @media (min-width: 768px) {
+    /* line 106, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .container > .navbar-header,
+    .container > .navbar-collapse,
+    .container-fluid > .navbar-header,
+    .container-fluid > .navbar-collapse {
+      margin-right: 0;
+      margin-left: 0; } }
+
+/* line 126, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-static-top {
+  z-index: 1000;
+  border-width: 0 0 1px; }
+  @media (min-width: 768px) {
+    /* line 126, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-static-top {
+      border-radius: 0; } }
+
+/* line 136, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
+  @media (min-width: 768px) {
+    /* line 136, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-fixed-top,
+    .navbar-fixed-bottom {
+      border-radius: 0; } }
+
+/* line 148, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px; }
+
+/* line 152, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0; }
+
+/* line 161, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px; }
+  /* line 168, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none; }
+  /* line 173, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-brand > img {
+    display: block; }
+  @media (min-width: 768px) {
+    /* line 178, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+      margin-left: -15px; } }
+
+/* line 191, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+  /* line 204, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-toggle:focus {
+    outline: 0; }
+  /* line 209, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px; }
+  /* line 215, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px; }
+  @media (min-width: 768px) {
+    /* line 191, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-toggle {
+      display: none; } }
+
+/* line 230, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-nav {
+  margin: 7.5px -15px; }
+  /* line 233, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px; }
+  @media (max-width: 767px) {
+    /* line 241, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-nav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      box-shadow: none; }
+      /* line 249, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+      .navbar-nav .open .dropdown-menu > li > a,
+      .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 5px 15px 5px 25px; }
+      /* line 253, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+      .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 20px; }
+        /* line 255, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+        .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
+          background-image: none; } }
+  @media (min-width: 768px) {
+    /* line 230, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-nav {
+      float: left;
+      margin: 0; }
+      /* line 268, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+      .navbar-nav > li {
+        float: left; }
+        /* line 270, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+        .navbar-nav > li > a {
+          padding-top: 15px;
+          padding-bottom: 15px; } }
+
+/* line 284, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-form {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px 15px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 8px;
+  margin-bottom: 8px; }
+  @media (min-width: 768px) {
+    /* line 441, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .navbar-form .form-group {
+      display: inline-block;
+      margin-bottom: 0;
+      vertical-align: middle; }
+    /* line 448, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .navbar-form .form-control {
+      display: inline-block;
+      width: auto;
+      vertical-align: middle; }
+    /* line 455, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .navbar-form .form-control-static {
+      display: inline-block; }
+    /* line 459, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .navbar-form .input-group {
+      display: inline-table;
+      vertical-align: middle; }
+      /* line 463, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+      .navbar-form .input-group .input-group-addon,
+      .navbar-form .input-group .input-group-btn,
+      .navbar-form .input-group .form-control {
+        width: auto; }
+    /* line 471, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .navbar-form .input-group > .form-control {
+      width: 100%; }
+    /* line 475, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .navbar-form .control-label {
+      margin-bottom: 0;
+      vertical-align: middle; }
+    /* line 482, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .navbar-form .radio,
+    .navbar-form .checkbox {
+      display: inline-block;
+      margin-top: 0;
+      margin-bottom: 0;
+      vertical-align: middle; }
+      /* line 489, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+      .navbar-form .radio label,
+      .navbar-form .checkbox label {
+        padding-left: 0; }
+    /* line 493, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .navbar-form .radio input[type="radio"],
+    .navbar-form .checkbox input[type="checkbox"] {
+      position: relative;
+      margin-left: 0; }
+    /* line 500, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_forms.scss */
+    .navbar-form .has-feedback .form-control-feedback {
+      top: 0; } }
+  @media (max-width: 767px) {
+    /* line 296, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-form .form-group {
+      margin-bottom: 5px; }
+      /* line 300, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+      .navbar-form .form-group:last-child {
+        margin-bottom: 0; } }
+  @media (min-width: 768px) {
+    /* line 284, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-form {
+      width: auto;
+      border: 0;
+      margin-left: 0;
+      margin-right: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none; } }
+
+/* line 325, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0; }
+
+/* line 330, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+  margin-bottom: 0;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+/* line 341, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-btn {
+  margin-top: 8px;
+  margin-bottom: 8px; }
+  /* line 344, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-btn.btn-sm {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  /* line 347, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-btn.btn-xs {
+    margin-top: 14px;
+    margin-bottom: 14px; }
+
+/* line 357, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-text {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  @media (min-width: 768px) {
+    /* line 357, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-text {
+      float: left;
+      margin-left: 15px;
+      margin-right: 15px; } }
+
+@media (min-width: 768px) {
+  /* line 377, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-left {
+    float: left !important; }
+
+  /* line 380, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-right {
+    float: right !important;
+    margin-right: -15px; }
+    /* line 384, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-right ~ .navbar-right {
+      margin-right: 0; } }
+/* line 395, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7; }
+  /* line 399, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-brand {
+    color: #777; }
+    /* line 401, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+      color: #5e5e5e;
+      background-color: transparent; }
+  /* line 408, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-text {
+    color: #777; }
+  /* line 413, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-nav > li > a {
+    color: #777; }
+    /* line 416, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      color: #333;
+      background-color: transparent; }
+  /* line 423, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7; }
+  /* line 431, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent; }
+  /* line 440, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-toggle {
+    border-color: #ddd; }
+    /* line 442, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background-color: #ddd; }
+    /* line 446, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #888; }
+  /* line 451, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: #e7e7e7; }
+  /* line 460, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #e7e7e7;
+    color: #555; }
+  @media (max-width: 767px) {
+    /* line 471, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #777; }
+      /* line 473, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent; }
+    /* line 480, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #555;
+      background-color: #e7e7e7; }
+    /* line 488, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+      color: #ccc;
+      background-color: transparent; } }
+  /* line 504, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-link {
+    color: #777; }
+    /* line 506, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-default .navbar-link:hover {
+      color: #333; }
+  /* line 511, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .btn-link {
+    color: #777; }
+    /* line 513, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
+      color: #333; }
+    /* line 519, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
+      color: #ccc; }
+
+/* line 529, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse {
+  background-color: #222;
+  border-color: #090909; }
+  /* line 533, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-brand {
+    color: #9d9d9d; }
+    /* line 535, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+      color: #fff;
+      background-color: transparent; }
+  /* line 542, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-text {
+    color: #9d9d9d; }
+  /* line 547, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-nav > li > a {
+    color: #9d9d9d; }
+    /* line 550, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+      color: #fff;
+      background-color: transparent; }
+  /* line 557, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #090909; }
+  /* line 565, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
+    color: #444;
+    background-color: transparent; }
+  /* line 575, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-toggle {
+    border-color: #333; }
+    /* line 577, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+      background-color: #333; }
+    /* line 581, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .navbar-toggle .icon-bar {
+      background-color: #fff; }
+  /* line 586, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    border-color: #101010; }
+  /* line 594, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #090909;
+    color: #fff; }
+  @media (max-width: 767px) {
+    /* line 605, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+      border-color: #090909; }
+    /* line 608, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+      background-color: #090909; }
+    /* line 611, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+      color: #9d9d9d; }
+      /* line 613, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+      .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fff;
+        background-color: transparent; }
+    /* line 620, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #fff;
+      background-color: #090909; }
+    /* line 628, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+      color: #444;
+      background-color: transparent; } }
+  /* line 639, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-link {
+    color: #9d9d9d; }
+    /* line 641, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .navbar-link:hover {
+      color: #fff; }
+  /* line 646, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .btn-link {
+    color: #9d9d9d; }
+    /* line 648, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
+      color: #fff; }
+    /* line 654, /Users/marius/sites/ywc/source/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
+      color: #444; }
+
+/* line 22, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -2099,44 +2564,44 @@ html, body {
   margin: 0;
   font-size: 90%; }
 
-/* line 35, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 30, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 hr {
   clear: both; }
 
-/* line 37, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 32, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0; }
 
 /* remove canvas default margin */
-/* line 46, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 40, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 canvas {
   display: block;
   vertical-align: bottom; }
 
-/* line 54, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 48, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .img-responsive {
   display: block;
   max-width: 100%;
   height: auto; }
 
-/* line 141, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 148, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 ::-moz-selection {
   color: #550aff;
   background: yellow; }
 
-/* line 141, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 148, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 ::-webkit-selection {
   color: #550aff;
   background: yellow; }
 
-/* line 141, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 148, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 ::-ms-selection {
   color: #550aff;
   background: yellow; }
 
-/* line 141, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+/* line 148, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
 ::selection {
   color: #550aff;
   background: yellow; }
@@ -2220,7 +2685,7 @@ em {
 p strong {
   font-family: gcsb; }
 
-/* line 69, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 62, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .intro {
   background-image: url("/images/map.gif");
   background-repeat: no-repeat;
@@ -2231,31 +2696,27 @@ p strong {
   position: relative;
   display: block;
   padding: 30% 0; }
-  /* line 74, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 67, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .intro.disable #particles-js {
     display: none; }
-  @media screen and (max-width: 992px) {
-    /* line 69, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-    .intro {
-      margin-top: 55px; } }
   @media screen and (min-width: 992px) {
-    /* line 69, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 62, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .intro {
       padding-top: 0;
       height: 100%;
       position: fixed;
       display: table; } }
 
-/* line 90, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 81, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .intro-body {
   z-index: 900; }
-  /* line 92, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 83, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .intro-body > div#particles-js {
     z-index: 100;
     background-image: url("/images/overlay.png");
     background-repeat: no-repeat; }
 
-/* line 99, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 90, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .intro-body,
 .intro-body > div,
 .intro-body > div > div {
@@ -2265,28 +2726,28 @@ p strong {
   right: 0;
   bottom: 0; }
 
-/* line 106, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 97, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #le-logo {
   font-size: 0.785em;
   display: table;
   width: 100%;
   height: 100%; }
-  /* line 107, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 98, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #le-logo > div {
     width: 100%;
     height: 100%;
     display: table; }
-    /* line 110, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 101, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #le-logo > div .in {
       text-align: center;
       display: table-cell;
       vertical-align: middle; }
-      /* line 111, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 102, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #le-logo > div .in img {
         z-index: 100;
         width: 70%;
         position: relative; }
-  /* line 120, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 111, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #le-logo h1 {
     font-family: UniversLTStdBoldCn;
     letter-spacing: -0.05em;
@@ -2296,42 +2757,42 @@ p strong {
     vertical-align: bottom;
     font-size: 3.14em; }
   @media screen and (min-width: 480px) {
-    /* line 106, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 97, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #le-logo {
       font-size: 0.942em; }
-      /* line 134, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 125, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #le-logo h1 {
         font-size: 3.768em; } }
   @media screen and (min-width: 768px) {
-    /* line 106, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 97, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #le-logo {
       font-size: 1.0519em; }
-      /* line 139, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 130, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #le-logo h1 {
         font-size: 4.2076em; } }
   @media screen and (min-width: 992px) {
-    /* line 106, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 97, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #le-logo {
       font-size: 1.3502em; }
-      /* line 144, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 135, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #le-logo h1 {
         font-size: 5.4008em; } }
   @media screen and (min-width: 1200px) {
-    /* line 106, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 97, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #le-logo {
       font-size: 1.413em; }
-      /* line 149, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 140, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #le-logo h1 {
         font-size: 5.652em; } }
   @media screen and (min-width: 1440px) {
-    /* line 106, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 97, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #le-logo {
       font-size: 1.57em; }
-      /* line 154, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 145, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #le-logo h1 {
         font-size: 6.28em; } }
 
-/* line 166, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 157, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .cbp-qtrotator {
   position: relative;
   height: 0px;
@@ -2339,27 +2800,27 @@ p strong {
   display: block;
   margin-left: auto;
   margin-right: auto; }
-  /* line 171, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 162, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .cbp-qtrotator .cbp-qtcontent {
     position: absolute;
     top: 0;
     z-index: 0;
     opacity: 0;
     width: 100%; }
-  /* line 178, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 169, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .cbp-qtrotator blockquote {
     margin: 0;
     padding: 0;
     display: block;
     margin-left: auto;
     margin-right: auto; }
-    /* line 182, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 173, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .cbp-qtrotator blockquote p {
       font-size: 1.3em;
       font-family: gcsbi;
       line-height: 1em; }
 
-/* line 190, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 181, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
 .no-js .cbp-qtrotator .cbp-qtcontent {
   position: relative;
@@ -2367,43 +2828,43 @@ p strong {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 201, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 192, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #cd-google-map,
 #google-container {
   position: relative;
   width: 100%;
   height: 100%; }
 
-/* line 208, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 199, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 a[href^="http://maps.google.com/maps"] {
   display: none !important; }
 
-/* line 209, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 200, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 a[title^="Click to see this area on Google Maps"] {
   display: none !important; }
 
-/* line 210, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 201, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .gmnoprint a, .gmnoprint span {
   display: none; }
 
-/* line 211, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 202, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .gmnoprint div {
   background: none !important; }
 
-/* line 216, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 207, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 div#particles-js canvas {
   display: none; }
 @media screen and (min-width: 992px) {
-  /* line 218, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 209, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   div#particles-js canvas {
     display: block; } }
 
-/* line 226, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 217, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #main {
   z-index: 900000;
   background: white; }
   @media screen and (min-width: 992px) {
-    /* line 226, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 217, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #main {
       z-index: 0;
       position: absolute;
@@ -2412,61 +2873,65 @@ div#particles-js canvas {
       right: 0;
       -webkit-box-shadow: -3px -3px 100px rgba(0, 0, 0, 0.6);
       box-shadow: -3px -3px 100px rgba(0, 0, 0, 0.6); } }
-  /* line 239, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 230, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #main section {
     padding-top: 50px;
     padding-bottom: 50px; }
 
-/* line 251, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 242, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .smartangels {
   padding-top: 40px; }
 
-/* line 257, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-.wrap {
-  padding-left: 20px;
-  padding-right: 20px; }
-
-/* line 303, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 251, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #myAffix {
   max-width: 333px; }
   @media screen and (min-width: 768px) {
-    /* line 303, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 251, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #myAffix {
       top: 100px; }
-      /* line 308, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 256, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #myAffix.affix-top {
         position: absolute;
         top: 100px;
         -webkit-transition: none;
         -o-transition: none;
         transition: none; }
-      /* line 313, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 261, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #myAffix.affix {
         width: auto; } }
+  @media screen and (max-width: 768px) {
+    /* line 251, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    #myAffix {
+      position: static; } }
 
-/* line 323, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 271, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+.navbar-collapse.in ul {
+  display: block;
+  float: none; }
+
+/* line 277, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #fixit {
   max-width: 333px; }
-  /* line 326, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 280, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #fixit.affix {
     top: 100px; }
   @media screen and (min-width: 768px) {
-    /* line 329, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 283, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #fixit.affix-top {
       position: absolute;
       top: 0;
       -webkit-transition: none;
       -o-transition: none;
       transition: none; }
-    /* line 334, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 288, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #fixit.affix {
       width: auto; } }
 
-/* line 339, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 293, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .affix {
   top: 100px; }
 
-/* line 347, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 301, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #timeline {
   background: white;
   border: 2px solid black;
@@ -2474,52 +2939,52 @@ div#particles-js canvas {
   max-width: 330px;
   padding: 2px;
   min-width: 220px; }
-  /* line 356, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 310, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #timeline ul {
     font-size: 1.3em;
     text-align: center; }
-  /* line 362, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 316, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #timeline li {
     display: block;
     padding: 15px;
     font-size: 0.9em; }
-    /* line 366, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 320, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #timeline li.bref {
       padding-bottom: 0px; }
-      /* line 368, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 322, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #timeline li.bref img {
         max-width: 220px;
         height: auto;
         margin-bottom: 10px; }
-    /* line 374, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 328, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #timeline li.last {
       margin-top: 0;
       padding-top: 0; }
-    /* line 378, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 332, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #timeline li.active a {
       background: #faf82f;
       color: black; }
 
-/* line 385, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 339, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 li.bref {
   padding-bottom: 0px; }
-  /* line 387, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 341, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   li.bref a {
     color: black;
     display: inline; }
 
-/* line 395, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 349, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 ul.la-presse {
   display: block;
   padding: 20px 0;
   text-align: center; }
-  /* line 401, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 355, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   ul.la-presse li {
     display: inline-block;
     width: 150px;
     list-style-type: none;
     margin: 0.8em; }
-    /* line 407, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 361, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     ul.la-presse li img {
       -webkit-filter: grayscale(100%);
       filter: grayscale(100%);
@@ -2530,83 +2995,83 @@ ul.la-presse {
       margin-left: auto;
       margin-right: auto;
       cursor: pointer; }
-      /* line 408, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 362, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img:hover {
         -webkit-filter: none;
         filter: none; }
-      /* line 420, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 374, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.figaro {
         width: 80%; }
-      /* line 421, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 375, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.tribune {
         width: 60%; }
-      /* line 422, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 376, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.jdn {
         width: 50%; }
-      /* line 423, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 377, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.atelier {
         width: 75%; }
-      /* line 424, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 378, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.ladn {
         width: 70%; }
-      /* line 425, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 379, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.jgp {
         width: 70%; }
-      /* line 426, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 380, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.maddyness {
         width: 70%; }
-      /* line 427, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 381, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.usine {
         width: 50%; }
-      /* line 428, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 382, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.digital {
         width: 40%; }
-      /* line 429, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 383, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.echos {
         width: 80%; }
-      /* line 430, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 384, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       ul.la-presse li img.strategies {
         width: 80%; }
 
-/* line 435, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 389, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .b-botom {
   border-bottom: 1px solid lightgray; }
 
-/* line 468, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 422, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .last {
   display: block; }
-  /* line 470, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 424, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .last a {
     color: black;
     display: inline-block;
     padding: 0.5em 0.9em;
     font-size: 0.7em; }
 
-/* line 478, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 432, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .btn {
   font-family: UniversLTStdBoldCn;
   font-size: 1.1em;
   color: white;
   text-decoration: none; }
-  /* line 484, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 438, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .btn.btn-blue {
     padding: 0.5em;
     background: #1b67ff;
     text-decoration: none; }
-    /* line 489, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 443, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .btn.btn-blue:hover {
       background: rgba(27, 103, 255, 0.8);
       color: white; }
-  /* line 494, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 448, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .btn.btn-black {
     color: white;
     background: black;
     padding: 0.5em; }
-    /* line 495, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 449, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .btn.btn-black:hover {
       background: rgba(0, 0, 0, 0.8); }
 
-/* line 631, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 585, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 footer.princ {
   text-align: center;
   clear: both;
@@ -2616,109 +3081,76 @@ footer.princ {
   color: white;
   clear: both;
   border-top: 1px solid lightgray; }
-  /* line 640, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 594, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   footer.princ nav {
     border-top: 1px solid lightgray;
     padding: 6px; }
-    /* line 641, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 595, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     footer.princ nav img {
       max-width: 25px;
       display: inline-block;
       vertical-align: middle; }
-    /* line 648, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 602, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     footer.princ nav a {
       margin: 0px 10px;
       text-decoration: none; }
 
-/* line 664, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-.navbar {
-  -webkit-transition: 500ms;
-  -o-transition: 500ms;
-  transition: 500ms;
-  padding-top: 20px;
-  padding-bottom: 17px;
-  font-size: 1.3em;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  z-index: 10000;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0; }
-  /* line 670, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-  .navbar > div {
-    float: left;
-    width: 50%; }
-    /* line 673, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-    .navbar > div:last-child {
-      text-align: right; }
-  /* line 685, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-  .navbar a {
-    color: black; }
-  @media screen and (min-width: 992px) {
-    /* line 688, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-    .navbar.isbottom {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      top: auto; }
-    /* line 695, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-    .navbar.isfixed {
-      background: white;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: auto;
-      -webkit-box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.4);
-      box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.4); }
-      /* line 696, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-      .navbar.isfixed a {
-        color: black; }
-      /* line 697, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-      .navbar.isfixed .brand strong {
-        display: block; }
-      /* line 698, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-      .navbar.isfixed .logo {
-        display: none; } }
-  @media screen and (max-width: 992px) {
-    /* line 664, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-    .navbar {
-      background: white;
-      height: 40px; }
-      /* line 712, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-      .navbar .brand strong {
-        color: black; } }
-  /* line 714, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-  .navbar .main-nav {
-    float: right; }
-    /* line 717, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-    .navbar .main-nav li {
-      display: inline-block;
-      margin-left: 0.3em;
-      margin-right: 0.3em; }
-    /* line 722, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-    .navbar .main-nav a {
-      font-family: UniversLTStdBoldCn; }
-  /* line 726, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-  .navbar .brand {
-    font-size: 1.3em;
-    letter-spacing: -1px;
-    display: inline-block;
-    text-decoration: none; }
-    /* line 727, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-    .navbar .brand strong {
-      font-family: UniversLTStdBoldCn;
-      display: none; }
+/* line 619, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+.navbar-brand {
+  position: relative; }
+  /* line 620, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  .navbar-brand img {
+    width: 100%;
+    width: 130px;
+    margin-top: -5px; }
+  /* line 626, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  .navbar-brand .lang {
+    position: absolute;
+    top: 0;
+    right: -30px; }
 
-/* line 742, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 633, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+.navbar-custom {
+  font-family: UniversLTStdBoldCn; }
+  @media screen and (max-width: 768px) {
+    /* line 633, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    .navbar-custom {
+      background: white; } }
+  /* line 639, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  .navbar-custom .navbar-brand strong {
+    padding-top: 3px;
+    font-size: 1.3em;
+    display: none; }
+  /* line 644, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  .navbar-custom.isfixed {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    -webkit-box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.4); }
+    /* line 646, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    .navbar-custom.isfixed .navbar-brand img {
+      display: none; }
+    /* line 647, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    .navbar-custom.isfixed .navbar-brand strong {
+      display: block; }
+  @media screen and (min-width: 768px) {
+    /* line 657, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    .navbar-custom .nav.navbar-nav {
+      float: right; } }
+  /* line 661, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  .navbar-custom .nav.navbar-nav a, .navbar-custom .nav.navbar-nav a:hover {
+    background-color: transparent; }
+
+/* line 747, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 strong.sig {
   display: block;
   font-family: gcm;
   font-size: 1.1em; }
-  /* line 743, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 748, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   strong.sig img {
     float: left;
     width: 53px;
@@ -2728,84 +3160,79 @@ strong.sig {
     display: inline;
     vertical-align: middle;
     margin-right: 1em; }
-  /* line 753, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 758, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   strong.sig em {
     display: block; }
 
-/* line 762, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-.logo {
-  max-width: 130px;
-  height: auto; }
-
-/* line 826, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 825, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog header {
   padding-top: 70px;
   max-width: 768px; }
   @media screen and (min-width: 992px) {
-    /* line 829, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 828, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #blog header.container {
       padding-left: 0;
       padding-right: 0; } }
-/* line 837, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 836, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog h1 {
   margin-bottom: 0px; }
-/* line 838, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 837, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog nav {
   background: white; }
-/* line 839, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 838, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog nav .container {
   max-width: 768px; }
-  /* line 840, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 839, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog nav .container a {
     color: black; }
-  /* line 844, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 843, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog nav .container.buzz {
     max-width: 1130px; }
 
-/* line 851, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 850, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog.buzz nav .container {
   max-width: 1130px; }
 
-/* line 857, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 856, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .container h1 {
   line-height: 1em; }
   @media screen and (min-width: 480px) {
-    /* line 857, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 856, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .container h1 {
       font-size: 3em; } }
   @media screen and (min-width: 768px) {
-    /* line 857, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 856, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .container h1 {
       font-size: 4em; } }
   @media screen and (min-width: 992px) {
-    /* line 857, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 856, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .container h1 {
       font-size: 5em; } }
-/* line 865, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 864, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .container article > h2, .container article p, .container article ul {
   max-width: 768px;
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 878, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 877, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .content > p {
   max-width: 768px; }
 
-/* line 887, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 886, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .fluid {
   position: relative;
   height: 0px; }
 
 @media screen and (min-width: 768px) {
-  /* line 893, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 892, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .fluid {
     padding-top: 379px; } }
 @media screen and (max-width: 768px) {
-  /* line 899, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 898, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .fluid {
     padding-top: 64%; } }
-/* line 904, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 903, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .fluid .mask,
 .fluid .mask iframe {
   position: absolute;
@@ -2816,23 +3243,23 @@ strong.sig {
   bottom: 0;
   right: 0; }
 
-/* line 915, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 914, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 a {
   color: black; }
 
-/* line 919, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 918, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #realisations em > a {
   font-family: gcsbi; }
-/* line 922, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 921, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #realisations p {
   margin-top: 2px; }
-/* line 923, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 922, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #realisations article {
   vertical-align: top;
   display: inline-block;
   padding-right: 10px;
   min-height: 150px; }
-  /* line 924, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 923, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #realisations article h5 {
     margin: 0;
     padding: 0;
@@ -2842,46 +3269,46 @@ a {
     font-size: 1em;
     line-height: 1.1em; }
   @media screen and (min-width: 992px) {
-    /* line 923, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 922, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #realisations article {
       width: 49%; } }
 
 @media screen and (min-width: 768px) {
-  /* line 940, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 939, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .action {
     display: none; } }
 
-/* line 946, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 945, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .logo-smartangels {
   z-index: 999999999999;
   position: absolute;
   bottom: 50px;
   right: 60px; }
   @media screen and (max-width: 768px) {
-    /* line 946, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 945, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .logo-smartangels {
       display: none; } }
-  /* line 950, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 949, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .logo-smartangels img {
     max-width: 230px;
     height: auto; }
 
-/* line 956, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 955, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .notice {
   line-height: 1.6em;
   font-size: 0.7em;
   color: black; }
 
-/* line 964, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 963, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .cover {
   border-bottom: 3px solid black;
   margin-bottom: 1em; }
-  /* line 965, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 964, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .cover .left {
     position: relative;
     overflow: hidden;
     padding: 0; }
-    /* line 969, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 968, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .cover .left strong {
       z-index: 111;
       font-family: 'gcmi';
@@ -2894,142 +3321,150 @@ a {
       padding: 50px;
       bottom: 0px;
       right: 0px; }
-  /* line 984, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 983, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .cover .right {
     padding: 2em; }
-    /* line 985, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 984, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .cover .right h4 {
       margin-top: 0; }
-    /* line 989, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 988, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .cover .right p {
       max-width: 480px; }
 
-/* line 997, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 996, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .book blockquote {
   padding: 0;
   margin: 0;
   font-family: 'gcmi'; }
 
-/* line 1005, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1004, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 article.prev p {
   margin: 0;
   padding: 0; }
-/* line 1009, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1008, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 article.prev blockquote {
   margin-bottom: 1em; }
-/* line 1012, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1011, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 article.prev h3, article.prev h4 {
   font-size: 1em;
   margin: 0.5em 0;
   text-align: left; }
 
-/* line 1019, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1018, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 ul.share-buttons {
   margin-top: 1em;
   list-style: none;
   padding: 0; }
 
-/* line 1025, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1024, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 ul.share-buttons li {
   display: inline;
   margin-right: 0.3em; }
 
-/* line 1030, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1029, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 footer .share-buttons {
   padding-bottom: 15px; }
 
-/* line 1035, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1034, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 a.lang {
-  width: 23px;
-  height: 17px;
+  margin-top: 15px;
   display: block;
-  font-size: 0px; }
+  font-size: 0px;
+  width: 23px;
+  height: 17px; }
   /* line 1039, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   a.lang.french {
     background-image: url("/images/GB.png");
     background-repeat: no-repeat; }
-  /* line 1042, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1040, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   a.lang.english {
     background-image: url("/images/FR.png");
     background-repeat: no-repeat; }
 
-/* line 1047, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1043, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .page-nav {
   padding: 30px;
   display: block;
   text-align: center; }
-  /* line 1051, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1047, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .page-nav li {
     display: inline-block; }
-    /* line 1052, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1048, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .page-nav li:first-child {
       padding-right: 20px; }
-    /* line 1053, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1049, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .page-nav li:last-child {
       padding-left: 20px; }
 
-/* line 1058, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1054, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+button.navbar-toggle {
+  border: 1px solid #f9cfd9; }
+  /* line 1056, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  button.navbar-toggle > span {
+    background: #f9cfd9; }
+
+/* line 1059, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #zabook {
   text-align: center;
   padding: 100px 0 50px; }
-  /* line 1062, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1063, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #zabook > iframe {
     display: block;
     margin-left: auto;
     margin-right: auto; }
 
-/* line 1067, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1068, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .citations li {
   padding: 0;
   margin-bottom: 20px; }
-  /* line 79, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 86, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .citations li:before, .citations li:after {
     content: " ";
     display: table; }
-  /* line 84, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
+  /* line 91, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .citations li:after {
     clear: both; }
-  /* line 1071, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1072, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .citations li blockquote {
     margin-left: 150px;
     margin-top: 0;
     font-family: 'gcmi';
     font-size: 1.1em; }
-    /* line 1076, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1077, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .citations li blockquote a {
       display: block; }
-    /* line 1079, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1080, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .citations li blockquote p {
       margin-top: 0; }
-  /* line 1083, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1084, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .citations li .first {
     float: left; }
-/* line 1087, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1088, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .citations strong {
   display: block;
   font-size: 11px; }
-/* line 1091, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1092, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .citations img {
   display: block;
   max-width: 100px;
   height: auto; }
 
-/* line 1098, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1099, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .twitter iframe {
   width: 100%;
   border: 5px solid red; }
 
-/* line 1104, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1105, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .bannier {
   padding-top: 70px;
   margin-bottom: 60px; }
 
-/* line 1110, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1111, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .press h2 {
   display: block;
   margin-top: 0; }
 
-/* line 1116, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1117, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #recommend {
   max-width: 602px;
   margin-bottom: 100px;
@@ -3038,21 +3473,21 @@ a.lang {
   margin-right: auto;
   font-size: 1em; }
 
-/* line 1153, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1154, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 input.jerecommend {
   margin-right: 10px;
   width: auto; }
 
-/* line 1161, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1162, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .btn.black {
   background: black; }
 
-/* line 1165, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1166, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .apropos {
   padding-top: 100px;
   display: block; }
 
-/* line 1170, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1171, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .fld {
   font-size: 1em;
   padding: 4px;
@@ -3060,21 +3495,21 @@ input.jerecommend {
   border: 2px solid white;
   border-bottom: 2px solid black;
   background: rgba(211, 211, 211, 0.2); }
-  /* line 1177, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1178, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .fld:focus, .fld:active {
     outline: none;
     border-bottom: 2px solid graylight;
     background: rgba(255, 255, 0, 0.4); }
 
-/* line 1185, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1186, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 textarea.fld {
   padding: 10px 20px; }
 
-/* line 1190, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1191, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .container.merci {
   margin-top: 50px; }
 
-/* line 1195, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1196, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .headermsg {
   display: block;
   margin-left: auto;
@@ -3087,7 +3522,7 @@ textarea.fld {
   font-family: 'gcmi';
   text-shadow: 1px 1px 1px black; }
 
-/* line 1205, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1206, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .apropos {
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 100%);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 100%);
@@ -3096,34 +3531,34 @@ textarea.fld {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E6000000', endColorstr='#19000000', GradientType=0);
   min-height: 900px; }
 
-/* line 1210, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1211, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .recommend {
   background-image: url("/images/thankyouimage.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
-/* line 1215, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1216, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #recommend {
   color: black; }
 
-/* line 1220, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1221, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .customlinestextarea {
   background-image: url("/images/pat.gif");
   background-repeat: no-repeat;
   background-repeat: repeat; }
 
-/* line 1227, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1228, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .custom-file-upload-hidden {
   display: none;
   visibility: hidden;
   position: absolute;
   left: -9999px; }
 
-/* line 1242, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1243, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .file-upload-input {
   text-indent: 30px; }
 
-/* line 1246, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1247, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 button[type="button"].file-upload-button {
   position: absolute;
   top: 0;
@@ -3142,35 +3577,35 @@ button[type="button"].file-upload-button {
   border: 0;
   color: transparent; }
 
-/* line 1265, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1266, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .form-group.textarea {
   padding-left: 15px; }
-  /* line 1267, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1268, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .form-group.textarea textarea {
     font-family: 'gcmi';
     font-size: 1.1em;
     color: black; }
 
-/* line 1274, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1275, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #reply {
   padding-top: 20%; }
-  /* line 1276, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1277, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #reply input.form-control {
     color: black;
     line-height: 1.2em; }
-  /* line 1281, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1282, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #reply fieldset.first {
     margin-bottom: 15px; }
-  /* line 1284, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1285, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #reply fieldset .checkbox {
     color: white;
     font-family: 'gcsb';
     text-shadow: 1px 1px 1px black; }
-    /* line 1285, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1286, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #reply fieldset .checkbox input {
       margin-right: 10px; }
 
-/* line 1293, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1294, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .recommendations {
   display: block;
   max-width: 768px;
@@ -3178,29 +3613,29 @@ button[type="button"].file-upload-button {
   margin-left: auto;
   margin-right: auto;
   display: table; }
-  /* line 1300, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1301, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations li {
     display: inline-block;
     vertical-align: top;
     padding: 15px; }
     @media screen and (min-width: 768px) {
-      /* line 1300, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 1301, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       .recommendations li {
         width: 50%; } }
-  /* line 1307, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1308, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations strong.th {
     float: left;
     display: block;
     border-radius: 50%;
     overflow: hidden; }
-    /* line 1312, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1313, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .recommendations strong.th, .recommendations strong.th img {
       width: 50px;
       height: 50px; }
-  /* line 1315, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1316, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations div > a {
     font-size: 0.8em; }
-  /* line 1316, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1317, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations div > h4 {
     margin-left: 65px;
     padding-top: 6px;
@@ -3208,31 +3643,31 @@ button[type="button"].file-upload-button {
     padding-bottom: 0;
     line-height: 0.9em;
     vertical-align: bottom; }
-  /* line 1317, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1318, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations div > em {
     margin-left: 65px;
     display: block;
     font-size: 0.9em;
     line-height: 1.3em;
     color: #777777; }
-  /* line 1320, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1321, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations p::before, .recommendations p::after {
     font-size: 1.2em; }
-  /* line 1324, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1325, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations p::before {
     content: "«"; }
-  /* line 1325, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1326, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations p::after {
     content: "»"; }
-  /* line 1327, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1328, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations .twt {
     font-size: 0.9em;
     line-height: 1.3em; }
 
-/* line 1332, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1333, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .recom-banner {
   padding: 0;
   padding-top: 60px; }
-  /* line 1335, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1336, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recom-banner img {
     width: 100%; }
