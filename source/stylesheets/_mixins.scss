@@ -1,0 +1,225 @@
+@import "bootstrap/mixins/grid";
+@import "bootstrap/mixins/grid-framework";
+@import "bootstrap/mixins/forms";
+@import "bootstrap/variables";
+@import "bootstrap/mixins/tab-focus";
+@import "bootstrap/mixins/vendor-prefixes";
+@import "bootstrap/mixins/image";
+@import "bootstrap/mixins/size";
+@import "bootstrap/mixins/opacity";
+@import "bootstrap/mixins/border-radius";
+@import "bootstrap/mixins/nav-divider";
+@import "bootstrap/mixins/nav-vertical-align";
+@import "bootstrap/mixins/gradients";
+@import "bootstrap/mixins/table-row";
+
+// mixin font
+@mixin lefont ($somefont) {
+  @font-face {
+    font-family: $somefont;
+    // src: font-url($somefont + '.eot'); /* IE9 Compat Modes */
+    src: 
+      font-url($somefont + '.eot') format('embedded-opentype'), /* IE6-IE8 */
+      // things are shifting rapidly towards WOFF and WOFF2 so we might get away with this 2 only:
+      font-url($somefont + '.woff2') format('woff2'), /* Super Modern Browsers */ 
+      font-url($somefont + '.woff') format('woff'), /* Pretty Modern Browsers */
+      font-url($somefont + '.ttf') format('truetype'), /* Safari, Android, iOS */
+      font-url($somefont + '.svg#gcsbi') format('svg'); /* Legacy iOS */
+  } 
+}
+
+// Mixin image
+@mixin background-image($img) {
+  background-image: url(image-path($img));
+  background-repeat: no-repeat;
+}
+
+// Box sizing
+@mixin box-sizing($boxmodel) {
+  -webkit-box-sizing: $boxmodel;
+     -moz-box-sizing: $boxmodel;
+          box-sizing: $boxmodel;
+}
+
+// Reset the box-sizing
+//
+// Heads up! This reset may cause conflicts with some third-party widgets.
+// For recommendations on resolving such conflicts, see
+// http://getbootstrap.com/getting-started/#third-box-sizing
+* {
+  @include box-sizing(border-box);
+}
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+
+// Body reset
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+
+// Center-align a block level element
+@mixin center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Clearfix
+//
+// For modern browsers
+// 1. The space content is one way to avoid an Opera bug when the
+//    contenteditable attribute is included anywhere else in the document.
+//    Otherwise it causes space to appear at the top and bottom of elements
+//    that are clearfixed.
+// 2. The use of `table` rather than `block` is only necessary if using
+//    `:before` to contain the top-margins of child elements.
+//
+// Source: http://nicolasgallagher.com/micro-clearfix-hack/
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.clearfix {
+  @include clearfix;
+}
+.center-block {
+  @include center-block;
+}
+
+
+
+
+// Toggling content
+// -------------------------
+
+// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+
+
+// Hide from screenreaders and browsers
+//
+// Credit: HTML5 Boilerplate
+
+.hidden {
+  display: none !important;
+}
+
+.text-left           { text-align: left; }
+.text-right          { text-align: right; }
+.text-center         { text-align: center; }
+// .text-justify        { text-align: justify; }
+// .text-nowrap         { white-space: nowrap; }
+
+// For Affix plugin
+// -------------------------
+
+.affix {
+  z-index: 9000;
+  position: fixed;
+}
+
+// HACK THE SELECTION THINGY  
+// -------------------------
+$prefixes: ("-moz-", "-webkit-", "-ms-", "");
+@mixin selection($color, $background) {
+    @each $prefix in $prefixes {
+        ::#{$prefix}selection {
+            color: $color;
+            background: $background;
+        }
+    }
+}
+// -------------
+
+
+// Button sizes
+@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+  padding: $padding-vertical $padding-horizontal;
+  font-size: $font-size;
+  line-height: $line-height;
+  border-radius: $border-radius;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0; // For input.btn
+  font-weight: $btn-font-weight;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid transparent;
+  white-space: nowrap;
+  @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base);
+  // @include user-select(none);
+
+  &,
+  &:active,
+  &.active {
+    &:focus,
+    &.focus {
+      @include tab-focus;
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &.focus {
+    color: $btn-default-color;
+    text-decoration: none;
+  }
+
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;
+    @include box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: $cursor-disabled;
+    pointer-events: none; // Future-proof disabling of clicks
+    @include opacity(.65);
+    @include box-shadow(none);
+  }
+}
+
+@mixin stretch($a:0,$b:0,$c:0,$d:0) {
+  position: absolute;
+  top:$a;
+  left:$b;
+  right:$c;
+  bottom:$d;
+}
+
+@mixin desaturate() {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}

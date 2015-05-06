@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="wRmJMb6w_YhNaLqSLGbZnRjMTJk93qirEaDRKksMgoY" />
+    <meta name="google-site-verification" content="TXGgzhYN1BgoI9BmL3o61KDwOU9a8a4PQCfgwqjrP6M" />
+    <title><%= 'Yeswecrowd - ' + current_article.title unless current_article.nil? %></title>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= stylesheet_link_tag 'all' %>
+    <script type="text/javascript" src='http://codeorigin.jquery.com/jquery-1.10.2.min.js'></script>
+  </head>
+  
+  <body data-spy="scroll" id="blog">
+    
+    <%= partial "navigation" %>
+
+    <%= yield %>
+
+    <%= partial "footer_2" %>
+    
+    <%= partial "ga" %>
+
+    <%= javascript_include_tag  'jquery.min', 'jquery.easing.min', 'bootstrap.min'%>
+
+  </body>
+</html>

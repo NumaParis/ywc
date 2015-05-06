@@ -1,0 +1,1337 @@
+@import "mixins";
+@import "variables";
+@import "defaults";
+@import "debug";
+
+// --------------------------
+// @import "bootstrap";
+//---------------------------
+// @import "bootstrap/utilities";
+@import "bootstrap/variables";
+@import "bootstrap/normalize";
+@import "bootstrap/scaffolding";
+@import "bootstrap/forms";
+@import "bootstrap/grid";
+
+@import "bootstrap/component-animations";
+@import "bootstrap/navs";
+@import "bootstrap/navbar";
+
+
+// Defaults -----
+html, body {
+		@include size(100%, 100%);
+		padding: 0;
+		margin: 0;
+		font-size: 90%;
+}
+
+// RESET ----------------------------------------------------------------------------------------
+hr { clear: both; }
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+/* remove canvas default margin */
+canvas {
+		display:block;
+		vertical-align:bottom;
+}
+
+// ----------------------------------------------------------------------------------------
+// Some defaults
+// if we want responsive images we do this.
+.img-responsive { @include img-responsive; }
+// Adjust the selection text
+@include selection($purple, yellow);
+
+// ----------------------------------------------------------------------------------------
+// --------------------------------------- TYPE -------------------------------------------
+// ----------------------------------------------------------------------------------------
+
+@import "type";
+
+// ----------------------------------------------------------------------------------------
+// -----------------------------------THE INTRO ZONE---------------------------------------
+// ----------------------------------------------------------------------------------------
+
+.intro {
+	@include background-image('map.gif');
+	background-size: cover;
+	z-index: 0;
+	overflow: hidden;
+	&.disable { #particles-js {display: none;} }
+	width: 100%;
+	position: relative;
+	display: block;
+ 	padding: 30% 0;
+
+	@media screen and (min-width: $screen-md) {
+		padding-top: 0;
+		height: 100%;
+		position: fixed;
+		display: table;
+	}
+}
+
+.intro-body {
+	z-index: 900;
+	> div#particles-js {
+		z-index: 100;
+		@include background-image('overlay.png');
+	}
+}
+
+
+.intro-body,
+.intro-body > div,
+.intro-body > div > div {
+	@include stretch;
+}
+
+
+#le-logo {
+	> div { // the inner container
+		@include size(100%, 100%);
+		display: table;
+		.in {
+			img { z-index: 100; width: 70%; position: relative;}
+			text-align: center;
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+
+	$fs: 0.5em;
+	
+	h1 {
+		font-family: UniversLTStdBoldCn;
+		letter-spacing: -0.05em;
+		margin: 0;
+		padding: 0;
+		line-height: 0.6em;
+		vertical-align: bottom;
+		font-size: ($fs * $pi) * 2;
+	}
+
+	font-size: ($fs * $pi/2);
+
+	@media screen and (min-width: $screen-xs) {
+		$fs: 0.60em;
+		h1 { font-size: ($fs * $pi) * 2; }
+		font-size: ($fs * $pi/2);
+	}
+	@media screen and (min-width: $screen-sm) {
+		$fs: 0.67em;
+		h1 { font-size: ($fs * $pi) * 2; }
+		font-size: ($fs * $pi/2);
+	}
+	@media screen and (min-width: $screen-md) {
+		$fs: 0.86em;
+		h1 { font-size: ($fs * $pi) * 2; }
+		font-size: ($fs * $pi/2);
+	}
+	@media screen and (min-width: $screen-lg) {
+		$fs: 0.9em;
+		h1 { font-size: ($fs * $pi) * 2; }
+		font-size: ($fs * $pi/2) ;
+	}
+	@media screen and (min-width: $screen-lg + $screen-xs/2) { // a bit extra for the extra large
+		$fs: 1em;
+		h1 { font-size: ($fs * $pi) * 2; }
+		font-size: ($fs * $pi/2) ;
+	}
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+// --------------------
+.cbp-qtrotator {
+	position: relative;
+	height: 0px;
+	width: 79%;
+	@include center-block;
+	.cbp-qtcontent {
+		position: absolute;
+		top: 0;
+		z-index: 0;
+		opacity: 0;
+		width: 100%;
+	}
+	blockquote {
+		margin: 0;
+		padding: 0;
+		@include center-block;
+		p {
+			font-size: 1.3em;
+			font-family: gcsbi;
+			line-height: 1em;
+		}
+	}
+}
+
+.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	position: relative; 
+	z-index: 100;
+	pointer-events: auto;
+	opacity: 1;
+}
+
+
+
+// Google map ------------------------------
+#cd-google-map,
+#google-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+// Remove google logo and other informations.
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[title^="Click to see this area on Google Maps"] {display:none !important}
+.gmnoprint a, .gmnoprint span { display:none; }
+.gmnoprint div { background:none !important; }
+
+
+// Hide the particles on small screens
+div#particles-js {
+	canvas { display: none; }
+	@media screen and (min-width: $screen-md) {
+		canvas { display:block; }
+	}
+}
+
+// ----------------------------------------------------------------------------------------
+// ---------------------------- THE MAIN CONTENT AREA -------------------------------------
+// ----------------------------------------------------------------------------------------
+
+#main {
+	z-index: 900000;
+	@media screen and (min-width: $screen-md) {
+		z-index: 0;	
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		@include box-shadow(-3px -3px 100px fade-out(black, 0.4));
+	}
+	
+	background: white;
+	
+	section {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		// border-bottom: 1px dotted black;
+	}
+}
+
+
+// Scaffolding
+// ------------------------------------------------------
+// The sections and stuff -------------------------------
+// ------------------------------------------------------
+.smartangels {
+	padding-top: 40px;
+}
+// ------------------------------------------------------
+
+
+// ----------------------------------------------------
+// Le affix and timeline stuff.
+//figuring out the scaffolding for the timeline;
+#myAffix {
+	$top : 100px;
+	max-width: 333px;
+	@media screen and(min-width: $screen-sm) {
+		top: $top;
+		&.affix-top {
+			position: absolute;
+			top: $top;
+			@include transition(none);
+		}
+		&.affix {
+			width: auto;
+		}
+	}
+	@media screen and (max-width: $screen-sm) {
+		position: static;
+	}
+}
+
+.navbar-collapse.in {
+	ul {
+		display: block;
+		float: none;
+	}
+}
+
+#fixit {
+	$top : 100px;
+	max-width: 333px;
+	&.affix { top: $top; }
+	@media screen and (min-width: $screen-sm) {
+		
+		&.affix-top {
+			position: absolute;
+			top: 0;
+			@include transition(none);
+		}
+		&.affix {
+			width: auto;
+		}
+	}	
+}
+.affix {
+	top: 100px;
+}
+
+#twtimeline {
+	// top:0;
+}
+
+#timeline {
+	background: white;
+	border: 2px solid black;
+	border-radius: 3px;
+	max-width: 330px;
+	padding: 2px;
+	min-width: 220px;
+	
+
+	ul {
+		// outline: 1px solid red;
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	li {
+		display: block;
+		padding: 15px;
+		font-size: 0.9em;
+		&.bref { 
+			padding-bottom: 0px;
+			img {
+				max-width: 220px;
+				height: auto;
+				margin-bottom: 10px;
+			}
+		}
+		&.last {
+			margin-top: 0;
+			padding-top: 0;
+		}
+		&.active a {
+			background: $yellow;
+			color: black;
+		}
+	}
+}
+
+li.bref {
+	padding-bottom: 0px;
+	a {
+		color: black;
+		display: inline;
+	}
+}
+
+
+
+ul.la-presse {
+
+  display: block;
+  padding: 20px 0;
+	text-align: center;
+
+  li {
+    display: inline-block;
+    width: 150px;
+    list-style-type: none;
+    margin: 0.8em;
+
+    img {
+      &:hover {
+				-webkit-filter: none;
+				filter: none;
+      }
+
+      @include desaturate;
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+
+      &.figaro 		 { width: 80%; }
+      &.tribune 	 { width: 60%; }
+      &.jdn 			 { width: 50%; }
+      &.atelier 	 { width: 75%; }
+      &.ladn 			 { width: 70%; }
+      &.jgp 			 { width: 70%; }
+      &.maddyness  { width: 70%; }
+      &.usine 		 { width: 50%; }
+      &.digital 	 { width: 40%; }
+      &.echos 		 { width: 80%; }
+      &.strategies { width: 80%; }
+    }
+  }
+}
+
+.b-botom {
+	border-bottom: 1px solid lightgray;
+}
+
+
+// .la-presse {
+// 	// outline: 1px solid blue;
+// 	width: 100%;
+// 	li {
+// 		// outline: 1px solid black;
+// 		width: 49%;
+// 		margin-right: 0.5%;
+// 		display: inline-block;
+// 		padding: 0;
+// 		margin: 0;
+// 		// background: red;
+// 		vertical-align: top;
+// 		margin-bottom: 14px;
+// 		// width: 49%;
+// 		// text-align: center;
+
+	
+// 		img {
+// 			// display: block;
+// 			// display: inline-block;
+// 			width: 100%;
+// 			// float: left;
+// 			height: auto;
+// 			// margin-bottom: 4px;
+// 		}
+// 	}
+// }
+
+.last {
+	display: block;
+	a {
+		color: black;
+		display: inline-block;
+		padding: 0.5em 0.9em;
+		font-size: 0.7em;
+	}
+}
+
+.btn {
+	font-family: UniversLTStdBoldCn;
+	font-size: 1.1em;
+	color: white;
+	text-decoration: none;
+	
+	&.btn-blue {
+		// display: block;
+		padding: 0.5em;
+		background: $blue;
+		text-decoration: none;
+		&:hover {
+			background: fade-out($blue, 0.2);
+			color : white;
+		}
+	}
+	&.btn-black {
+		&:hover {
+			background: fade-out(black, 0.2);
+		}
+		color: white;
+		background: black;
+		padding: 0.5em;	
+	}
+}
+
+// ------------------------------------------------------
+// The mailchimp form -----------------------------------
+// ------------------------------------------------------
+
+// .asterisk { 
+// 	color: red;
+// 	font-size: 1.2em;
+// }
+// .indicates-required {
+// 	color: $gray-light;
+// 	padding: 1em 0;	
+// }
+
+// #mc_embed_signup {
+//  	form {
+//  		margin-top: 1em;
+//  	}
+// 	.button {
+// 		background: black;
+// 		display: inline-block;
+// 		cursor: pointer;
+// 		border: 0px;
+// 		color: white;
+// 		padding: 8px 19px;
+// 		font-size: 1em;
+
+// 	}
+// 	.clear {
+// 		text-align: right;
+// 	}
+// }
+
+// .mc-field-group {
+// 	label,
+// 	input,
+// 	textarea { display: inline-block; }
+// 	&.user-story {
+// 		label {
+// 			display: block;
+// 		}
+// 		textarea {
+			
+// 		}
+// 	}
+// 	input.email {
+// 		border: 2px solid black;
+// 		max-width: 260px;
+// 		margin-bottom: 10px;
+// 	}
+// 	input.button {
+// 		width: 70px;
+// 	}
+// }
+
+// .grouped {
+// 	// outline: 3px solid red;
+// 	> div {
+// 		width: 49%;
+// 		display: inline-block;
+// 	}
+// }
+
+// .mc-field-group {
+// 		font-size: 1em;
+// 		line-height: 1.5em;
+// 		// margin-bottom: 1em;
+// 		vertical-align: bottom;
+// 		> label {
+// 				padding: 5px 0;
+// 				font-weight: 400;
+// 				font-size: 1em;
+// 		}
+// 		> input {
+// 				width: 100%;
+// 				padding: 6px;
+// 		}
+// }
+
+// #notification_container {
+// 	position: relative;
+// 	padding-left: 70px;
+// 	display: block;
+// 	margin: 0 auto;
+// 	font-size: 1em;
+
+// 	span {
+// 		&::after {
+// 			content: "";
+// 			position: absolute;
+// 			top: 0;
+// 			left: -70px;
+// 			display: block;
+// 			@include size(50px, 55px);
+// 			@include background-image('the_mailchimp.png');	
+// 			background-size: 100% auto;
+// 		}
+// 		&::before {
+// 			@include size(20px, 20px);
+// 			content: "";
+// 			position: absolute;
+// 			top: 20%;
+// 			left: -7px;
+// 			@include rotate(45deg);
+// 		}
+// 		position: relative;
+// 		display: inline-block;
+// 		padding: 6px 10px 6px 20px;
+// 		border-radius: 9px;
+// 	}
+// 	.alert {
+// 		&, &::before { background: #ffbaba; }
+// 		color: red;
+// 	}
+// 	.success {
+// 		&, &::before { background: #56a4fa; }
+// 		background: #56a4fa;
+// 		color: white;
+// 	}
+// }
+
+
+
+
+// ----------------------------------------------------------------------------------------
+// --------------------------------------FOOTER----------------------------------------
+// ----------------------------------------------------------------------------------------
+
+footer.princ {
+	text-align: center;
+	clear: both;
+	display: block;
+	padding: 10px 0;
+	position: static;
+	color: white;
+	clear: both;
+	border-top: 1px solid lightgray;
+	nav {
+		img {
+			max-width: 25px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		border-top: 1px solid lightgray;
+		padding: 6px;
+		a {
+			margin: 0px 10px;
+			text-decoration: none;
+		}
+	}
+}
+
+
+// ----------------------------------------------------------------------------------------
+// --------------------------------------Stories----------------------------------------
+// ----------------------------------------------------------------------------------------
+
+
+// ----------------------------------------------------------------------------------------
+// --------------------------------------NAVIGATION----------------------------------------
+// ----------------------------------------------------------------------------------------
+
+.navbar-brand {
+	img {
+		width: 100%;
+		width: 130px;
+		margin-top: -5px;
+	}
+	position: relative;
+	.lang {
+		position: absolute;
+		top: 0; 
+		right: -30px;
+	}
+}
+
+.navbar-custom {
+	@media screen and (max-width: $screen-sm) {
+		background: white;
+	}
+	font-family: UniversLTStdBoldCn;
+
+	.navbar-brand strong {
+		padding-top: 3px;
+		font-size: 1.3em;
+		display: none;
+	}
+	&.isfixed {
+		
+		.navbar-brand img 	 { display: none; }
+		.navbar-brand strong { display: block; }
+		
+		background: white;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: auto;
+		@include box-shadow(1px 1px 16px fade-out(black, 0.6));
+	}
+	.nav.navbar-nav {
+		@media screen and (min-width: $screen-sm) {
+			float: right;
+		}
+		a, a:hover {
+			background-color: transparent;		
+		}
+	}	
+}
+
+
+
+
+// .navbar {
+// 	@include transition(500ms);
+// 	padding-top: 20px;
+// 	padding-bottom: 17px;
+// 	font-size: 1.3em;
+
+// 	> div {
+// 		float: left;
+// 		width: 50%;
+// 		&:last-child {
+// 			text-align: right;
+// 		}
+// 	}
+
+// 	@include box-sizing(content-box);
+// 	z-index: 10000;
+// 	position: fixed;
+// 	top:0;
+// 	left: 0;
+// 	right: 0;
+	
+// 	a { color: black; }
+
+// 	@media screen and (min-width: $screen-md) {
+// 		&.isbottom {
+// 			position: absolute;
+// 			bottom: 0;
+// 			left: 0;
+// 			right: 0;
+// 			top: auto;
+// 		}
+// 		&.isfixed {
+// 			a { color: black; }
+// 			.brand strong { display: block; }
+// 			.logo { display: none; }
+			
+// 			background: white;
+// 			position: fixed;
+// 			top: 0;
+// 			left: 0;
+// 			right: 0;
+// 			bottom: auto;
+// 			@include box-shadow(1px 1px 16px fade-out(black, 0.6));
+// 		}
+// 	}
+// 	@media screen and (max-width: $screen-md) {
+// 		background: white;
+// 		height: 40px;
+// 		.brand strong { color: black; }
+// 	}
+// 	.main-nav {
+// 		// padding: 6px;
+// 		float: right;
+// 		li {
+// 			display: inline-block;
+// 			margin-left: 0.3em; 
+// 			margin-right: 0.3em; 
+// 		}
+// 		a {
+// 			
+// 		}
+// 	}
+// 	.brand {
+// 		strong {
+// 			font-family: UniversLTStdBoldCn;
+// 			display: none;
+// 		}
+// 		font-size: 1.3em;
+// 		letter-spacing: -1px;
+// 		display: inline-block;
+// 		text-decoration: none;
+// 	}
+// }
+
+
+// Various Elements and stuff
+
+strong.sig {
+	img {
+		float: left;
+		@include square(53px);
+		border-radius: 50%;
+		display: block;
+		display: inline;
+		vertical-align: middle;
+		margin-right: 1em;
+	}
+	// &, * {outline: 1px solid red;}
+	em {
+		display: block;
+	}
+	display: block;
+	font-family: gcm;
+	font-size: 1.1em;
+}
+
+// Hacking all the svg in the world
+
+// svg {
+//   &.icon {
+//     @include size(30px,30px);
+//     fill: lightgray;
+//     a:hover & {
+//       @include transition(200ms);
+//       fill: black;
+//     }
+//   }
+
+//   &.logo {
+//     width: 131px;
+//     fill: black;
+//   }
+  
+//   .isfixed & {
+//     &.icon, &.logo {
+//       fill: black;
+//     }
+//   }
+// }
+
+// ------------------------------------------------------------------------
+// ----------------------- Meetups ----------------------------------------
+// ------------------------------------------------------------------------
+
+// .schedule {
+// 	thead {
+// 		font-family: UniversLTStdBoldCn;
+// 		// background: fade-out($blue, 0.4);
+// 	}
+// 	.on {
+// 		background: fade-out($green, 0.6);
+// 	}
+// 	td {
+// 		margin: 0;
+// 		padding: 0;
+// 		// border: 1px solid fade-out(black, 0.4);
+// 	}
+// 	em, strong {
+// 		display: block;
+// 		font-size: 0.8em;
+// 	}
+// 	em {
+// 	}
+
+// 	strong {
+// 	}
+// }
+
+// ------------------------------------------------------------------------
+// ----------------------- Articles ----------------------------------------
+// ------------------------------------------------------------------------
+
+$cw : $screen-sm;
+
+#blog {
+	header {
+		padding-top: 70px;
+		max-width: $cw;
+		&.container {
+			@media screen and (min-width: $screen-md) {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+
+	h1 { margin-bottom: 0px; }
+	nav { background: white; }
+	nav .container {
+		a {
+			color: black;
+		}
+		max-width: $screen-sm;
+		&.buzz {
+			max-width: $screen-lg - 70;
+		}
+	}
+}
+
+#blog.buzz {
+	nav .container {
+		max-width: $screen-lg - 70;
+	}
+}
+
+.container {
+	h1 {
+		@media screen and (min-width: $screen-xs) { font-size: 3em; }
+		@media screen and (min-width: $screen-sm) { font-size: 4em; }
+		@media screen and (min-width: $screen-md) { font-size: 5em; }
+		line-height: 1em;
+	}
+
+	article {
+		> h2, p, ul { 
+			max-width: $cw;
+			@include center-block;
+		}
+	}
+}
+
+.content {
+	// h1, h2 {
+		// @incldude center-block;
+	// }
+	
+	// > h2 { max-width: $screen-sm; }
+	> p  { max-width: $screen-sm; }
+}
+// ---------------
+// Video container
+// ---------------
+.le-video {
+	//
+}
+
+.fluid {
+  position: relative;
+  height: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .fluid {
+    padding-top: 379px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fluid {
+    padding-top: 64%;
+  }
+}
+
+.fluid .mask,
+.fluid .mask iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+a {
+	color: black;
+}
+#realisations {
+	em > a {
+		font-family: gcsbi;
+	}
+	p { margin-top: 2px; }
+	article {
+		h5 {
+			margin: 0;
+			padding: 0;
+			margin-bottom: 10px;
+			font-family: 'gcsb';
+			font-weight: normal;
+			font-size: 1em;
+			line-height: 1.1em;
+		}
+		vertical-align: top;
+		@media screen and (min-width: $screen-md) {width: 49%;}
+		display: inline-block;
+		padding-right: 10px;
+		min-height: 150px;
+	}
+}
+.action {
+	@media screen and (min-width: $screen-sm) {
+		display: none;
+	}
+}
+
+.logo-smartangels {
+	@media screen and (max-width: $screen-sm) {
+		display: none;
+	}
+	img { max-width: 230px; height: auto; }
+	z-index: 999999999999;
+	position: absolute;
+	bottom: 50px; right:60px;
+}
+
+.notice {
+	line-height: 1.6em;
+	font-size:0.7em;
+	color: black;
+}
+
+
+// Book cover page ------------------------------------
+.cover {
+	.left {
+		position: relative;
+		overflow: hidden;
+		padding: 0;
+		strong {
+			z-index: 111;
+			font-family: 'gcmi';
+			width: 260px;
+			text-alight:right;
+			position: absolute;
+			color: white;
+			font-size: 1.1em;
+			line-height: 1.2em;
+			padding: 50px;
+			bottom: 0px;
+			right : 0px;
+		}
+	}
+	border-bottom: 3px solid black;
+	.right {
+		h4 {
+			margin-top: 0;
+		}
+		padding: 2em;
+		p {
+			max-width: $screen-xs;
+		}
+	}
+	margin-bottom: 1em;
+}
+
+.book {
+	blockquote {
+		padding: 0;
+		margin: 0;
+		font-family: 'gcmi';	
+	}
+}
+
+article.prev {
+	p {
+		margin:0;
+		padding:0;
+	}
+	blockquote {
+		margin-bottom: 1em;
+	}
+	h3, h4 {
+		font-size: 1em;
+		margin: 0.5em 0;
+		text-align: left;
+	}
+}
+
+ul.share-buttons{
+	margin-top: 1em;
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+  margin-right: 0.3em;
+}
+footer  {
+	.share-buttons {
+		padding-bottom:15px;
+	}	
+}
+
+a.lang {
+	margin-top: 15px;
+	display: block;
+	font-size: 0px;
+	@include size(23px, 17px);
+	&.french  { @include background-image('GB.png'); }
+	&.english { @include background-image('FR.png'); }
+}
+
+.page-nav {
+	padding: 30px;
+	display: block;
+	text-align:center;
+	li {
+		&:first-child { padding-right:20px;}
+		&:last-child  { padding-left:20px;}
+		display: inline-block;
+	}
+}
+
+button.navbar-toggle {
+	border: 1px solid #f9cfd9;
+	> span { background: #f9cfd9; }
+}
+
+#zabook {
+	text-align: center;
+	padding: 100px 0 50px;
+
+	> iframe {
+		@include center-block;
+	}
+}
+.citations {
+	li {
+		@include clearfix;
+		padding: 0;
+		margin-bottom: 20px;
+		blockquote {
+			margin-left: 150px;
+			margin-top: 0;
+			font-family: 'gcmi';
+			font-size: 1.1em;
+			a {
+				display: block;
+			}
+			p {
+				margin-top: 0;
+			}
+		}
+		.first {
+			float: left;
+		}
+	}
+	strong {
+		display: block;
+		font-size: 11px;
+	}
+	img {
+		display:block;
+		max-width: 100px;
+		height: auto;
+	}
+}
+.twitter {
+	iframe {
+		width: 100%;
+		border: 5px solid red;
+	}
+}
+
+.bannier {
+	padding-top:70px;
+	margin-bottom: 60px;
+}
+
+.press {
+	h2 {
+		display: block;
+		margin-top: 0;
+	}
+}
+
+#recommend {
+	// outline: 2px solid red;
+	// * { outline: 1px dotted blue; }
+	max-width: 602px;
+	margin-bottom: 100px;
+	@include center-block;
+	font-size: 1em;
+}
+
+// .form-group {
+// 	display: block;
+// 	padding: 10px 0;
+
+// 	$lb: 20%;
+// 	label {
+// 		width: $lb;
+// 	}
+	
+// 	label, input {
+// 		display: inline-block;
+// 	}
+
+// 	input.file,
+// 	input {
+// 		width: 99 - $lb;
+// 	}
+// 	&.message {
+// 		label {
+// 			display: block;
+// 			width: auto;
+// 		}
+// 		.fld {
+// 			width: 100%;
+// 		}
+// 	}
+// }
+
+input.jerecommend {
+	margin-right: 10px;
+	// float: left;
+	width: auto;
+}
+
+// * {outline:1px solid red;}
+
+.btn.black {
+	background: black;
+}
+
+.apropos {
+	padding-top:100px;
+	display: block;
+}
+
+.fld {
+	font-size: 1em;
+	padding: 4px;
+	padding: 8px;
+	border: 2px solid white;
+	border-bottom: 2px solid black;
+	background: fade-out(lightgray, 0.8);
+	&:focus,
+	&:active {
+		outline: none;
+		border-bottom: 2px solid graylight;
+		background: fade-out(yellow, 0.6);
+	}
+}
+
+textarea.fld {
+	padding: 10px 20px;
+}
+
+.container {
+	&.merci {
+		margin-top:50px;
+	}
+}
+
+.headermsg {
+	@include center-block;
+	max-width: $screen-md;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	line-height:1.4em;
+	font-family: 'gcmi';
+	text-shadow: 1px 1px 1px black;
+}
+.apropos {
+	@include gradient-vertical(fade-out(black, 0.1), fade-out(black, 0.9));
+	min-height: 900px;
+}
+
+.recommend {
+	@include background-image('thankyouimage.jpg');
+	background-size: cover;
+}
+
+#recommend {
+	color: black;
+}
+
+// Pimpin the awesome textarea input like a motherfucker
+.customlinestextarea {
+	@include background-image('pat.gif');
+	background-repeat: repeat;
+}
+// ---------------------------------------------------- //
+
+
+.custom-file-upload-hidden {
+	display: none;
+	visibility: hidden;
+	position: absolute;
+	left: -9999px;
+}
+.custom-file-upload {
+	//border: 1px solid #ccc;
+	label {
+	
+	}
+}
+
+.file-upload-wrapper {
+}
+.file-upload-input {
+	text-indent: 30px;
+}
+
+button[type="button"].file-upload-button {
+		position: absolute;
+		top: 0;
+		right: 0px;
+		left: 20px;
+		cursor: pointer;
+		display: block;
+		width: 90%;
+		// padding-right: 30px;
+		outline: none;
+		@include background-image('upload.svg');
+		background-size: auto 36px;
+		background-position: left;
+		background-color: transparent;	    
+    text-align: left;
+    border:0;
+    color: transparent
+}
+
+.form-group.textarea {
+	padding-left: $grid-gutter-width/2;
+	textarea {
+		font-family: 'gcmi';
+		font-size: 1.1em;
+		color: black;
+	}
+}
+
+#reply {
+	padding-top: 20%;
+	input.form-control {
+		color: black;
+		line-height: 1.2em;
+	}
+	fieldset {
+		&.first {
+			margin-bottom: $grid-gutter-width/2;
+		}
+		.checkbox {
+			input {margin-right: 10px; }
+			color: white;
+			font-family: 'gcsb';
+			text-shadow: 1px 1px 1px black;
+		}
+	}
+}
+
+.recommendations {
+	// outline: 1px solid red;
+	display:block;
+	max-width: $screen-sm;
+	@include center-block;
+	display: table;
+	// * { outline: 1px dotted blue; }
+	li {
+		@media screen and (min-width:$screen-sm) {width: 50%;}
+		display: inline-block;
+		vertical-align: top;
+		padding: $grid-gutter-width/2;
+	}
+	$av : 50px;
+	strong.th {
+		float: left;
+		display: block;
+		border-radius: 50%;
+		overflow: hidden;
+		& , img {@include size($av, $av);}
+	}
+	div {
+		& > a { font-size: 0.8em; }
+		& > h4 { margin-left: $av + 15; padding-top: 6px; margin-bottom: 0px; padding-bottom: 0; line-height: 0.9em; vertical-align: bottom; }
+		& > em { margin-left: $av + 15; display: block; font-size: 0.9em; line-height: 1.3em; color: $gray-light; }
+	}
+	p {
+		&::before,
+		&::after {
+			font-size: 1.2em;
+		}
+		&::before { content: "«"; }
+		&::after { content: "»"; }
+	}
+	.twt {
+		font-size: 0.9em; line-height: 1.3em;
+	}
+}
+
+.recom-banner {
+	padding: 0;
+	padding-top: 60px;
+	img { width:100%; }
+}

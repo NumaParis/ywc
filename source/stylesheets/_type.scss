@@ -1,0 +1,52 @@
+@include lefont('gcm');
+@include lefont('gcmi');
+@include lefont('gcsb');
+@include lefont('gcsbi');
+@include lefont('UniversLTStdBoldCn');
+// Le fonts
+
+body {
+	position: relative;
+	font-family: 'gcm', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	-webkit-font-smoothing: antialiased;
+}
+
+strong   { font-weight: normal; }
+h1,h2,h3,h4 { font-weight: normal; font-family: UniversLTStdBoldCn; line-height: 1.1em; }
+
+
+h2 {
+	letter-spacing: -0.02em;
+	margin-top: 1em;
+	margin-bottom: 0.4em;
+	font-size: 3em;
+	@media screen and (max-width: $screen-md) { font-size: 2.3em; }
+}
+
+h3 {
+	letter-spacing: -0.02em;
+	font-size: 2em;
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+	@media screen and (max-width: $screen-md) { font-size: 1.8em; }
+}
+
+h4 {
+	font-size: 1.6em;
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	@media screen and (max-width: $screen-md) { font-size: 1.4em; }
+}
+
+em {
+	font-style: normal;
+	font-family: gcmi;
+}
+
+p {
+	strong {
+		font-family: gcsb;
+	}
+}

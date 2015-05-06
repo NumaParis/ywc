@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="google-site-verification" content="wRmJMb6w_YhNaLqSLGbZnRjMTJk93qirEaDRKksMgoY" />
+		<meta name="google-site-verification" content="TXGgzhYN1BgoI9BmL3o61KDwOU9a8a4PQCfgwqjrP6M" />
+		<meta name="google-site-verification" content="YUGpfKkFj4SopzFfnw77G9ohSjAYWpiyKJaqrSsCfXM" />
+		<meta name="google-site-verification" content="YUGpfKkFj4SopzFfnw77G9ohSjAYWpiyKJaqrSsCfXM" />
+		<title>NUMA, le modèle d’innovation à la française, part à la conquête du monde <%= ' - ' + current_article.title unless current_article.nil? %></title>
+		<%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+		<%= stylesheet_link_tag 'all' %>
+		<%= javascript_include_tag 'modernizr.custom.js' %>
+	</head>
+
+	<body data-spy="scroll" data-target="#timeline">
+		
+		<%= partial "navigation" %>
+
+    <%= yield %>
+    
+    <%= partial "ga" %>
+
+	</body>
+</html>
