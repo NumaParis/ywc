@@ -3166,8 +3166,7 @@ strong.sig {
 
 /* line 825, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog header {
-  padding-top: 70px;
-  max-width: 768px; }
+  padding-top: 70px; }
   @media screen and (min-width: 992px) {
     /* line 828, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #blog header.container {
@@ -3179,15 +3178,12 @@ strong.sig {
 /* line 837, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog nav {
   background: white; }
-/* line 838, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-#blog nav .container {
-  max-width: 768px; }
-  /* line 839, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-  #blog nav .container a {
-    color: black; }
-  /* line 843, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-  #blog nav .container.buzz {
-    max-width: 1130px; }
+/* line 839, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+#blog nav .container a {
+  color: black; }
+/* line 843, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+#blog nav .container.buzz {
+  max-width: 1130px; }
 
 /* line 850, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog.buzz nav .container {
@@ -3456,7 +3452,7 @@ button.navbar-toggle {
 
 /* line 1105, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .bannier {
-  padding-top: 70px;
+  padding-top: 60px;
   margin-bottom: 60px; }
 
 /* line 1111, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
