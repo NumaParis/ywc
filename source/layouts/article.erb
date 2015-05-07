@@ -13,15 +13,7 @@
   
   <body data-spy="scroll" id="blog">
     
-    <nav role="navigation" class="navbar affix">
-      <section class="container">
-        <a class="brand" href="http://yeswecrowd.co"><%= image_tag 'logo.png', :class => "logo" %><strong>#YESWECROWD</strong></a>
-        <ul class="main-nav">
-          <li><%= link_to 'Le Livre', '/book/' %></li>
-          <li><%= link_to 'Ambition', 'http://yeswecrowd.co#ambition' %></li>
-        </ul>
-      </section>
-    </nav>
+    <%= partial "navigation" %>
 
     <header class="container">
       <h1><%= current_article.title %></h1>
@@ -49,8 +41,8 @@
       </ul>
       
     </div>
-
-    <%= javascript_include_tag 'jquery.min', 'jquery.easing.min', 'particles', 'bootstrap.min', 'app'%>
+    
+    <%= partial "ga" %>
     
     <%= partial "footer_2" %>
 
