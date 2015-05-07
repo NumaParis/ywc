@@ -39,6 +39,10 @@ end
 
 page "/feed.xml", layout: false
 
+# GitHub Pages wants 404.html, not 404/index.html
+page '/404.html', :directory_index => false
+
+
 ###
 # Compass
 ###
@@ -153,7 +157,6 @@ set :file_watcher_ignore,
         /(^|\/)\.?#/,
         /^tmp\//
     ]
-
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
