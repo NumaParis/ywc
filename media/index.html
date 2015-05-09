@@ -12,7 +12,7 @@
     <script type="text/javascript" src='http://codeorigin.jquery.com/jquery-1.10.2.min.js'></script>
   </head>
   
-  <body data-spy="scroll" id="blog">
+  <body data-spy="scroll" id="blog" data-target="#timeline">
     
     <nav role="navigation" class="navbar navbar-custom navbar-fixed-top">
   <div class="container">
@@ -32,14 +32,16 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="/book">Book</a></li>
-        <li><a href="/media">Media</a></li>
-        <li><a href="/#ambition">Ambition</a></li>
-        <li><a href="/recommandations">Recommandations</a></li>
+        <li><a href="/book">Lire notre histoire</a></li>
+        <li><a href="/media">Suivre la campagne</a></li>
+        <li><a href="/recommandations">Ecrire un mot</a></li>
+        <li><a href="/recommandations">Participez</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+    <script src="/javascripts/jquery.min.js" type="text/javascript"></script><script src="/javascripts/jquery.easing.min.js" type="text/javascript"></script><script src="/javascripts/bootstrap.min.js" type="text/javascript"></script><script src="/javascripts/app.js" type="text/javascript"></script><script src="/javascripts/quote.js" type="text/javascript"></script>
 
     <div class="bannier">
   <img src="../images/peoples3.jpg" style="width:100%;" class="img-responsive">
@@ -61,91 +63,109 @@
     <div class="col-sm-7 press">
       <h2>Ils parlent de nous</h2>
       <ul class="citations">
-        <li>
-          <div class="first">
-            <img alt="Les Echos" class="echos" src="/images/les_echos.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="A Paris, Numa ouvre son capital et s’exporte hors des frontières" href="http://www.lesechos.fr/pme-regions/actualite-pme/02123799893-a-paris-numa-ouvre-son-capital-et-sexporte-hors-des-frontieres-1113586.php">"Objectif: ouvrir des sites dans 15 pays et accompagner 700 start-up"</a></p><strong>Les Echos</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="l' ADN" class="ladn" src="/images/l_adn.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="NUMA OUVRE SON CAPITAL" href="http://www.ladn.eu/actualites/marque,numa-ouvre-capital,30,26107.html?utm_campaign=newsletter-s17-23_04_2015&utm_source=docnews-newsletter&utm_medium=email&utm_content=numa-ouvre-capital">le NUMA se veut un vecteur de croissance où start-up, grands groupes, PME, communautés et institutions publiques créent ensemble de la valeur</a></p><strong>L'ADN</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="L'usine Digitale" class="usine" src="/images/lusine_digitale.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="Numa change de modèle et de dimension" href="http://www.usine-digitale.fr/article/numa-change-de-modele-et-de-dimension.N326225">"Numa va aussi mettre le paquet sur ses opérations d'open innovation"</a></p><strong>Usine Digitale</strong></blockquote>
-        </li>      
-        <li>
-          <div class="first">
-            <img alt="JDN" class="jdn" src="/images/jdn.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="Numa ouvre son capital et espère lever jusqu'à 1 million d'euros" href="http://www.journaldunet.com/web-tech/start-up/numa-levee-fonds-internationalisation-0415.shtml">"Nul besoin de Numa à Berlin ou San Francisco, nous allons faire éclore des Numa ailleurs"</a></p><strong>JDN</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="L’ATELIER" class="atelier" src="/images/atelier.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="NUMA : le crowdequity, levier d'un changement de modèle" href="http://www.atelier.net/trends/articles/numa-crowdequity-levier-un-changement-de-modele_435087">"La volonté est de réimpulser l'argent gagné grâce aux start-up dans d'autres start-up afin de créer une forme d'argent vertueux, un monde plus inclusif"</a></p><strong>L'Atelier</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="Maddyness" class="maddyness" src="/images/maddyness.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="NUMA se donne 4 ans pour accélérer 700 startups dans le monde entier" href="http://www.maddyness.com/accompagnement/accelerateurs/2015/04/23/yeswecrowd-numa-se-donne-4-ans-pour-accelerer-700-startups-dans-le-monde-entier/">"Développement commercial et internationalisation, un NUMA nouveau prend son envol."</a></p><strong>Maddyness</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="La Tribune" class="tribune" src="/images/la_tribune.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="L'accélérateur de startups Numa met le turbo dans les pays émergents" target="_blank" href="http://www.latribune.fr/technos-medias/start-up/l-accelerateur-de-startups-numa-met-le-turbo-dans-les-pays-blockquoteergents-470827.html">"Le Numa s'est fixé pour objectif dans les 4 ans à venir de participer à la transformation numérique de 250 grandes entreprises, d'accélérer 700 startups, dont deux tiers de françaises, et d'y investir, pour un montant cumulé de l'ordre de 24 millions d'euros (y compris les plus-values réinvesties)."</p><strong>La Tribune</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="Strategies" class="strategies" src="/images/strategies.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="Le numa espère lever un million d’euros" href="http://www.strategies.fr/actualites/marques/1013225W/le-numa-espere-lever-un-million-d-euros.html">"Apres l’ouverture d’un bureau à Moscou, Numa table sur quinze nouveaux sites d’ici à 2019 dans les régions en développblockquoteent (Afrique, Asie et Amérique du Sud)."</a></p><strong>Stratégies</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="Le Figaro" class="figaro" src="/images/le_figaro.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="Numa, fidèle soutien des start-up parisiennes, change de dimension" target="_blank" href="http://www.lefigaro.fr/secteur/high-tech/2015/04/22/01007-20150422ARTFIG00194-numa-fidele-soutien-des-start-up-parisiennes-change-de-dimension.php">Il ne s'agit pas de plaquer notre marque à l'étranger, mais de créer un réseau mondial d'innovation qui facilite les échanges et ne soit pas simplblockquoteent centré sur Paris» : un chblockquoteinblockquoteent, une fois encore, pas si éloigné de celui blockquoteprunté par les start-up qu'il accompagne.</a></p><strong>Le Figaro</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="DIGITAL BUSINESS NEWS" class="digital" src="/images/digital_business_news.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="#YesWeCrowd NUMA lance sa campagne de crowdfunding" href="http://www.digitalbusinessnews.com/yeswecrowd-numa-lance-sa-campagne-de-crowdfunding">Numa voit grand. La pépinière accélératrice de startups compte aujourd’hui devenir leader européen de l’accélération de start-ups et de la transformation digitale, en exportant son modèle auprès d’autres écosystèmes étrangers en mutation.</a></p><strong>Digital Business News</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="Le Journal du Grand Paris" class="jgp" src="/images/jgp.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="Numa cherche des fonds pour conquérir le monde" href="https://www.lejournaldugrandparis.fr/numa-cherche-des-fonds-pour-conquerir-le-monde/">A l'international, « Nous faisons le choix de rencontrer des gens qui partagent nos valeurs, de travailler avec des partenaires locaux</a></p><strong>Le Journal du Grand Paris</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="Alliancy" class="alliancy" src="/images/alliancy.png" />
-          </div>
-          <blockquote><p><a target="_blank" title="Le NUMA amorce une levée de fonds pour s’exporter" href="http://www.alliancy.fr/startup-et-levees-de-fonds/start-up/2015/04/24/le-numa-amorce-une-levee-de-fonds-pour-sexporter">Quoi vous n'avez pas encore participé à la levée de fonds du NUMA ?</a></p><strong>Alliancy</strong></blockquote>
-        </li>
-        <li>
-          <div class="first">
-            <img alt="Good Morning Crowdfunding" class="gmc" src="/images/goodmorningcrowdfunding.jpg" />
-          </div>
-          <blockquote><p><a target="_blank" title="Numa s’aide du crowdfunding pour conquérir le monde" href="http://www.goodmorningcrowdfunding.com/expansion-numa-saide-du-crowdfunding-pour-conquerir-le-monde-2304153/">"Numa s’aide du crowdfunding pour conquérir le monde"</a></p><strong>Good Morning Crowdfunding</strong></blockquote>
-        </li>
+          <li>
+            <div class="first">
+              <img alt="Les Echos" class="les_echos" src="/images/les_echos.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="A Paris, Numa ouvre son capital et s’exporte hors des frontières" href="http://www.lesechos.fr/pme-regions/actualite-pme/02123799893-a-paris-numa-ouvre-son-capital-et-sexporte-hors-des-frontieres-1113586.php">Objectif: ouvrir des sites dans 15 pays et accompagner 700 start-up</a></p><strong>Les Echos</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="L'ADN" class="l_adn" src="/images/l_adn.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="NUMA OUVRE SON CAPITAL" href="http://www.ladn.eu/actualites/marque,numa-ouvre-capital,30,26107.html?utm_campaign=newsletter-s17-23_04_2015&amp;utm_source=docnews-newsletter&amp;utm_medium=email&amp;utm_content=numa-ouvre-capital">le NUMA se veut un vecteur de croissance où start-up, grands groupes, PME, communautés et institutions publiques créent ensemble de la valeur</a></p><strong>L'ADN</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="Usine Digitale" class="lusine_digitale" src="/images/lusine_digitale.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="Numa change de modèle et de dimension" href="http://www.usine-digitale.fr/article/numa-change-de-modele-et-de-dimension.N326225">Numa va aussi mettre le paquet sur ses opérations d'open innovation</a></p><strong>Usine Digitale</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="JDN" class="jdn" src="/images/jdn.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="Numa ouvre son capital et espère lever jusqu'à 1 million d'euros" href="http://www.journaldunet.com/web-tech/start-up/numa-levee-fonds-internationalisation-0415.shtml">Nul besoin de Numa à Berlin ou San Francisco, nous allons faire éclore des Numa ailleurs</a></p><strong>JDN</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="L'Atelier" class="atelier" src="/images/atelier.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="NUMA : le crowdequity, levier d'un changement de modèle" href="http://www.atelier.net/trends/articles/numa-crowdequity-levier-un-changement-de-modele_435087">La volonté est de réimpulser l'argent gagné grâce aux start-up dans d'autres start-up afin de créer une forme d'argent vertueux, un monde plus inclusif</a></p><strong>L'Atelier</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="Maddyness" class="maddyness" src="/images/maddyness.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="NUMA se donne 4 ans pour accélérer 700 startups dans le monde entier" href="http://www.maddyness.com/accompagnement/accelerateurs/2015/04/23/yeswecrowd-numa-se-donne-4-ans-pour-accelerer-700-startups-dans-le-monde-entier/">Développement commercial et internationalisation, un NUMA nouveau prend son envol</a></p><strong>Maddyness</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="La Tribune" class="la_tribune" src="/images/la_tribune.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="L'accélérateur de startups Numa met le turbo dans les pays émergents" href="http://www.latribune.fr/technos-medias/start-up/l-accelerateur-de-startups-numa-met-le-turbo-dans-les-pays-blockquoteergents-470827.html">Le Numa s'est fixé pour objectif dans les 4 ans à venir de participer à la transformation numérique de 250 grandes entreprises, d'accélérer 700 startups, dont deux tiers de françaises, et d'y investir, pour un montant cumulé de l'ordre de 24 millions d'euros (y compris les plus-values réinvesties).</a></p><strong>La Tribune</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="Stratégies" class="strategies" src="/images/strategies.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="Le numa espère lever un million d’euros" href="http://www.strategies.fr/actualites/marques/1013225W/le-numa-espere-lever-un-million-d-euros.html">Apres l’ouverture d’un bureau à Moscou, Numa table sur quinze nouveaux sites d’ici à 2019 dans les régions en développblockquoteent (Afrique, Asie et Amérique du Sud).</a></p><strong>Stratégies</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="Le Figaro" class="le_figaro" src="/images/le_figaro.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="Numa, fidèle soutien des start-up parisiennes, change de dimension" href="http://www.lefigaro.fr/secteur/high-tech/2015/04/22/01007-20150422ARTFIG00194-numa-fidele-soutien-des-start-up-parisiennes-change-de-dimension.php">Il ne s'agit pas de plaquer notre marque à l'étranger, mais de créer un réseau mondial d'innovation qui facilite les échanges et ne soit pas simplblockquoteent centré sur Paris» : un chblockquoteinblockquoteent, une fois encore, pas si éloigné de celui blockquoteprunté par les start-up qu'il accompagne.</a></p><strong>Le Figaro</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="Digital Business News" class="digital_bus" src="/images/digital_bus.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="#YesWeCrowd NUMA lance sa campagne de crowdfunding" href="http://www.digitalbusinessnews.com/yeswecrowd-numa-lance-sa-campagne-de-crowdfunding">Numa voit grand. La pépinière accélératrice de startups compte aujourd’hui devenir leader européen de l’accélération de start-ups et de la transformation digitale, en exportant son modèle auprès d’autres écosystèmes étrangers en mutation.</a></p><strong>Digital Business News</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="Le Journal du Grand Paris" class="jgp" src="/images/jgp.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="Numa cherche des fonds pour conquérir le monde" href="https://www.lejournaldugrandparis.fr/numa-cherche-des-fonds-pour-conquerir-le-monde/">A l'international, « Nous faisons le choix de rencontrer des gens qui partagent nos valeurs, de travailler avec des partenaires locaux</a></p><strong>Le Journal du Grand Paris</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="Alliancy" class="alliancy" src="/images/alliancy.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="Le NUMA amorce une levée de fonds pour s’exporter" href="http://www.alliancy.fr/startup-et-levees-de-fonds/start-up/2015/04/24/le-numa-amorce-une-levee-de-fonds-pour-sexporter">Quoi vous n'avez pas encore participé à la levée de fonds du NUMA ?</a></p><strong>Alliancy</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="Good Morning Crowdfunding" class="goodmorning" src="/images/goodmorning.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="Numa s’aide du crowdfunding pour conquérir le monde" href="http://www.goodmorningcrowdfunding.com/expansion-numa-saide-du-crowdfunding-pour-conquerir-le-monde-2304153/">Numa s’aide du crowdfunding pour conquérir le monde</a></p><strong>Good Morning Crowdfunding</strong></blockquote>
+          </li>
+          <li>
+            <div class="first">
+              <img alt="BFM Business" class="bfm_business" src="/images/bfm_business.png" />
+            </div>
+            <blockquote>
+              <p><a target="_blank" title="Marie Vorgan Le Barzic, déléguée générale de Numa, Laurent Halfon, associé chez Deloitte et Bruno Lussato, co-fondateur de Wistiki, ont analysé l'essor des start-ups françaises" href="http://bfmbusiness.bfmtv.com/mediaplayer/video/la-france-est-elle-en-train-de-devenir-une-start-up-nation-frederic-simottel-marie-vorgan-le-barzic-laurent-halfon-et-bruno-lussato-0605-519724.html">La France est-elle en train de devenir une start-up nation ?: Frédéric Simottel, Marie Vorgan Le Barzic, Laurent Halfon et Bruno Lussato - 06/05</a></p><strong>BFM Business</strong></blockquote>
+          </li>
       </ul>
     </div>
     
   </div>
 </div>
-
-<script src="/javascripts/jquery.min.js" type="text/javascript"></script><script src="/javascripts/bootstrap.min.js" type="text/javascript"></script>
 
 <script>
   $('#fixthis').affix({
@@ -184,8 +204,6 @@
   ga('send', 'pageview');
 
 </script>
-
-    <script src="/javascripts/jquery.min.js" type="text/javascript"></script><script src="/javascripts/jquery.easing.min.js" type="text/javascript"></script><script src="/javascripts/bootstrap.min.js" type="text/javascript"></script>
 
   </body>
 </html>
