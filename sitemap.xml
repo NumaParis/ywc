@@ -13,18 +13,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:4567/jour-1/</loc>
-    <lastmod>2015-05-04T15:53:46+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:4567/jour-2/</loc>
-    <lastmod>2015-05-04T15:53:46+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://localhost:4567/650-candidatures-pour-etre-accelere-par-numa/</loc>
     <lastmod>2015-05-04T15:53:46+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -32,7 +20,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/adopt-a-cto/</loc>
-    <lastmod>2015-05-04T15:53:46+02:00</lastmod>
+    <lastmod>2015-05-09T07:39:40+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -67,14 +55,86 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:4567/book/</loc>
-    <lastmod>2015-05-04T17:27:54+02:00</lastmod>
+    <loc>https://localhost:4567/antoine-nicolle/</loc>
+    <lastmod>2015-05-09T03:03:26+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:4567/</loc>
-    <lastmod>2015-05-07T17:32:09+02:00</lastmod>
+    <loc>https://localhost:4567/arnaud-chaigneau/</loc>
+    <lastmod>2015-05-09T03:02:17+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/caroline-martin/</loc>
+    <lastmod>2015-05-09T02:59:59+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/guillaume-cabanne/</loc>
+    <lastmod>2015-05-09T02:58:59+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/herve-dornier/</loc>
+    <lastmod>2015-05-09T03:35:32+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/laurent-igolen/</loc>
+    <lastmod>2015-05-09T02:40:02+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/lucas-francou/</loc>
+    <lastmod>2015-05-09T03:05:25+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/ludovic-roubaudi/</loc>
+    <lastmod>2015-05-09T03:08:11+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/mathieu-phan/</loc>
+    <lastmod>2015-05-09T03:30:50+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/murat-dogan/</loc>
+    <lastmod>2015-05-09T06:29:39+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/pierre-etienne-pommier/</loc>
+    <lastmod>2015-05-09T02:35:20+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/valerie-farcy/</loc>
+    <lastmod>2015-05-09T02:35:20+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/yannig-raffenel/</loc>
+    <lastmod>2015-05-09T02:37:53+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/book/</loc>
+    <lastmod>2015-05-04T17:27:54+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -110,7 +170,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/partials/navigation/</loc>
-    <lastmod>2015-05-07T18:52:26+02:00</lastmod>
+    <lastmod>2015-05-07T19:26:54+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -140,19 +200,61 @@
   </url>
   <url>
     <loc>https://localhost:4567/recommandations/</loc>
-    <lastmod>2015-05-07T18:52:29+02:00</lastmod>
+    <lastmod>2015-05-09T03:36:32+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/book/2/</loc>
+    <lastmod>2015-05-04T17:27:54+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/media/2/</loc>
+    <lastmod>2015-05-06T15:33:37+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/recommandation/2/</loc>
+    <lastmod>2015-05-06T18:21:35+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/recommandations/2/</loc>
+    <lastmod>2015-05-09T03:36:32+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/2/</loc>
+    <lastmod>2015-05-06T15:21:20+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/05/2/</loc>
+    <lastmod>2015-05-06T15:21:20+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/05/09/2/</loc>
+    <lastmod>2015-05-06T15:21:20+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://localhost:4567/en/</loc>
-    <lastmod>2015-05-07T17:33:32+02:00</lastmod>
+    <lastmod>2015-05-09T07:45:21+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://localhost:4567/</loc>
-    <lastmod>2015-05-07T17:33:32+02:00</lastmod>
+    <lastmod>2015-05-09T07:45:21+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

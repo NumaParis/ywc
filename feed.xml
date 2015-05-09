@@ -5,166 +5,80 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-04-28T16:51:00+02:00</updated>
+  <updated>2015-05-09T03:07:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Numa launches NUMA Moscow</title>
-    <link rel="alternate" href="http://blog.url.com/numa-launches-numa-moscow/"/>
-    <id>http://blog.url.com/numa-launches-numa-moscow/</id>
-    <published>2015-04-28T16:51:00+02:00</published>
-    <updated>2015-05-04T15:53:46+02:00</updated>
+    <title>Ludovic Roubaudi</title>
+    <link rel="alternate" href="http://blog.url.com/ludovic-roubaudi/"/>
+    <id>http://blog.url.com/ludovic-roubaudi/</id>
+    <published>2015-05-09T03:07:00+02:00</published>
+    <updated>2015-05-09T03:08:11+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;em&gt;NUMA Moscow: Acceleration à la française to Russia with love&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;18 months after opening its doors in Paris, the success of NUMA cannot be denied with 650 startup applications for the acceleration program, over 1500 events and 80 000 visitors. Around half the clients of NUMA’s digital transformation and open innovation programs are CAC40 companies, and 90% of the 72 startups accelerated since the inception of NUMA’s acceleration program in 2011 are thriving. &lt;strong&gt;Today, NUMA is accelerating its own development by opening NUMA Moscow.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;NUMA Moscow&lt;/strong&gt; will give entrepreneurs the opportunity to benefit from 700m2 at the heart of Moscow’s financial center and access to a Russian and French network of private and public actors as well as a trilingual team of 7 people. For French and European startups, NUMA Moscow will be the gateway to a market numbering 150 million consumers. Applications open in June 2015 with the accelerator set to open its doors in September.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why Russia?&lt;/strong&gt; The potential there for startups is massive:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;84 million web users&lt;/li&gt;
-  &lt;li&gt;the fastest-growing internet and mobile market in Europe (+20% per year)&lt;/li&gt;
-  &lt;li&gt;over 2000 startups created per year&lt;/li&gt;
-  &lt;li&gt;excellent locally-sourced technical skills available&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Opening NUMA Moscow is the result of over a year’s collaboration with NUMA’s local partner who has been thriving in Russia for nearly a decade: &lt;a title="O'bvous russian accelerator" target="_blank" href="http://www.ob-vious.com/?lang=en"&gt;Ob’vious&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class="img-responsive" width="1000" height="611" src="/images/EliseNebou+FredOru+YannickTranchier.gif" /&gt;&lt;/p&gt;
-
-&lt;p&gt;“NUMA is the culmination of fifteen years of experience in the innovation and entrepreneurial sectors. I started out in Russia ten years ago, I know all too well how hard it can be to import an ecosystem and get it growing. NUMA has demonstrated undeniable know-how and talent in this domain, and what they can bring to Russia represents a great opportunity: a strong and recognized brand, proven methods, a real gateway to an international network,” comments Yannick Tranchier, CEO, Ob’vious.&lt;/p&gt;
-
-&lt;p&gt;“The idea behind NUMA Moscow is to create a strong bridge between the French and Russian ecosystems, by sharing startups, mentors, creating hybrid teams… We want to found the first trans-national accelerator. To do this, we first needed the support of a local partner equipped with a strong operational base, an excellent network and real cross-cultural proximity. For these reasons, collaborating with Ob’vious went without saying,” adds Frédéric Oru, Senior Vice President and Head of International Development at NUMA&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a title="Stay up to date on flickr" target="_blank" href="https://twitter.com/NumaMoscow"&gt;@numamoscow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a title="visit the website" target="_blank" href="http://numa.moscow"&gt;www.numa.moscow&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+    <content type="html">&lt;p&gt;Parce qu’à Aix il y a les calissons, les bêtises à Cambrai et qu’en Avenir il y a le NUMA&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Adopt a CTO</title>
-    <link rel="alternate" href="http://blog.url.com/on-the-lookout-for-talented-cto/"/>
-    <id>http://blog.url.com/on-the-lookout-for-talented-cto/</id>
-    <published>2015-04-28T16:23:00+02:00</published>
-    <updated>2015-05-04T15:53:46+02:00</updated>
+    <title>Mathieu Phan</title>
+    <link rel="alternate" href="http://blog.url.com/mathieu-phan/"/>
+    <id>http://blog.url.com/mathieu-phan/</id>
+    <published>2015-05-09T03:05:00+02:00</published>
+    <updated>2015-05-09T03:30:50+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;How does NUMA launch new programs? When we detect a need no one in the ecosystem provides an answer to &lt;strong&gt;Adopt a CTO&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Some events that NUMA created met such a success within the community that they became recurring and expected meetings; “Adopt a CTO” is certainly one of the best examples.&lt;/p&gt;
-
-&lt;p&gt;Back in 2013, Le Camping kicks off its 4th season. As always, one problem persists for startuppers: finding a technical manager. Indeed, finding a good CTO (chief technical officer) is never an easy task. And, to quote Alexis Ohanian from Reddit: “&lt;em&gt;Ideas are cheap. Execution is what matters.&lt;/em&gt;” Brilliant ideas are legion; the technical teams to implement them are rather scarce. There was the idea behind “Adopt a CTO”.&lt;/p&gt;
-
-&lt;p&gt;The concept is quite simple: startups pitch their ideas in 1 minute in front of a curious crowd of web developers, as they would in front of investors. The more convincing the pitch, the more chances of leveraging a technical partner the startups get. This startups/CTO speed-dating was met with an immediate success: &lt;em&gt;“We expected about 30 candidates for the first edition, and 150 people booked a seat”&lt;/em&gt; confesses Elise Nebout, manager of Le Camping. 10 editions later, the event is now constantly fully booked in a matter of days, proudly showcasing the dozens of CTO/startup couples it’s put together.&lt;/p&gt;
-
-&lt;p&gt;If finding a CTO is an essential condition for developing a project, it is also now a mandatory requirement to be accelerated at NUMA. It was, for instance, an “Adopt a CTO” event that brought Nicolas Cosme, developer, together with Tripndrive, a car sharing solution that takes you from the airport to the train station. The team was selected for Le Camping’s 5th season a few months later and has now raised 800 000€ with the ISAI fund, and now offers its services in Charles-de-Gaulle airport, Gare de l’Est train station and many other places all around France. What was once a timid project a CTO/startups speed dating is now considered the Airbnb of car sharing by - no less than - Challenges.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Parce qu’une communauté comme ça, on en trouve nulle part ailleurs …&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Adopt a CTO</title>
-    <link rel="alternate" href="http://blog.url.com/adopt-a-cto/"/>
-    <id>http://blog.url.com/adopt-a-cto/</id>
-    <published>2015-04-22T12:15:00+02:00</published>
-    <updated>2015-05-04T15:53:46+02:00</updated>
+    <title>Lucas Francou</title>
+    <link rel="alternate" href="http://blog.url.com/lucas-francou/"/>
+    <id>http://blog.url.com/lucas-francou/</id>
+    <published>2015-05-09T03:04:00+02:00</published>
+    <updated>2015-05-09T03:05:25+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Comment Numa lance de nouvelles choses ? Quand nous  repèrons un besoin auquel personne ne répond bien dans l’écosystème. =&amp;gt; Adopt a CTO&lt;/p&gt;
-
-&lt;p&gt;Certains des  évènements créés par NUMA ont remporté un tel succès auprès de la communauté qu’ils sont devenus des rendez-vous réguliers et attendus, “Adopt a CTO” est certainement l’un des meilleurs exemples. 
-En 2013, Le Camping démarre sa 4ème saison. Comme chaque saison, un problème persiste chez les fondateurs de startups : trouver un associé technique. En effet, dénicher un CTO (pour Chief Technical Officer), se révèle difficile. Or, pour reprendre la phrase d’Alexis Ohanian (Reddit) &lt;em&gt;“Ideas are cheap. Execution is what matters”&lt;/em&gt; Les idées brillantes ne manquent pas, la bonne équipe permettant de l’exécuter techniquement est plus rare. De ce constat naît &lt;strong&gt;Adop a CTO.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;L’idée est simple : les startups présentent leur projet en 1 minute devant un parterre de développeurs, comme elles le feraient devant des investisseurs. Plus le pitch est convaincant, plus la startup a de chances d’attirer un associé technique. Ce “speed-dating” startups/CTO rencontre un succès immédiat : “Nous attendions une trentaine de candidats à la 1ère édition… 150 personnes ont réservé leur place” précise Elise Nebout, Managereuse du Camping. Aujourd’hui pour sa 10ème édition, l’évènement affiche complet et compte des dizaines de couples startup/développeur à son actif.&lt;/p&gt;
-
-&lt;p&gt;Si trouver un CTO est une condition indispensable à la mise en oeuvre d’un projet, c’est aussi désormais une condition d’entrée pour être accéléré à NUMA. Ainsi, c’est au cours &lt;strong&gt;d’Adopt a CTO&lt;/strong&gt; que Nicolas Cosme, développeur, tombe sous le charme de  &lt;a href="https://www.tripndrive.com/fr" target="_blank"&gt;Tripndrive&lt;/a&gt;, solution d’auto-partage à l’aéroport et à la gare. La startup intègre la saison 5 du Camping quelques mois plus tard…  Aujourd’hui, Tripndrive a levé 800 000€ auprès du fonds ISAI, s’est installé à l’aéroport Charles-de-Gaulle, à la Gare de l’Est (ainsi que des dizaines d’aéroports et gares à travers la France), compte plus de 10 000 utilisateurs, et est considéré comme le “Airbnb” de l’auto-partage - rien que ça - par &lt;a target="_blank" href="http://www.challenges.fr/entreprise/20140729.CHA6470/tripndrive-la-start-up-qui-loue-votre-voiture-pendant-vos-vacances.html"&gt;Challenges.&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;Parce que NUMA a toujours su se renouveller pour rester pertinent.&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>L'accélération à la française s'exporte en Russie</title>
-    <link rel="alternate" href="http://blog.url.com/l-acceleration-a-la-francaise-s-exporte-en-russie/"/>
-    <id>http://blog.url.com/l-acceleration-a-la-francaise-s-exporte-en-russie/</id>
-    <published>2015-04-22T09:44:00+02:00</published>
-    <updated>2015-05-04T15:53:46+02:00</updated>
+    <title>Murat Dogan</title>
+    <link rel="alternate" href="http://blog.url.com/murat-dogan/"/>
+    <id>http://blog.url.com/murat-dogan/</id>
+    <published>2015-05-09T02:44:00+02:00</published>
+    <updated>2015-05-09T06:29:39+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;18 mois après son ouverture, le succès de NUMA Paris ne se dément pas. 650 startups candidates à notre programme d’accélération, plus de 1500 évènements organisés, 80.000 visiteurs, près de la moitié du CAC40 clients de nos programmes de transformation numérique et d’open innovation. Sur les 72 startups accélérées depuis la création de notre programme d’accélération en 2011, 90% sont toujours en activité. Aujourd’hui, NUMA accélère son développement en ouvrant NUMA Moscow.&lt;/p&gt;
-
-&lt;p&gt;NUMA Moscow met à disposition des entrepreneurs un espace de 700m2 en plein quartier d’affaires moscovite, un réseau d’acteurs russes et français publics et privés, et une équipe trilingue de 7 personnes. Pour les startups françaises et européennes, NUMA Moscow sera une porte d’entrée vers un marché uni de 150 millions de consommateurs. Les candidatures seront lancées en juin 2015, et l’accélérateur ouvrira ses portes en septembre.&lt;/p&gt;
-
-&lt;p&gt;Pourquoi la Russie ? Le potentiel pour les startups y est immense : 84 millions d’internautes, le plus grand marché internet et mobile en Europe (+20% par an), plus de 2000 startups créées par an, d’excellentes compétences techniques à disposition…&lt;/p&gt;
-
-&lt;p&gt;L’ouverture de NUMA Moscow est le fruit de plus d’un an de collaboration avec un partenaire local qui prospère en Russie depuis presque dix ans : Ob’vious.&lt;/p&gt;
-
-&lt;p&gt;Yannick Tranchier, PDG de Ob’vious :&lt;/p&gt;
-
-&lt;p&gt;“NUMA c’est le résultat de quinze ans d’expérience dans le domaine de l’innovation et de l’entrepreneuriat. J’ai créé mon activité en Russie il y a dix ans, je sais à quel point c’est difficile d’emmener tout un écosystème et de le faire mûrir. NUMA a démontré un savoir faire indéniable dans ce domaine, et l’apport de cette expertise en Russie est une grande opportunité : une marque forte et reconnue, des méthodologies éprouvées, un point d’entrée sur un réseau international.”&lt;/p&gt;
-
-&lt;p&gt;Frédéric Oru, DGA et responsable du développement international de NUMA :&lt;/p&gt;
-
-&lt;p&gt;“L’idée derrière NUMA Moscow est de créer un véritable pont entre les écosystèmes français et russes, en échangeant des startups, des mentors, en créant des équipes mixtes… Nous voulons fonder le premier accélérateur transnational. Pour y parvenir nous avions besoin de nous appuyer sur une partenaire local doté d’une base opérationnelle forte, d’un excellent réseau et d’une vraie proximité culturelle. Ob’vious s’est imposé comme une évidence… ”&lt;/p&gt;
+    <content type="html">&lt;p&gt;Il suffit d’aller une seule fois au NUMA pour aspirer à entreprendre, travailler et réussir ! #numa #innovation #crowdworking&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>NUMA - ADN d'origine la structuration de communauté par l'évènementiel</title>
-    <link rel="alternate" href="http://blog.url.com/la-structuration-de-communaute-par-levenementiel/"/>
-    <id>http://blog.url.com/la-structuration-de-communaute-par-levenementiel/</id>
-    <published>2015-04-22T09:23:00+02:00</published>
-    <updated>2015-05-04T15:53:46+02:00</updated>
+    <title>Hervé Dornier</title>
+    <link rel="alternate" href="http://blog.url.com/herve-dornier/"/>
+    <id>http://blog.url.com/herve-dornier/</id>
+    <published>2015-05-09T02:43:00+02:00</published>
+    <updated>2015-05-09T03:35:32+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;La structuration de communautés consiste à réunir et faire travailler ensemble des individus de divers secteurs qui, en leur nom propre ou en celui de l’institution qu’ils représentent, s’intéressent à une même problématique.&lt;/p&gt;
-
-&lt;p&gt;Son outil essentiel est l’organisation d’évènements, qui permet de réunir les personnes et de catalyser les énergies de par son temps limité. Les interactions qui se produisent profitent de la valeur ajoutée d’une approche qui multiplie les points de vue et compétences complémentaires. Le format de l’évènement, où Numa possède une expertise forte et reconnue, est essentiel afin qu’il soit productif, utile à la communauté et ouvre des perspectives au-delà de sa durée propre.&lt;/p&gt;
-
-&lt;p&gt;La structuration de communautés est un travail de repérage, de haute couture et de patience. Il faut repérer les acteurs et individus intéressés et développer avec eux une relation de confiance suffisante pour les amener à travailler en collaboration avec d’autres.&lt;/p&gt;
-
-&lt;p&gt;La Cantine, premier lieu ouvert par Numa (anciennement Silicon Sentier), a ainsi été l’endroit où de nombreuses communautés liées à l’innovation ont pu émerger que ce soit sur des sujets techniques, économiques, sociaux ou culturels (le libre, l’économie collaborative, le hacking, les langages de programmation ou encore l’open data).&lt;/p&gt;
-
-&lt;h2&gt;Parmi nos réussites passées…&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Les premiers Barcamps, Hackathons, en France&lt;/li&gt;
-  &lt;li&gt;Les premiers événements majeurs sur des sujets émergents : la mobilité, l’open data, la réalité augmentée, les femmes dans les nouvelles technologies, les sciences et le web, la mode et les Technologies, le Hacking  …&lt;/li&gt;
-  &lt;li&gt;Le soutient à des associations et collectifs : OuiShare, Okfn France, Open Steet Map, Coworking france, …&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Aujourd’hui ce travail de structuration de communautés et d’animation de l’écosystème reste central pour Numa. C’est ce qui fait son unicité sur la scène parisienne, puisqu’aucune autre structure ne mène cette activité qui, loin de bénéficier à notre seule association, a des externalités positives pour l’ensemble des acteurs de l’écosystème.&lt;/p&gt;
-
-&lt;h2&gt;Nous possédons pour cela des avantages uniques :&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;une longue histoire qui assoit notre légitimité ;&lt;/li&gt;
-  &lt;li&gt;une maîtrise des différents types de formats évènementiels innovants que nous avons souvent importé en France (conférence, Pitch, barcamp, hackathon…)&lt;/li&gt;
-  &lt;li&gt;une place centrale dans l’écosystème, qui nous permet de réunir les acteurs dans leur diversité (associations, startups, grands groupes, pouvoirs publics,…) pour les faire échanger et construire ensemble ;&lt;/li&gt;
-  &lt;li&gt;une neutralité bienveillante vis-à-vis de tous les acteurs et de leurs initiatives, y compris celles qui nous concurrencent ;&lt;/li&gt;
-  &lt;li&gt;un lieu placé dans le centre de Paris, au coeur du Silicon Sentier.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Economiquement, cette activité de structuration de communautés est d’intérêt général et bénéficie à tout l’écosystème. Elle est particulière car une communauté ne se vend pas, ne s’achète pas. Numa investit (ressources humaines et financières, espace) pour structurer les communautés et ainsi préparer l’avenir de l’écosystème.&lt;/p&gt;
-
+    <content type="html">&lt;p&gt;Parce que c’est un lieu ouvert et accueillant, bouillonnant d’idées, avec des gens sympathiques (la preuve ils ont tous un verre à la main sur la photo :) )&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Startups - 650 Candidatures pour être accélérées par NUMA</title>
-    <link rel="alternate" href="http://blog.url.com/650-candidatures-pour-etre-accelere-par-numa/"/>
-    <id>http://blog.url.com/650-candidatures-pour-etre-accelere-par-numa/</id>
-    <published>2015-04-22T09:19:00+02:00</published>
-    <updated>2015-05-04T15:53:46+02:00</updated>
+    <title>Caroline Martin</title>
+    <link rel="alternate" href="http://blog.url.com/caroline-martin/"/>
+    <id>http://blog.url.com/caroline-martin/</id>
+    <published>2015-05-09T02:42:00+02:00</published>
+    <updated>2015-05-09T02:59:59+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Pour la saison 7, le programme d’accélération de NUMA (Le Camping) a reçu 650 candidatures. Nous en sélectionnerons 30 !&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Infographic Startups" class="img-responsive" src="/images/img_infog.png" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;Car c’est le futur d’aujourd’hui, accompagné du présent de demain&lt;/p&gt;
 </content>
   </entry>
 </feed>
