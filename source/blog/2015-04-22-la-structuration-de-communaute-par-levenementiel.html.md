@@ -8,7 +8,6 @@ cover: com.jpg
 apercu: La structuration de communautés, c'est l'un de nos fondamentaux
 ---
 
-
 <div class="fluid second">
 	<div class="mask"><iframe src="https://www.youtube.com/embed/2hGVn-5EECM" frameborder="0" allowfullscreen></iframe></div>
 </div>

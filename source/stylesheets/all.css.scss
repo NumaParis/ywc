@@ -351,23 +351,22 @@ ul.la-presse {
       margin-left: auto;
       margin-right: auto;
       cursor: pointer;
-			      
-      &.les_echos {width: 80%;}
-      &.l_adn {width: 60%;}
-      &.lusine_digitale {width: 50%;}
-      &.jdn {width: 75%;}
-      &.atelier {width: 70%;}
-      &.maddyness {width: 70%;}
-      &.la_tribune {width: 70%;}
-      &.strategies {width: 50%;}
-      &.le_figaro {width: 40%;}
-      &.digital_bus {width: 80%;}
-      &.jgp {width: 80%;}
-      &.alliancy {width: 80%;}
-      &.goodmorning {width: 80%;}
-      &.bfm_business {width: 80%;}
-      &.liberation {width: 80%;}
     }
+    &.les_echos img {width: 80%;}
+    &.l_adn img {width: 60%;}
+    &.lusine_digitale img {width: 50%;}
+    &.jdn img {width: 75%;}
+    &.atelier img {width: 70%;}
+    &.maddyness img {width: 70%;}
+    &.la_tribune img {width: 70%;}
+    &.strategies img {width: 60%;}
+    &.le_figaro img {width: 70%;}
+    &.digital_bus img {width: 40%;}
+    &.jgp img {width: 80%;}
+    &.alliancy img {width: 80%;}
+    &.goodmorning img {width: 80%;}
+    &.bfm_business img {width: 80%;}
+    &.liberation img {width: 80%;}
   }
 }
 
@@ -1186,7 +1185,10 @@ textarea.fld {
 	max-width: $screen-md;
 	text-align: center;
 	color: white;
-	font-size: 1.9em;
+	font-size: 1.3em;
+	@media screen and (min-width: $screen-sm) {
+		font-size: 1.9em;
+	}
 	line-height:1.4em;
 	font-family: 'gcmi';
 	text-shadow: 1px 1px 1px black;
@@ -1261,7 +1263,13 @@ button[type="button"].file-upload-button {
 }
 
 #reply {
-	padding-top: 20%;
+	padding-top: 10%;
+	@media screen and (min-width: $screen-sm) {
+		padding-top: 20%;
+	}
+	@media screen and (max-height: 800px) {
+		padding-top: 10%;
+	}
 	input.form-control {
 		color: black;
 		line-height: 1.2em;

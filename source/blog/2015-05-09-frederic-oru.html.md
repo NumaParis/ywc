@@ -4,7 +4,7 @@ date: 2015-05-09 14:16 CEST
 layout: recom
 category: recommandations
 info:
-  job: 
+  job: COO at NUMA Paris #science & #technology #web #startups #innovation #biz #dev #international #running
   twitter: FredOru
   photo: fred_oru.jpg
 ---
