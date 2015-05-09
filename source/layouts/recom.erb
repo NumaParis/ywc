@@ -16,25 +16,30 @@
     <%= partial "navigation" %>
 
     <header class="container">
-      <h1><%= current_article.title %></h1>
+      <strong><%= current_article.title %></strong><br/>
+      <em><%= current_article.data.info.job %></em><br/>
+      <em><%= current_article.data.info.twitter %></em><br/>
+      <em><%= current_article.data.info.photo %></em><br/>
+      <em><%= image_tag current_article.data.info.photo %></em><br/>
+      <em><%= current_article.data.info.one%></em><br/>
     </header>
 
     <div class="container">
 
       <article>
-        <%= yield %>
+          <%= yield %>
       </article>
 
       <ul class="page-nav">
         <li>
           <% prev_article = current_article.previous_article %>
-            <% if prev_article && prev_article.data.category == 'book' %> 
+            <% if prev_article && prev_article.data.category == 'recommandations' %> 
             <a href="<%= prev_article.url %>" rel="prev" title="Previous article: <%= prev_article.title %>"> &larr; <%= prev_article.title %></a>
             <% end %>
         </li>
         <li>
           <% next_article = current_article.next_article %>
-            <% if next_article && next_article.data.category == 'book' %>
+            <% if next_article && next_article.data.category == 'recommandations' %>
             <a href="<%= next_article.url %>" rel="next" title="Next article: <%= next_article.title %>"> <%= next_article.title %> &rarr;</a>
             <% end %>
         </li>
