@@ -3439,26 +3439,20 @@ strong.sig {
 a {
   color: black; }
 
-/* line 899, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-#realisations em > a {
-  font-family: gcsbi; }
 /* line 902, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #realisations p {
   margin-top: 2px; }
 /* line 903, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #realisations article {
+  margin-bottom: 30px;
   vertical-align: top;
   display: inline-block;
   padding-right: 10px;
   min-height: 150px; }
-  /* line 904, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
-  #realisations article h5 {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 10px;
-    font-family: 'gcsb';
-    font-weight: normal;
-    font-size: 1em;
+  /* line 905, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  #realisations article h3 {
+    margin-top: 10px;
+    font-size: 1.6em;
     line-height: 1.1em; }
   @media screen and (min-width: 992px) {
     /* line 903, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
@@ -4084,3 +4078,12 @@ a.some {
   display: block;
   font-size: 0.3em;
   color: transparent; }
+
+/* line 1577, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+div.small-cover {
+  position: relative;
+  overflow: hidden;
+  height: 200px; }
+  /* line 1581, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  div.small-cover img {
+    border-radius: 2px; }
