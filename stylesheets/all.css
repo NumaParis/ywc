@@ -4099,3 +4099,25 @@ div.small-cover {
   /* line 1585, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   div.small-cover img {
     border-radius: 2px; }
+
+/* line 1590, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+.participez {
+  font-size: 2em;
+  float: none;
+  text-align: center;
+  padding: 30px 0; }
+
+/* line 1597, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+h1.special {
+  margin-top: 0;
+  margin-bottom: 3em;
+  font-size: 4em;
+  font-family: 'gcmi';
+  font-weight: normal;
+  padding-bottom: 0.7em; }
+  /* line 1604, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  h1.special a {
+    text-decoration: none; }
+    /* line 1605, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    h1.special a:hover {
+      text-decoration: underline; }
