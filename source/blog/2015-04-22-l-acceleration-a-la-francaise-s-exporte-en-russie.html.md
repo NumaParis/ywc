@@ -6,6 +6,13 @@ category: blogging
 lang: french
 ---
 
+
+![EliseNebou+FredOru+YannickTranchier](EliseNebou+FredOru+YannickTranchier.gif)
+{:.cover}
+
+NUMA Moscow met à disposition des entrepreneurs un espace de 700m2 en plein quartier d’affaires moscovite, un réseau d’acteurs russes et français publics et privés, et une équipe trilingue de 7 personnes.
+{:.lead}
+
 18 mois après son ouverture, le succès de NUMA Paris ne se dément pas. 650 startups candidates à notre programme d’accélération, plus de 1500 évènements organisés, 80.000 visiteurs, près de la moitié du CAC40 clients de nos programmes de transformation numérique et d’open innovation. Sur les 72 startups accélérées depuis la création de notre programme d’accélération en 2011, 90% sont toujours en activité. Aujourd'hui, NUMA accélère son développement en ouvrant NUMA Moscow.
 
 NUMA Moscow met à disposition des entrepreneurs un espace de 700m2 en plein quartier d’affaires moscovite, un réseau d’acteurs russes et français publics et privés, et une équipe trilingue de 7 personnes. Pour les startups françaises et européennes, NUMA Moscow sera une porte d’entrée vers un marché uni de 150 millions de consommateurs. Les candidatures seront lancées en juin 2015, et l’accélérateur ouvrira ses portes en septembre.

@@ -5,7 +5,7 @@ layout: recom
 category: recommandations
 info:
   job: Management de transition Contrôle & Finance
-  twitter:
+  twitter: yeswecrowd
   photo: herve_dornier.jpg
 ---
 

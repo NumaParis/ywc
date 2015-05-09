@@ -8,15 +8,28 @@
 
 var wh = $(window).height();
 
-$(window).scroll(function() {
-    if ($(".intro").offset().top > wh - 60) {
-        $(".navbar").addClass("isfixed");
-        $(".intro").addClass("disable");
-    } else {
-        $(".navbar").removeClass("isfixed");
-        $(".intro").removeClass("disable");
-    }
-});
+if ($('body').hasClass('home')) {
+    $(window).scroll(function() {
+        if ($(".intro").offset().top > wh - 60) {
+            $(".navbar").addClass("isfixed");
+            $(".intro").addClass("disable");
+        } else {
+            $(".navbar").removeClass("isfixed");
+            $(".intro").removeClass("disable");
+        }
+    });
+} else {
+    $(window).scroll(function() {
+        if ($(".navbar").offset().top > 50) {
+            $(".navbar").addClass("isfixed");
+        } else {
+            $(".navbar").removeClass("isfixed");
+        }
+    });
+}
+
+
+// jQuery for page s
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {

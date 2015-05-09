@@ -40,6 +40,7 @@ per_page: 10
 										</ul>											
 									</div>
 								</div>
+								<a class="some" href="/recommandation">you</a>
 							</div>
 						</div>
 					<% end %>
@@ -198,28 +199,27 @@ per_page: 10
 
 </div> <!-- end MAIN -->
 
-<%= javascript_include_tag  'jquery.min', 'jquery.easing.min', 'particles', 'bootstrap.min', 'app', 'quote'%>
+<%= javascript_include_tag  'jquery.min', 'jquery.easing.min', 'bootstrap.min', 'app', 'quote'%>
 
 <script>
 	$( function() { 
-		
+	
 		setRandomClass();
 		setInterval(function () {
 		    setRandomClass();
-		}, 7000);//number of milliseconds (2000 = 2 seconds)
+	}, 7000); //number of milliseconds (2000 = 2 seconds)
 
-		function setRandomClass() {
-		    var ul = $("#mosaic");
-		    var items = ul.find(".in");
-		    var number = items.length;
-		    var random = Math.floor((Math.random() * number));
-		    items.removeClass("active");
-		    items.eq(random).addClass("active");
-		}
+	function setRandomClass() {
+	    var ul = $("#mosaic");
+	    var items = ul.find(".in");
+	    var number = items.length;
+	    var random = Math.floor((Math.random() * number));
+	    items.removeClass("active");
+	    items.eq(random).addClass("active");
+	}
 
-	} ); 
-
-	</script>
+} ); 
+</script>
 
 <script>
 	$( function() { 
