@@ -14,19 +14,19 @@
   </url>
   <url>
     <loc>https://localhost:4567/650-candidatures-pour-etre-accelere-par-numa/</loc>
-    <lastmod>2015-05-04T15:53:46+02:00</lastmod>
+    <lastmod>2015-05-09T11:41:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://localhost:4567/adopt-a-cto/</loc>
-    <lastmod>2015-05-09T08:41:28+02:00</lastmod>
+    <lastmod>2015-05-09T11:54:23+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://localhost:4567/l-acceleration-a-la-francaise-s-exporte-en-russie/</loc>
-    <lastmod>2015-05-09T08:37:16+02:00</lastmod>
+    <lastmod>2015-05-09T11:36:27+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -37,14 +37,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:4567/twitter-acquiert-mesagraph-camping-saison-1/</loc>
-    <lastmod>2015-05-04T15:53:46+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://localhost:4567/numa-launches-numa-moscow/</loc>
-    <lastmod>2015-05-04T15:53:46+02:00</lastmod>
+    <lastmod>2015-05-09T11:35:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -248,13 +242,13 @@
   </url>
   <url>
     <loc>https://localhost:4567/en/</loc>
-    <lastmod>2015-05-09T08:57:57+02:00</lastmod>
+    <lastmod>2015-05-09T11:42:08+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://localhost:4567/</loc>
-    <lastmod>2015-05-09T08:57:57+02:00</lastmod>
+    <lastmod>2015-05-09T11:42:08+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

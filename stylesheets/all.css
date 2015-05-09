@@ -4024,24 +4024,27 @@ button[type="button"].file-upload-button {
     margin-left: auto;
     margin-right: auto; }
 /* line 1520, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+#blog a {
+  text-decoration: underline; }
+/* line 1523, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog blockquote.large {
   padding: 1em 0;
   font-family: 'gcsbi';
   font-size: 1.7em;
   line-height: 1em; }
-  /* line 1525, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1528, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog blockquote.large p {
     max-width: 480px; }
-  /* line 1528, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1531, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog blockquote.large cite {
     font-size: 0.5em;
     font-style: normal; }
 
-/* line 1536, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1539, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .posts article img {
   max-width: 100%; }
 
-/* line 1542, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1545, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 a.some {
   top: 0;
   left: 0;
