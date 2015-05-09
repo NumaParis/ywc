@@ -67,6 +67,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/frederic-oru/</loc>
+    <lastmod>2015-05-09T14:21:35+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/guillaume-cabanne/</loc>
     <lastmod>2015-05-09T07:49:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -164,7 +170,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/partials/navigation/</loc>
-    <lastmod>2015-05-09T11:10:48+02:00</lastmod>
+    <lastmod>2015-05-09T14:09:24+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
