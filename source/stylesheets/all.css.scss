@@ -158,7 +158,9 @@ canvas {
 .cbp-qtrotator {
 	position: relative;
 	height: 0px;
-	width: 90%;
+	@media screen and (min-width: $screen-sm) {
+		width: 90%;
+	}
 	@include center-block;
 	.cbp-qtcontent {
 		position: absolute;
@@ -349,18 +351,22 @@ ul.la-presse {
       margin-left: auto;
       margin-right: auto;
       cursor: pointer;
-
-      &.figaro 		 { width: 80%; }
-      &.tribune 	 { width: 60%; }
-      &.jdn 			 { width: 50%; }
-      &.atelier 	 { width: 75%; }
-      &.ladn 			 { width: 70%; }
-      &.jgp 			 { width: 70%; }
-      &.maddyness  { width: 70%; }
-      &.usine 		 { width: 50%; }
-      &.digital 	 { width: 40%; }
-      &.echos 		 { width: 80%; }
-      &.strategies { width: 80%; }
+			      
+      &.les_echos {width: 80%;}
+      &.l_adn {width: 60%;}
+      &.lusine_digitale {width: 50%;}
+      &.jdn {width: 75%;}
+      &.atelier {width: 70%;}
+      &.maddyness {width: 70%;}
+      &.la_tribune {width: 70%;}
+      &.strategies {width: 50%;}
+      &.le_figaro {width: 40%;}
+      &.digital_bus {width: 80%;}
+      &.jgp {width: 80%;}
+      &.alliancy {width: 80%;}
+      &.goodmorning {width: 80%;}
+      &.bfm_business {width: 80%;}
+      &.liberation {width: 80%;}
     }
   }
 }
@@ -870,12 +876,16 @@ $cw : $screen-sm;
 @media screen and (min-width: 768px) {
   .fluid {
     padding-top: 379px;
+    &.second {
+    	padding-top: 60%;
+    }
   }
 }
 
 @media screen and (max-width: 768px) {
   .fluid {
     padding-top: 64%;
+
   }
 }
 
@@ -895,17 +905,17 @@ a {
 }
 #realisations {
 	em > a {
-		font-family: gcsbi;
+		// font-family: gcsbi;
 	}
 	p { margin-top: 2px; }
 	article {
-		h5 {
-			margin: 0;
-			padding: 0;
-			margin-bottom: 10px;
-			font-family: 'gcsb';
-			font-weight: normal;
-			font-size: 1em;
+		margin-bottom: $grid-gutter-width;
+		h3 {
+			margin-top: 10px;
+			// margin-bottom: 10px;
+			// font-family: 'gcsb';
+			// font-weight: normal;
+			font-size: 1.6em;
 			line-height: 1.1em;
 		}
 		vertical-align: top;
@@ -1393,15 +1403,12 @@ button[type="button"].file-upload-button {
 			// padding-top: $sq * 5;
 		}
 		&.active {
-			.some {
-				opacity: 1;
-			}
+			.some { opacity: 1; }
 			// border:2px solid red;
 			position: static;
 			// background: fade-out(red, 0.9);
 			.blow {
 				z-index:(9999999999)*3;
-				// background: fade-out(yellow, 0.4);
 				position: fixed;
 				top: 0; left: 0; right: 0; bottom: 0;
 				// @include size($sq * 8, 0);
@@ -1415,20 +1422,25 @@ button[type="button"].file-upload-button {
 				}
 				width: auto;
 				position: absolute;
-				// outline: 3px solid black;
 				top: auto;
-				margin-top: $sq * 8;
+				margin-top: $sq * 9;
 				bottom: auto;
-				right: $sq * 5;
-				left: $sq * 5;
+				right: $sq * 4;
+				left: $sq * 4;
+
+				@media screen and (min-width: $screen-lg) {
+					right: $sq * 6;
+					left: $sq * 6;
+					margin-top: $sq * 7.6;
+				}
 				// outline: 1px solid red;
 				// * { outline: 1px dotted blue; }
 				background: white;
 				@include box-shadow(0px 0px 10px fade-out(black, 0.4));
-				padding: 20px;
+				padding: 16px;
 			}
 			ul {
-				padding: 20px;
+				padding: 16px;
 				border: 3px double black;
 				li {
 					display: block;
@@ -1447,6 +1459,7 @@ button[type="button"].file-upload-button {
 						span { font-family: 'UniversLTStdBoldCn';}
 						display: block;
 						font-size: 1.7em;
+						position: relative;
 						em {
 							font-style: normal;
 							color: $gray-light;
@@ -1454,12 +1467,17 @@ button[type="button"].file-upload-button {
 							line-height: 1.3em; 
 							display: block;
 						}
+						a.tw-icon {
+							position: absolute;
+							font-size: 0.5em;
+							top: 0;
+							right: 0;
+						}
 					}
 					&.recom {
-						font-size: 1.3em;
-					}
-					&.info {
 						font-size: 1em;
+						line-height: 1.3em;
+						p {margin-bottom:0;}
 					}
 				}
 			}
@@ -1517,6 +1535,9 @@ button[type="button"].file-upload-button {
 			margin: 0px 19px 0;
 		}
 	}
+	a {
+		text-decoration: underline;
+	}
 	blockquote.large {
 		padding: 1em 0;
 		font-family: 'gcsbi';
@@ -1559,5 +1580,33 @@ a.some {
 	display: block;
 	font-size:0.3em;
 	color: transparent;
+}
 
+div.small-cover {
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+	img {
+		border-radius:2px;
+	}
+}
+
+.participez {
+	font-size: 2em;
+	float: none;
+	text-align: center;
+	padding: 30px 0;
+}
+
+h1.special {
+	margin-top: 0;
+	margin-bottom: 3em;
+	font-size: 4em;
+	font-family: 'gcmi';
+	font-weight: normal;
+	padding-bottom:0.7em;
+	a {
+		&:hover { text-decoration: underline; }
+		text-decoration: none;
+	}
 }

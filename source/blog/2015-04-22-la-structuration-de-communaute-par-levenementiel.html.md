@@ -1,13 +1,20 @@
 ---
-title: NUMA - ADN d'origine la structuration de communauté par l'évènementiel
+title: La structuration de communautés, c'est l'un des notre fondements
 date: 2015-04-22 09:23 CEST
 tags:
 category: blogging
 lang: french
+cover: com.jpg
+apercu: La structuration de communautés, c'est l'un de nos fondamentaux
 ---
 
-La structuration de communautés consiste à réunir et faire travailler ensemble des individus de divers secteurs qui, en leur nom propre ou en celui de l'institution qu’ils représentent, s’intéressent à une même problématique.
- 
+
+<div class="fluid second">
+	<div class="mask"><iframe src="https://www.youtube.com/embed/2hGVn-5EECM" frameborder="0" allowfullscreen></iframe></div>
+</div>
+
+Réunir et faire travailler ensemble des individus de divers secteurs qui, en leur nom propre ou en celui de l'institution qu’ils représentent, s’intéressent à une même problématique.
+
 Son outil essentiel est l’organisation d’évènements, qui permet de réunir les personnes et de catalyser les énergies de par son temps limité. Les interactions qui se produisent profitent de la valeur ajoutée d’une approche qui multiplie les points de vue et compétences complémentaires. Le format de l’évènement, où Numa possède une expertise forte et reconnue, est essentiel afin qu’il soit productif, utile à la communauté et ouvre des perspectives au-delà de sa durée propre.
 
 La structuration de communautés est un travail de repérage, de haute couture et de patience. Il faut repérer les acteurs et individus intéressés et développer avec eux une relation de confiance suffisante pour les amener à travailler en collaboration avec d’autres.

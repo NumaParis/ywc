@@ -33,10 +33,9 @@ per_page: 10
 								<div class="blow">
 									<div class="wrap">
 										<ul>
-											<li class="avatar"><%= image_tag article.data.info.photo %></li>
-											<li class="name"><span><%= article.title %></span><em><%= article.data.info.job %></em></li>
+											<li class="avatar"><%= image_tag article.data.info.photo, :alt => article.title %></li>
+											<li class="name"><span><%= article.title %></span><em><%= article.data.info.job %></em><a class="tw-icon" target="_blank" title="twitter.com/@<%= article.data.info.twitter %>" href="http://twitter.com/@<%= article.data.info.twitter %>">@<%= article.data.info.twitter %></a></li>
 											<li class="recom"><%= article.summary(300, '') %></li>
-											<li class="info"><a class="tw-icon" target="_blank" title="twitter.com/@<%= article.data.info.twitter %>" href="http://twitter.com/@<%= article.data.info.twitter %>">@<%= article.data.info.twitter %></a></li>
 										</ul>											
 									</div>
 								</div>
@@ -88,29 +87,24 @@ per_page: 10
 							<p><%= t(:uniquemodel) %> <a href="http://SmartAngels.fr">SmartAngels.fr</a></p>
 							<p><strong><%= t(:campaignduration) %></strong></p>
 						</div>
-						<div class="action"> <a class="btn btn-blue" href="https://www.smartangels.fr/entreprises/numa"><%= t(:participate) %></a> </div>
+						<div class="action"> <a class="btn btn-blue" target="_blank" href="https://www.smartangels.fr/entreprises/numa"><%= t(:participate) %></a> </div>
 					</section>
 
 					<div class="le-video">
 						<div class="fluid">
-							<div class="mask" frameborder="0"><iframe src="https://www.youtube.com/embed/co7_qw9W87o" frameBorder="0" allowfullscreen></iframe></div>
+							<div class="mask"><iframe src="https://www.youtube.com/embed/co7_qw9W87o" frameBorder="0" allowfullscreen></iframe></div>
 						</div>
 					</div>
 					
 					<section id="ambition">
-						
 						<h2><%= t(:headingambition) %></h2>
-						
 						<div class="row">
-							
 							<div class="col-sm-8">
 								<%= image_tag 'map.png', :class => "img-responsive", :alt => "Expanssion Map" %>
 							</div>
-
 							<div class="col-sm-4">
 								<h4><%= t(:firstambition) %></h4>
 							</div>
-
 						</div>
 
 						<div class="row">
@@ -139,8 +133,8 @@ per_page: 10
 							<% blog.articles.select do |article| %>
 								<% if article.data.category == 'blogging' && article.data.lang == t(:lang) %>
 									<article>
-									  <h4><a href="<%= article.url %>"><%= article.title %></a></h4>
-									  <a href="<%= article.url %>"><%= article.summary(111, '') %></a>
+									  <div class="small-cover"><a href="<%= article.url %>"><%=image_tag article.data.cover %></a></div>
+									  <h3 class="title"><a href="<%= article.url %>"><%= article.data.apercu %></a></h3>
 									</article>
 								<% end %>
 							<% end %>
@@ -179,19 +173,16 @@ per_page: 10
 		<h4 class="text-center"><%=t(:fameheading)%></h4>
 		
 		<ul class="la-presse">
-			<li><a target="_blank" title="Numa, fidèle soutien des start-up parisiennes, change de dimension" target="_blank" href="http://www.lefigaro.fr/secteur/high-tech/2015/04/22/01007-20150422ARTFIG00194-numa-fidele-soutien-des-start-up-parisiennes-change-de-dimension.php"><%= image_tag 'le_figaro.png', :alt => "Le Figaro", :class => "figaro" %></a></li>
-			<li><a target="_blank" title="L'accélérateur de startups Numa met le turbo dans les pays émergents" target="_blank" href="http://www.latribune.fr/technos-medias/start-up/l-accelerateur-de-startups-numa-met-le-turbo-dans-les-pays-emergents-470827.html"><%= image_tag 'la_tribune.png', :alt => "La Tribune", :class => "tribune" %></a></li>
-			<li><a target="_blank" title="Numa ouvre son capital et espère lever jusqu'à 1 million d'euros" href="http://www.journaldunet.com/web-tech/start-up/numa-levee-fonds-internationalisation-0415.shtml"><%= image_tag 'jdn.png', :alt => "JDN", :class => "jdn" %></a></li>
-			<li><a target="_blank" title="NUMA : le crowdequity, levier d'un changement de modèle" href="http://www.atelier.net/trends/articles/numa-crowdequity-levier-un-changement-de-modele_435087"><%= image_tag 'atelier.png', :alt => "L’ATELIER", :class => "atelier" %></a></li>
-			<li><a target="_blank" title="NUMA OUVRE SON CAPITAL" href="http://www.ladn.eu/actualites/marque,numa-ouvre-capital,30,26107.html?utm_campaign=newsletter-s17-23_04_2015&utm_source=docnews-newsletter&utm_medium=email&utm_content=numa-ouvre-capital"><%= image_tag 'l_adn.png', :alt => "l' ADN", :class => "ladn" %></a></li>
-			<li><a target="_blank" title="Numa cherche des fonds pour conquérir le monde" href="https://www.lejournaldugrandparis.fr/numa-cherche-des-fonds-pour-conquerir-le-monde/"><%= image_tag 'jgp.png', :alt => "Le Journal du Grand Paris", :class => "jgp" %></a></li>
-			<li><a target="_blank" title="NUMA se donne 4 ans pour accélérer 700 startups dans le monde entier" href="http://www.maddyness.com/accompagnement/accelerateurs/2015/04/23/yeswecrowd-numa-se-donne-4-ans-pour-accelerer-700-startups-dans-le-monde-entier/"><%= image_tag 'maddyness.png', :alt => "Maddyness", :class => "maddyness" %></a></li>
-			<li><a target="_blank" title="Numa change de modèle et de dimension" href="http://www.usine-digitale.fr/article/numa-change-de-modele-et-de-dimension.N326225"><%= image_tag 'lusine_digitale.png', :alt => "L'usine Digitale", :class => "usine" %></a></li>
-			<li><a target="_blank" title="A Paris, Numa ouvre son capital et s’exporte hors des frontières" href="http://www.lesechos.fr/pme-regions/actualite-pme/02123799893-a-paris-numa-ouvre-son-capital-et-sexporte-hors-des-frontieres-1113586.php"><%= image_tag 'les_echos.png', :alt => "Les Echos", :class => "echos" %></a></li>
-			<li><a target="_blank" title="Le numa espère lever un million d’euros" href="http://www.strategies.fr/actualites/marques/1013225W/le-numa-espere-lever-un-million-d-euros.html"><%= image_tag 'strategies.png', :alt => "Strategies", :class => "strategies" %></a></li>
-			<li><a target="_blank" title="#YesWeCrowd NUMA lance sa campagne de crowdfunding" href="http://www.digitalbusinessnews.com/yeswecrowd-numa-lance-sa-campagne-de-crowdfunding"><%= image_tag 'digital_business_news.png', :alt => "DIGITAL BUSINESS NEWS", :class => "digital" %></a></li>
+			<% data.publications.journal.each_with_index do |journal, index| %>
+			  <li class="<%=journal.img%>">
+				  <% link_to journal.url, :target => '_blank', :title => journal.title  do %>
+				    <%= image_tag journal.img + '.png', :alt => journal.name %>
+				  <% end %>
+			  </li>
+			<% end %>
 		</ul>
 	</div>
+
 
 	<%= partial "footer" %>
 	
