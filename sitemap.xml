@@ -68,7 +68,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/frederic-oru/</loc>
-    <lastmod>2015-05-09T14:21:35+02:00</lastmod>
+    <lastmod>2015-05-09T22:03:42+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -140,7 +140,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/media/</loc>
-    <lastmod>2015-05-09T15:04:49+02:00</lastmod>
+    <lastmod>2015-05-09T22:08:14+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -218,7 +218,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/media/2/</loc>
-    <lastmod>2015-05-09T15:04:49+02:00</lastmod>
+    <lastmod>2015-05-09T22:08:14+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
