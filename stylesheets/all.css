@@ -3431,12 +3431,15 @@ strong.sig {
 @media screen and (min-width: 768px) {
   /* line 877, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .fluid {
-    padding-top: 379px; } }
+    padding-top: 379px; }
+    /* line 879, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    .fluid.second {
+      padding-top: 60%; } }
 @media screen and (max-width: 768px) {
-  /* line 883, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 886, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .fluid {
     padding-top: 64%; } }
-/* line 888, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 892, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .fluid .mask,
 .fluid .mask iframe {
   position: absolute;
@@ -3447,139 +3450,139 @@ strong.sig {
   bottom: 0;
   right: 0; }
 
-/* line 899, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 903, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 a {
   color: black; }
 
-/* line 906, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 910, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #realisations p {
   margin-top: 2px; }
-/* line 907, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 911, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #realisations article {
   margin-bottom: 30px;
   vertical-align: top;
   display: inline-block;
   padding-right: 10px;
   min-height: 150px; }
-  /* line 909, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 913, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #realisations article h3 {
     margin-top: 10px;
     font-size: 1.6em;
     line-height: 1.1em; }
   @media screen and (min-width: 992px) {
-    /* line 907, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 911, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #realisations article {
       width: 49%; } }
 
 @media screen and (min-width: 768px) {
-  /* line 924, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 928, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .action {
     display: none; } }
 
-/* line 930, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 934, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .logo-smartangels {
   z-index: 999999999999;
   position: absolute;
   bottom: 50px;
   right: 60px; }
   @media screen and (max-width: 768px) {
-    /* line 930, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 934, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .logo-smartangels {
       display: none; } }
-  /* line 934, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 938, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .logo-smartangels img {
     max-width: 230px;
     height: auto; }
 
-/* line 940, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 944, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .notice {
   line-height: 1.6em;
   font-size: 0.7em;
   color: black; }
 
-/* line 981, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 985, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .book blockquote {
   padding: 0;
   margin: 0;
   font-family: 'gcmi'; }
 
-/* line 989, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 993, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 article.prev p {
   margin: 0;
   padding: 0; }
-/* line 993, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 997, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 article.prev blockquote {
   margin-bottom: 1em; }
-/* line 996, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1000, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 article.prev h3, article.prev h4 {
   font-size: 1em;
   margin: 0.5em 0;
   text-align: left; }
 
-/* line 1003, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1007, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 ul.share-buttons {
   margin-top: 1em;
   list-style: none;
   padding: 0; }
 
-/* line 1009, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1013, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 ul.share-buttons li {
   display: inline;
   margin-right: 0.3em; }
 
-/* line 1014, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1018, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 footer .share-buttons {
   padding-bottom: 15px; }
 
-/* line 1019, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1023, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 a.lang {
   margin-top: 15px;
   display: block;
   font-size: 0px;
   width: 23px;
   height: 17px; }
-  /* line 1024, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1028, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   a.lang.french {
     background-image: url("/images/GB.png");
     background-repeat: no-repeat; }
-  /* line 1025, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1029, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   a.lang.english {
     background-image: url("/images/FR.png");
     background-repeat: no-repeat; }
 
-/* line 1028, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1032, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .page-nav {
   padding: 30px;
   display: block;
   text-align: center; }
-  /* line 1032, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1036, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .page-nav li {
     display: inline-block; }
-    /* line 1033, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1037, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .page-nav li:first-child {
       padding-right: 20px; }
-    /* line 1034, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1038, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .page-nav li:last-child {
       padding-left: 20px; }
 
-/* line 1039, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1043, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 button.navbar-toggle {
   border: 1px solid #f9cfd9; }
-  /* line 1041, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1045, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   button.navbar-toggle > span {
     background: #f9cfd9; }
 
-/* line 1044, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1048, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #zabook {
   text-align: center;
   padding: 100px 0 50px; }
-  /* line 1048, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1052, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #zabook > iframe {
     display: block;
     margin-left: auto;
     margin-right: auto; }
 
-/* line 1053, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1057, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .citations li {
   padding: 0;
   margin-bottom: 20px; }
@@ -3590,46 +3593,46 @@ button.navbar-toggle {
   /* line 114, /Users/marius/sites/ywc/source/stylesheets/_mixins.scss */
   .citations li:after {
     clear: both; }
-  /* line 1057, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1061, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .citations li blockquote {
     margin-left: 150px;
     margin-top: 0;
     font-family: 'gcmi';
     font-size: 1.1em; }
-    /* line 1062, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1066, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .citations li blockquote a {
       display: block; }
-    /* line 1065, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1069, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .citations li blockquote p {
       margin-top: 0; }
-  /* line 1069, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1073, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .citations li .first {
     float: left; }
-/* line 1073, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1077, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .citations strong {
   display: block;
   font-size: 11px; }
-/* line 1077, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1081, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .citations img {
   display: block;
   max-width: 100px;
   height: auto; }
 
-/* line 1084, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1088, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .twitter iframe {
   width: 100%; }
 
-/* line 1089, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1093, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .bannier {
   padding-top: 60px;
   margin-bottom: 60px; }
 
-/* line 1095, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1099, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .press h2 {
   display: block;
   margin-top: 0; }
 
-/* line 1101, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1105, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #recommend {
   max-width: 602px;
   margin-bottom: 100px;
@@ -3638,21 +3641,21 @@ button.navbar-toggle {
   margin-right: auto;
   font-size: 1em; }
 
-/* line 1138, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1142, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 input.jerecommend {
   margin-right: 10px;
   width: auto; }
 
-/* line 1146, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1150, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .btn.black {
   background: black; }
 
-/* line 1150, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1154, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .apropos {
   padding-top: 100px;
   display: block; }
 
-/* line 1155, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1159, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .fld {
   font-size: 1em;
   padding: 4px;
@@ -3660,21 +3663,21 @@ input.jerecommend {
   border: 2px solid white;
   border-bottom: 2px solid black;
   background: rgba(211, 211, 211, 0.2); }
-  /* line 1162, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1166, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .fld:focus, .fld:active {
     outline: none;
     border-bottom: 2px solid graylight;
     background: rgba(255, 255, 0, 0.4); }
 
-/* line 1170, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1174, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 textarea.fld {
   padding: 10px 20px; }
 
-/* line 1175, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1179, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .container.merci {
   margin-top: 50px; }
 
-/* line 1180, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1184, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .headermsg {
   display: block;
   margin-left: auto;
@@ -3687,7 +3690,7 @@ textarea.fld {
   font-family: 'gcmi';
   text-shadow: 1px 1px 1px black; }
 
-/* line 1190, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1194, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .apropos {
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 100%);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 100%);
@@ -3696,34 +3699,34 @@ textarea.fld {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E6000000', endColorstr='#19000000', GradientType=0);
   min-height: 900px; }
 
-/* line 1195, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1199, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .recommend {
   background-image: url("/images/thankyouimage.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
-/* line 1200, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1204, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #recommend {
   color: black; }
 
-/* line 1205, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1209, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .customlinestextarea {
   background-image: url("/images/pat.gif");
   background-repeat: no-repeat;
   background-repeat: repeat; }
 
-/* line 1212, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1216, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .custom-file-upload-hidden {
   display: none;
   visibility: hidden;
   position: absolute;
   left: -9999px; }
 
-/* line 1227, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1231, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .file-upload-input {
   text-indent: 30px; }
 
-/* line 1231, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1235, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 button[type="button"].file-upload-button {
   position: absolute;
   top: 0;
@@ -3742,35 +3745,35 @@ button[type="button"].file-upload-button {
   border: 0;
   color: transparent; }
 
-/* line 1250, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1254, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .form-group.textarea {
   padding-left: 15px; }
-  /* line 1252, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1256, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .form-group.textarea textarea {
     font-family: 'gcmi';
     font-size: 1.1em;
     color: black; }
 
-/* line 1259, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1263, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #reply {
   padding-top: 20%; }
-  /* line 1261, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1265, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #reply input.form-control {
     color: black;
     line-height: 1.2em; }
-  /* line 1266, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1270, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #reply fieldset.first {
     margin-bottom: 15px; }
-  /* line 1269, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1273, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #reply fieldset .checkbox {
     color: white;
     font-family: 'gcsb';
     text-shadow: 1px 1px 1px black; }
-    /* line 1270, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1274, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #reply fieldset .checkbox input {
       margin-right: 10px; }
 
-/* line 1278, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1282, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .recommendations {
   display: block;
   max-width: 768px;
@@ -3778,29 +3781,29 @@ button[type="button"].file-upload-button {
   margin-left: auto;
   margin-right: auto;
   display: table; }
-  /* line 1285, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1289, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations li {
     display: inline-block;
     vertical-align: top;
     padding: 15px; }
     @media screen and (min-width: 768px) {
-      /* line 1285, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 1289, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       .recommendations li {
         width: 50%; } }
-  /* line 1292, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1296, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations strong.th {
     float: left;
     display: block;
     border-radius: 49.5%;
     overflow: hidden; }
-    /* line 1297, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1301, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     .recommendations strong.th, .recommendations strong.th img {
       width: 50px;
       height: 50px; }
-  /* line 1300, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1304, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations div > a {
     font-size: 0.8em; }
-  /* line 1301, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1305, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations div > h4 {
     margin-left: 65px;
     padding-top: 6px;
@@ -3808,53 +3811,53 @@ button[type="button"].file-upload-button {
     padding-bottom: 0;
     line-height: 0.9em;
     vertical-align: bottom; }
-  /* line 1302, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1306, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations div > em {
     margin-left: 65px;
     display: block;
     font-size: 0.9em;
     line-height: 1.3em;
     color: #777777; }
-  /* line 1305, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1309, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations p::before, .recommendations p::after {
     font-size: 1.2em; }
-  /* line 1309, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1313, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations p::before {
     content: "«"; }
-  /* line 1310, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1314, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations p::after {
     content: "»"; }
-  /* line 1312, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1316, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recommendations .twt {
     font-size: 0.9em;
     line-height: 1.3em; }
 
-/* line 1318, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1322, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .recom p {
   font-family: 'gcmi'; }
-  /* line 1319, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1323, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recom p::before, .recom p::after {
     font-size: 1.2em; }
-  /* line 1323, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1327, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recom p::before {
     content: "«"; }
-  /* line 1324, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1328, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recom p::after {
     content: "»"; }
 
-/* line 1328, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1332, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .recom-banner {
   padding: 0;
   padding-top: 60px; }
-  /* line 1331, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1335, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   .recom-banner img {
     width: 100%; }
 
-/* line 1334, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1338, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #mosaic {
   padding-top: 8.69565%;
   padding-left: 4.34783%; }
-  /* line 1349, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1353, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #mosaic > div {
     width: 4.34783%;
     height: 0;
@@ -3866,7 +3869,7 @@ button[type="button"].file-upload-button {
     bottom: auto;
     display: block;
     float: left; }
-  /* line 1354, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1358, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #mosaic .lelogo {
     width: auto;
     position: absolute;
@@ -3875,7 +3878,7 @@ button[type="button"].file-upload-button {
     padding-top: 21.73913%;
     right: 13.04348%;
     left: 13.04348%; }
-  /* line 1364, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1368, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #mosaic .in .blow {
     position: absolute;
     position: absolute;
@@ -3883,29 +3886,29 @@ button[type="button"].file-upload-button {
     left: 0;
     right: 0;
     bottom: 0; }
-  /* line 1376, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1380, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #mosaic .in .wrap {
     width: 100%; }
-    /* line 1379, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1383, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #mosaic .in .wrap ul li {
       display: none; }
-      /* line 1382, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 1386, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #mosaic .in .wrap ul li.avatar {
         display: block; }
-        /* line 1384, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+        /* line 1388, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
         #mosaic .in .wrap ul li.avatar img {
           border-radius: 50%;
           width: 90%;
           height: 90%;
           -webkit-box-shadow: 0px 0px 10px 2px pink;
           box-shadow: 0px 0px 10px 2px pink; }
-  /* line 1401, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1405, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #mosaic .in.active {
     position: static; }
-    /* line 1402, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1406, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #mosaic .in.active .some {
       opacity: 1; }
-    /* line 1406, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1410, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #mosaic .in.active .blow {
       z-index: 29999999997;
       position: fixed;
@@ -3913,7 +3916,7 @@ button[type="button"].file-upload-button {
       left: 0;
       right: 0;
       bottom: 0; }
-    /* line 1413, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1417, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #mosaic .in.active .wrap {
       width: auto;
       position: absolute;
@@ -3926,66 +3929,66 @@ button[type="button"].file-upload-button {
       -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
       padding: 16px; }
-      /* line 1414, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 1418, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #mosaic .in.active .wrap img {
         border-radius: 50%;
         width: 100%;
         height: 100%; }
       @media screen and (min-width: 1200px) {
-        /* line 1413, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+        /* line 1417, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
         #mosaic .in.active .wrap {
           right: 26.08696%;
           left: 26.08696%;
           margin-top: 33.04348%; } }
-    /* line 1438, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1442, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #mosaic .in.active ul {
       padding: 16px;
       border: 3px double black; }
-      /* line 1441, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 1445, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #mosaic .in.active ul li {
         display: block;
         margin-left: 120px; }
-        /* line 1444, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+        /* line 1448, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
         #mosaic .in.active ul li.avatar {
           float: left;
           margin-left: 0;
           position: static; }
-          /* line 1447, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+          /* line 1451, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
           #mosaic .in.active ul li.avatar img {
             width: 100px;
             height: 100px;
             -webkit-box-shadow: none;
             box-shadow: none; }
-        /* line 1453, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+        /* line 1457, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
         #mosaic .in.active ul li.name {
           pading-left: 100px;
           display: block;
           font-size: 1.7em;
           position: relative; }
-          /* line 1455, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+          /* line 1459, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
           #mosaic .in.active ul li.name span {
             font-family: 'UniversLTStdBoldCn'; }
-          /* line 1459, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+          /* line 1463, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
           #mosaic .in.active ul li.name em {
             font-style: normal;
             color: #777777;
             font-size: 0.6em;
             line-height: 1.3em;
             display: block; }
-          /* line 1466, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+          /* line 1470, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
           #mosaic .in.active ul li.name a.tw-icon {
             position: absolute;
             font-size: 0.5em;
             top: 0;
             right: 0; }
-        /* line 1473, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+        /* line 1477, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
         #mosaic .in.active ul li.recom {
           font-size: 1em;
           line-height: 1.3em; }
-          /* line 1476, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+          /* line 1480, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
           #mosaic .in.active ul li.recom p {
             margin-bottom: 0; }
-  /* line 1482, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1486, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #mosaic .in.plus a.addmine {
     display: block;
     background: red;
@@ -3993,7 +3996,7 @@ button[type="button"].file-upload-button {
     width: 90%;
     height: 90%; }
 
-/* line 1492, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1496, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .tw-icon {
   background-image: url("/images/icon_twitter.svg");
   background-repeat: no-repeat;
@@ -4003,7 +4006,7 @@ button[type="button"].file-upload-button {
   padding: 0 0 0 30px;
   display: block; }
 
-/* line 1501, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1505, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .lelogo > div {
   z-index: 99999999999999999;
   position: absolute;
@@ -4012,62 +4015,62 @@ button[type="button"].file-upload-button {
   right: 0;
   bottom: 0; }
 
-/* line 1506, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1510, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .fulllogo {
   width: 100%; }
 
-/* line 1511, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1515, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog p.cover {
   display: block;
   max-width: 1200px;
   margin: 0; }
-  /* line 1516, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1520, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog p.cover img {
     width: 100%; }
-/* line 1518, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1522, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog p.lead {
   font-family: UniversLTStdBoldCn;
   max-width: 1200px;
   display: block;
   font-size: 2em;
   line-height: 1em; }
-/* line 1526, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1530, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog p img.fitit {
   max-width: 300px;
   margin: 0px 19px 0; }
-  /* line 1527, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1531, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog p img.fitit.left {
     float: left; }
-  /* line 1528, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1532, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog p img.fitit.right {
     float: right; }
-  /* line 1529, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1533, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog p img.fitit.center {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-/* line 1534, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1538, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog a {
   text-decoration: underline; }
-/* line 1537, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1541, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog blockquote.large {
   padding: 1em 0;
   font-family: 'gcsbi';
   font-size: 1.7em;
   line-height: 1em; }
-  /* line 1542, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1546, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog blockquote.large p {
     max-width: 480px; }
-  /* line 1545, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1549, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog blockquote.large cite {
     font-size: 0.5em;
     font-style: normal; }
 
-/* line 1553, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1557, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .posts article img {
   max-width: 100%; }
 
-/* line 1559, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1563, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 a.some {
   top: 0;
   left: 0;
@@ -4091,23 +4094,23 @@ a.some {
   font-size: 0.3em;
   color: transparent; }
 
-/* line 1581, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1585, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 div.small-cover {
   position: relative;
   overflow: hidden;
   height: 200px; }
-  /* line 1585, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1589, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   div.small-cover img {
     border-radius: 2px; }
 
-/* line 1590, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1594, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .participez {
   font-size: 2em;
   float: none;
   text-align: center;
   padding: 30px 0; }
 
-/* line 1597, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1601, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 h1.special {
   margin-top: 0;
   margin-bottom: 3em;
@@ -4115,9 +4118,9 @@ h1.special {
   font-family: 'gcmi';
   font-weight: normal;
   padding-bottom: 0.7em; }
-  /* line 1604, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1608, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   h1.special a {
     text-decoration: none; }
-    /* line 1605, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1609, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     h1.special a:hover {
       text-decoration: underline; }
