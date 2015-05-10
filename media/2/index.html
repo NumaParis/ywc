@@ -50,15 +50,6 @@
 <div data-target="#twtimeline" class="container buzz">
   <div class="row">
 
-    <div class="col-sm-5">
-      <div id="fixthis">
-        <div id="twtimeline">
-          <a class="twitter-timeline" href="https://twitter.com/hashtag/yeswecrowd" data-widget-id="593422708513320960">#yeswecrowd Tweets</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-      </div>
-    </div>
-
     <div class="col-sm-7 press">
       <h2>Ils parlent de nous</h2>
       <ul class="citations">
@@ -169,7 +160,24 @@
           </li>
       </ul>
     </div>
+
+    <div class="col-sm-5">
+      <div id="fixthis">
+        <div id="twtimeline">
+          <a class="twitter-timeline" href="https://twitter.com/hashtag/yeswecrowd" data-widget-id="593422708513320960">#yeswecrowd Tweets</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+    </div>
     
+    <script>
+      $(document).ready(function () {
+        $(window).resize(function () {
+          $('#fixthis').width($('.col-sm-5').width());
+        });
+      });
+    </script>
+
   </div>
 </div>
 
