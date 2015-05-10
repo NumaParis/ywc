@@ -275,8 +275,15 @@ canvas {
 	top: 100px;
 }
 
+@media screen and (max-width: $screen-sm) { 
+	#fixthis.affix { position: static; }
+}
 #twtimeline {
-	// top:0;
+	outline:3px solid red;
+	position:relative;
+	.col-sm-5 {
+		position: relative;
+	}
 }
 
 #timeline {
