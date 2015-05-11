@@ -1,5 +1,5 @@
 ---
-title: La structuration de communautés, c'est l'un des notre fondements
+title: La structuration de communautés, c'est l'un de nos fondamentaux
 date: 2015-04-22 09:23 CEST
 tags:
 category: blogging
