@@ -14,7 +14,7 @@ layout: blank
     <div class="col-sm-7 press">
       <h2>Ils parlent de nous</h2>
       <ul class="citations">
-        <% data.publications.journal.each_with_index do |journal, index| %>
+        <% data.publications.journal.reverse.each_with_index do |journal, index| %>
           <li>
             <div class="first">
               <%= image_tag journal.img + '.png', :alt => journal.name , :class => journal.img %>
