@@ -128,6 +128,31 @@ set :images_dir, 'images'
 
 set :partials_dir, 'partials'
 
+# activate :google_drive, load_sheets: ''
+
+# activate :google_drive, load_sheets: {
+#     mysheet: '1muhcHjI1Ovk7W3Kbbrar5_86T5xEmaTCt090jWTGp6o'
+# }
+
+# activate :google_drive, load_docs: {
+#     first_article: '1M6PdU-eZsbRcVhTLnLNKUskyzIYuYu8pGvcnErtiR6o'
+#     # second_article: 'googledockeytwo'
+# }
+
+# <h1>My spreadsheet is called: <%= data.mysheet['marius'] %></h1>
+# <% data.Sheet1.each do |row| %>
+#     Column one header: <%= row['A:A'] %>
+# <% end %>
+
+# <article>
+#   <%=data.first_article %>
+# </article>
+
+# activate :google_drive, load_docs: {
+    # thisdoc: '1M6PdU-eZsbRcVhTLnLNKUskyzIYuYu8pGvcnErtiR6o'
+    # second_article: 'googledockeytwo'
+# }
+
 # the xml sitemap sort of thing here
 set :url_root, "https://#{ENV['APP_DOMAIN'] ? ENV['APP_DOMAIN'] : 'localhost:4567'}"
 
