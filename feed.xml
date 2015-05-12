@@ -5,10 +5,35 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-11T11:01:00+02:00</updated>
+  <updated>2015-05-12T11:36:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Mathias Grimbert</title>
+    <link rel="alternate" href="http://blog.url.com/mathias-grimbert/"/>
+    <id>http://blog.url.com/mathias-grimbert/</id>
+    <published>2015-05-12T11:36:00+02:00</published>
+    <updated>2015-05-12T11:39:02+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2&gt;C’est une des plus belle initiative qui allie toute la force de l’intelligence collective et des nouvelles technologies au service de la construction d’un monde meilleurs!&lt;/h2&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Julien Hocq</title>
+    <link rel="alternate" href="http://blog.url.com/julien-hocq/"/>
+    <id>http://blog.url.com/julien-hocq/</id>
+    <published>2015-05-12T11:29:00+02:00</published>
+    <updated>2015-05-12T11:39:48+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;On m’a toujours dit : “Si tu veux changer le monde, il faut que tu fasses de la politique.” Sauf que j’ai pas du tout envie de faire de la politique. Alors j’ai choisi de supporter NUMA.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Alain Garnier</title>
     <link rel="alternate" href="http://blog.url.com/alain-garnier/"/>
@@ -55,30 +80,6 @@
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;Venez à NUMA, sentez l’énergie qui se dégage à tous les étages, imaginez ça dans un réseau de quinze pays d’ici 4 ans … moi je crois qu’on peut changer le monde, vraiment. En tout cas je vais me donner corps et âme pour ça !&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Ludovic Roubaudi</title>
-    <link rel="alternate" href="http://blog.url.com/ludovic-roubaudi/"/>
-    <id>http://blog.url.com/ludovic-roubaudi/</id>
-    <published>2015-05-09T03:07:00+02:00</published>
-    <updated>2015-05-09T07:49:47+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Parce qu’à Aix il y a les calissons, les bêtises à Cambrai et qu’en Avenir il y a le NUMA&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mathieu Phan</title>
-    <link rel="alternate" href="http://blog.url.com/mathieu-phan/"/>
-    <id>http://blog.url.com/mathieu-phan/</id>
-    <published>2015-05-09T03:05:00+02:00</published>
-    <updated>2015-05-09T07:49:47+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Parce qu’une communauté comme ça, on en trouve nulle part ailleurs …&lt;/p&gt;
 </content>
   </entry>
 </feed>

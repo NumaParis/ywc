@@ -145,6 +145,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/julien-hocq/</loc>
+    <lastmod>2015-05-12T11:39:48+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/mathias-grimbert/</loc>
+    <lastmod>2015-05-12T11:39:02+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/book/</loc>
     <lastmod>2015-05-09T15:05:29+02:00</lastmod>
     <changefreq>weekly</changefreq>
