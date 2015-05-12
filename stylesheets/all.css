@@ -4147,3 +4147,11 @@ h1.special {
     /* line 1623, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     h1.special a:hover {
       text-decoration: underline; }
+
+/* line 1628, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+h5.sm-head {
+  font-weight: normal;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  color: #ccc; }
