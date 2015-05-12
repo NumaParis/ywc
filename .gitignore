@@ -9,6 +9,7 @@
 
 # Ignore the build directory
 /build
+/google_drive_cache
 
 # Ignore cache
 /.sass-cache
