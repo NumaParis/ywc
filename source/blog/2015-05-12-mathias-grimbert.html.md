@@ -10,5 +10,3 @@ info:
 ---
 
 C'est une des plus belle initiative qui allie toute la force de l'intelligence collective et des nouvelles technologies au service de la construction d'un monde meilleurs!
----
-

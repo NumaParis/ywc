@@ -1550,7 +1550,7 @@ button[type="button"].file-upload-button {
 		}
 	}
 	a {
-		text-decoration: underline;
+		// text-decoration: underline;
 	}
 	blockquote.large {
 		padding: 1em 0;
@@ -1623,4 +1623,12 @@ h1.special {
 		&:hover { text-decoration: underline; }
 		text-decoration: none;
 	}
+}
+
+h5.sm-head {
+	font-weight: normal;
+	display: block;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+	color: #ccc;
 }
