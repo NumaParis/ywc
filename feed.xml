@@ -5,10 +5,126 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-12T15:59:00+02:00</updated>
+  <updated>2015-05-12T19:04:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Accompagner la DSI de Total dans la transformation de ses processus</title>
+    <link rel="alternate" href="http://blog.url.com/accompagner-la-dsi-de-total-dans-la-transformation-de-ses-processus/"/>
+    <id>http://blog.url.com/accompagner-la-dsi-de-total-dans-la-transformation-de-ses-processus/</id>
+    <published>2015-05-12T19:04:00+02:00</published>
+    <updated>2015-05-12T19:17:49+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="Fashion Tech Week Paris" src="/images/cover_total.jpg" /&gt;&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;PROBLÉMATIQUE&lt;/h5&gt;
+
+&lt;p class="lead"&gt;Comment faire évoluer deux équipes de DSI (Direction Stratégique de l’Information) en immersion au NUMA autour d’un enjeu de transparence et d’un enjeu de simplification des processus de conception ?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Quick win : réaménagement méthodologique heuristique qui produit d’importants bénéfices en exigeant un minimum d’investissement en temps et en infrastructure&lt;/em&gt;&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;RÉFLEXION&lt;/h5&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;« J’en suis venu à réaliser qu’il existait un cercle vertueux de la transparence, et un cercle particulièrement vicieux de l’obfuscation » disait Jeff Weiner, CEO de LinkedIn. C’était le premier sujet sur lequel la DSI souhaitait travailler : rendre limpides et transparents aux yeux des clients internes les corps de métier qui définissent son activité. La seconde problématique se résume assez bien par ces mots de Roosevelt : « Il appartient au sens commun de s’emparer d’une méthode et de la mettre à l’épreuve. Si elle échoue, admettez-le franchement et essayez en une autre. Mais par dessus tout, essayez quelque chose. »&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Il fallait trouver de nouvelles manières de penser les initiatives pour permettre l’éclosion, dans des circonstances réactualisées, de méthodes novatrices qui enclenchent des quick wins.&lt;/p&gt;
+
+&lt;blockquote class="large"&gt;
+  &lt;p&gt;Il appartient au sens commun de s’emparer d’une méthode et de la mettre à l’épreuve. Si elle échoue, admettez-le franchement et essayez en une autre. Mais par dessus tout, essayez quelque chose. &lt;cite&gt;- Franklin Delano Roosevelt&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 class="sm-head"&gt;SOLUTION&lt;/h5&gt;
+
+&lt;p&gt;L’équipe de NUMA Shift a conçu un dispositif en deux étapes :
+une formation aux méthodes de développement produit lean, c’est à dire une familiarisation aux nouveaux processus de conception issus des startups
+un atelier de développement de solutions en approche lean, c’est à dire une mise en application de la validation des hypothèses via les études utilisateurs, le prototypage, le testing et l’itération à rythme rapide.
+Les deux équipes n’était pas en concurrence : chacune travaillait sur un projet différent, avec l’accompagnement d’un mentor-entrepreneur, et ponctuellement des experts du réseau NUMA (UX designer, développeur etc.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="schema_lean_process" class="img-responsive" src="/images/schema_lean_process.png" /&gt;&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
+
+&lt;p&gt;Aujourd’hui les deux prototypes sont en cours de développement pour implémentation. Ce programme va être pérennisé en 2015 et Total s’interroge sur le déploiement de nouveaux formats en immersion adapté à d’autres objectifs.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>La transformation numérique passe par lhumain</title>
+    <link rel="alternate" href="http://blog.url.com/la-transformation-numerique-passe-par-lhumain/"/>
+    <id>http://blog.url.com/la-transformation-numerique-passe-par-lhumain/</id>
+    <published>2015-05-12T17:22:00+02:00</published>
+    <updated>2015-05-12T19:00:49+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="adopt_a_cto" src="/images/claudio_vandi_cover.jpg" /&gt;&lt;/p&gt;
+
+&lt;p class="lead"&gt;&lt;a target="_blank" href="http://www.orange-business.com/fr/blogs/usages-dentreprise/actualites/-la-transformation-numerique-passe-par-l-humain-"&gt;Interview de Claudio Vandi, directeur des programmes d’innovation chez NUMA&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Quelles sont pour vous les grandes caractéristiques de la transformation numérique des entreprises ?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Claudio VANDI :&lt;/strong&gt; Bien plus que technologique, la transformation digitale est avant tout humaine. Elle s’appuie sur des cycles d’intégration et de feedback plus courts que sur des projets classiques, non-numériques. De ce point de vue, la transformation numérique vise d’abord l’intégration de nouveaux modes de gestion de projets et de produits.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target="_blank" href="http://www.orange-business.com/fr/blogs/usages-dentreprise/actualites/-la-transformation-numerique-passe-par-l-humain-"&gt;lire la suite&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Ready to Sprint? Dive into the selection process for Numa's next start-ups</title>
+    <link rel="alternate" href="http://blog.url.com/ready-to-sprint-dive-into-the-selection-process-for-numa-s-next-start-ups/"/>
+    <id>http://blog.url.com/ready-to-sprint-dive-into-the-selection-process-for-numa-s-next-start-ups/</id>
+    <published>2015-05-12T17:07:00+02:00</published>
+    <updated>2015-05-12T17:20:41+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="NUMA Sprint Jury" src="/images/numa_sprint_jury.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;As most of the tech ecosystem is now aware of, NUMA is accelerating and launching a very innovative equity-crowdfunding campaign to provide itself with the means to extend its model to the entire world within a few years!
+Not only we recently opened a brand new NUMA Moscow, but we also are seeing things big as we plan on opening no less than 15 other Tech Hubs before 2019! 
+This is how we see acceleration at NUMA.&lt;/p&gt;
+
+&lt;h2&gt;Be ambitious, and give yourself the means to achieve it.&lt;/h2&gt;
+
+&lt;h3&gt;We gathered amazing internationational jury members for this new season:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Startups coming by NUMA for the selections those last weeks have met the following people from various part of the world…&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.linkedin.com/in/haynesdave"&gt;&lt;strong&gt;David Hayes&lt;/strong&gt;&lt;/a&gt; : Business developper at SeedCamp in UK.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.linkedin.com/in/bmhinnawi"&gt;&lt;strong&gt;Bashara Hinnawi&lt;/strong&gt;&lt;/a&gt; : President at Lisbon Challenge, it is the accelerator based in Lisbon.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pt.linkedin.com/in/marianamhsantos"&gt;&lt;strong&gt;Mariana Santos&lt;/strong&gt;&lt;/a&gt; : Analytics manager at Beta-I. It is an association basically doing in Lisbon what NUMA does in Paris.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.linkedin.com/in/julioterra"&gt;&lt;strong&gt;Julio Terra&lt;/strong&gt;&lt;/a&gt; : Designer, developper and Community Manager at KickStarter. Is there a need to present KickStarter here?..&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://es.linkedin.com/in/karelescobar/fr"&gt;&lt;strong&gt;Karel Escobar&lt;/strong&gt;&lt;/a&gt; : Strategist at Tetuan Valley. Like NUMA in France, this is an association helping the development of startups in Madrid.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.linkedin.com/in/renitakalhorn"&gt;&lt;strong&gt;Renita Kalhorn&lt;/strong&gt;&lt;/a&gt; : Coach in Leadership Development for entrepreneurs coming right from New York City.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fr.linkedin.com/in/tristabridges/fr"&gt;&lt;strong&gt;Trista Bridges&lt;/strong&gt;&lt;/a&gt; : Marketing expert from UK, Trista also is confounder and director at Rude Baguette, the tech oriented French media.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks, gracias and obrigado to all of them for their wise expertise!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Tendances actuelles et futures de l'Accélération. Découvrez le White Paper par NUMA avec la collaboration de l'Atelier BNP Paribas</title>
+    <link rel="alternate" href="http://blog.url.com/tendances-actuelles-et-futures-de-l-acceleration-decouvrez-le-white-paper-par-numa-avec-la-collaboration-de-l-atelier-bnp-paribas/"/>
+    <id>http://blog.url.com/tendances-actuelles-et-futures-de-l-acceleration-decouvrez-le-white-paper-par-numa-avec-la-collaboration-de-l-atelier-bnp-paribas/</id>
+    <published>2015-05-12T16:53:00+02:00</published>
+    <updated>2015-05-12T17:04:38+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;div class="fluid second slideshare"&gt;
+	&lt;div class="mask"&gt;
+		&lt;iframe src="//fr.slideshare.net/slideshow/embed_code/key/siJejli7OGYth8" width="100%" height="auto" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class="lead"&gt;Découvrez le White Paper par NUMA avec la collaboration de l’Atelier BNP Paribas&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NUMA is delighted to release this whitepaper based on the insights coming out of our 2-day European Accelerator Summit, which took place in Paris at NUMA last December. The Summit is where together, as sector decision makers, we shape the future of acceleration. No bling, no buzzwords, no incredible-speaker-who-knows- all… Just 150+ leaders from some of the world’s top accelerators, cooperating and collaborating to brainstorm on the current trends and future of acceleration.&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>NUMA au Digital Youth Summit à Peshawar - aspirations et innovation</title>
     <link rel="alternate" href="http://blog.url.com/numa-au-digital-youth-summit-a-peshawar-aspirations-et-innovation/"/>
@@ -49,121 +165,6 @@ Utile en promouvant un autre modèle que celui de la Silicon Valley, un modèl
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;Parce que NUMA c’est un lieu qui vous bouscule, vous transforme et vous fait grandir comme jamais..!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Emilie Gobin</title>
-    <link rel="alternate" href="http://blog.url.com/emilie-gobin/"/>
-    <id>http://blog.url.com/emilie-gobin/</id>
-    <published>2015-05-12T12:20:00+02:00</published>
-    <updated>2015-05-12T14:57:53+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Numa, c’est une vision du monde généreuse, la collaboration fructueuse de publics absolument pas amenés à se rencontrer, des énergies dans tous les sens, le bordel créatif, donner sa chance à la chance, un espoir sur la société de demain, sur la place de la France dans le monde.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Fashion Tech Week Paris</title>
-    <link rel="alternate" href="http://blog.url.com/fashion-tech-week-paris/"/>
-    <id>http://blog.url.com/fashion-tech-week-paris/</id>
-    <published>2015-05-12T12:17:00+02:00</published>
-    <updated>2015-05-12T14:57:53+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="Fashion Tech Week Paris" src="/images/fashiontech_cover.jpg" /&gt;&lt;/p&gt;
-
-&lt;p class="lead"&gt;Comment engager une réflexion fédératrice et féconde sur l’avenir de la mode à l’ère du numérique ?&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;RÉFLEXION:&lt;/h5&gt;
-
-&lt;p&gt;La mode est une vieille dame qui aime frayer avec la modernité. Elle est même bien souvent en avance sur son temps… Et ça ne date pas d’hier. Jean Baptiste Colbert, ministre de Louis XIV vantait déjà son audace à chercher loin et dans l’avenir : “La mode est pour la France ce que les mines d’or du Pérou sont pour l’Espagne”. Aujourd’hui, une partie de l’univers du numérique se fond petit à petit dans celui de la mode. Le moment semble parfaitement oppor- tun pour organiser une rencontre des acteurs de ces deux univers. En septembre 2014, NUMA s’attaque au sujet pour explorer l’impact des nouvelles technologies sur l’industrie de la mode : objets, bijoux, textiles connectés, robe de lumière, impression 3D, innovation dans les busi- ness models… Quelles sont les prochaines opportunités d’innovations du secteur ? Quelles sont les grandes mutations ? Quels futurs usages ? Comment la création s’insère-t-elle dans cette révolution ?&lt;/p&gt;
-
-&lt;blockquote class="large"&gt;
-  &lt;p&gt;La mode est pour la France ce que les mines d’or du Pérou sont pour l’Espagne &lt;cite&gt;Jean-Baptiste Colbert, contrôleur général des finances de Louis XIV&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul style="font-size:1em;"&gt;
-	&lt;li&gt;7,7% entreprises industrielles françaises travaillent dans le domaine de la mode&lt;/li&gt;
-	&lt;li&gt;34Mds€ de chiffre d’affaire&lt;/li&gt;
-	&lt;li&gt;130 emplois dans le secteur&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 class="sm-head"&gt;RÉSOLUTION:&lt;/h5&gt;
-
-&lt;p&gt;Pour répondre à ces questions et enjeux, NUMA s’entoure d’acteurs de cet écosys- tème émergent : marques, créateurs, startups, écoles répondent présent à l’appel pour mettre en oeuvre une semaine d’événements afin de former et informer autour de ce nouveau champ d’innovation et stimuler cet écosystème en pleine expansion.&lt;/p&gt;
-
-&lt;p&gt;Résultat : la 1ère Fashion&amp;amp;Tech Week est un énorme succès. NUMA organise 6 événe- ments, conférences, talks, débats et startup weekend, plus de 700 participants sur 7 jours, une dizaine de projets initiés. L’évènement est largement relayé. Devant le succès de cette première édition, NUMA en partenariat avec ELLE, l’ESCP Europe, Iconity, Hall Couture, et La Fonderie, remet le couvert en Mars 2015, en ouvrant ce rendez-vous à d’autres lieux: La Gaïté Lyrique, La Paillasse, le CND pour porter plus loin et plus fort cette dynamique. La 2ème Fashion&amp;amp;Tech Week est encore une réussite. Elle rassemble 2000 personnes en 5 jours. Elle crée l’intérêt de grands acteurs du luxe et du prêt à porter. Au programme :&lt;/p&gt;
-
-&lt;blockquote class="large"&gt;
-  &lt;p&gt;Lors de la première édition, nous nous sommes posé la question : la mode est-elle prête a évoluer ? Les secteurs de la mode et surtout du luxe sont parfois perçus comme tra- ditionnels, pas forcément ouverts à l’innovation et au numérique. Or, à l’issue de la première FashionTech, nous avons constaté qu’ils étaient déjà en mutation. &lt;cite&gt;Marion Hislaire, project manager à NUMA Engage&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h5 class="sm-head"&gt;EXECUTION:&lt;/h5&gt;
-
-&lt;p class="cover"&gt;&lt;img alt="Fashion Tech Week Paris" src="/images/fashiontech_2.jpg" /&gt;&lt;/p&gt;
-
-&lt;blockquote class="large"&gt;
-  &lt;p&gt;Notre événement est un marqueur, tout à fait révélateur de l’engouement pour cette tendance, à la croisée de la mode, de la technologie et de l’innovation. &lt;cite&gt;Charlotte Boutier, project manager à NUMA Engage&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4&gt;Program&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ouverture de La FashionTech&lt;/li&gt;
-  &lt;li&gt;Conférence : mode : prêt à innover ?&lt;/li&gt;
-  &lt;li&gt;Fashion Startups Pitch Night !&lt;/li&gt;
-  &lt;li&gt;Success story d’entrepreneurs&lt;/li&gt;
-  &lt;li&gt;Lumière Augmentée par la Danse (Light Augmented by Dance -LAbyD) Workshop pour danseurs “danse et wearable tech&lt;/li&gt;
-  &lt;li&gt;Table-ronde “Les nouveaux business models de la mode”&lt;/li&gt;
-  &lt;li&gt;La communication des marques à l’ère du numérique : multiplicité des temps, des lieux et de l’action avec le Social Media Club France&lt;/li&gt;
-  &lt;li&gt;Comment se différencier grâce à de nouvelles solutions de communication et de vente en ligne ?&lt;/li&gt;
-  &lt;li&gt;Showroom et ateliers de créateurs innovants&lt;/li&gt;
-  &lt;li&gt;Soirée de clôture&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;En Parteneriat avec&lt;/h4&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;a href="http://www.elle.fr/" target="_blank"&gt;ELLE&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://www.maddyness.com/" target="_blank"&gt;Maddyness&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://frenchweb.fr/" target="_blank"&gt;Frenchweb&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://www.ubergizmo.com/" target="_blank"&gt;Ubergizmo&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://latelierfrancais.fr/" target="_blank"&gt;L'atelier Francais&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://gaite-lyrique.net/" target="_blank"&gt;Gaite Lyrique&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://lapaillasse.org/" target="_blank"&gt;La Paillasse&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://www.lafonderie-idf.fr/" target="_blank"&gt;Lafonderie&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://www.cnd.fr/" target="_blank"&gt;Centre National Danse&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://socialmediaclub.fr/" target="_blank"&gt;Social Media Club&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://nirparis.fr/" target="_blank"&gt;The Fashion Loft&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://www.silex-id.com/" target="_blank"&gt;Silex&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://www.lectra.com/fr" target="_blank"&gt;Lectra&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://upfit-services.com/" target="_blank"&gt;Upfit&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="http://modelab.fr/" target="_blank"&gt;Mode LAB&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mathias Grimbert</title>
-    <link rel="alternate" href="http://blog.url.com/mathias-grimbert/"/>
-    <id>http://blog.url.com/mathias-grimbert/</id>
-    <published>2015-05-12T11:36:00+02:00</published>
-    <updated>2015-05-12T14:57:53+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;C’est une des plus belle initiative qui allie toute la force de l’intelligence collective et des nouvelles technologies au service de la construction d’un monde meilleurs!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Julien Hocq</title>
-    <link rel="alternate" href="http://blog.url.com/julien-hocq/"/>
-    <id>http://blog.url.com/julien-hocq/</id>
-    <published>2015-05-12T11:29:00+02:00</published>
-    <updated>2015-05-12T14:57:53+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;On m’a toujours dit : “Si tu veux changer le monde, il faut que tu fasses de la politique.” Sauf que j’ai pas du tout envie de faire de la politique. Alors j’ai choisi de supporter NUMA.&lt;/p&gt;
 </content>
   </entry>
 </feed>

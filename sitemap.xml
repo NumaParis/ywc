@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/650-candidatures-pour-etre-accelere-par-numa/</loc>
-    <lastmod>2015-05-12T14:57:53+02:00</lastmod>
+    <lastmod>2015-05-12T19:13:20+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -145,6 +145,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/accompagner-la-dsi-de-total-dans-la-transformation-de-ses-processus/</loc>
+    <lastmod>2015-05-12T19:17:49+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/alexandre-malarewicz/</loc>
     <lastmod>2015-05-12T15:52:55+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -169,6 +175,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/la-transformation-numerique-passe-par-lhumain/</loc>
+    <lastmod>2015-05-12T19:00:49+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/mathias-grimbert/</loc>
     <lastmod>2015-05-12T14:57:53+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -177,6 +189,18 @@
   <url>
     <loc>https://localhost:4567/numa-au-digital-youth-summit-a-peshawar-aspirations-et-innovation/</loc>
     <lastmod>2015-05-12T16:21:37+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/ready-to-sprint-dive-into-the-selection-process-for-numa-s-next-start-ups/</loc>
+    <lastmod>2015-05-12T17:20:41+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/tendances-actuelles-et-futures-de-l-acceleration-decouvrez-le-white-paper-par-numa-avec-la-collaboration-de-l-atelier-bnp-paribas/</loc>
+    <lastmod>2015-05-12T17:04:38+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -271,6 +295,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/book/3/</loc>
+    <lastmod>2015-05-12T14:57:53+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/media/2/</loc>
     <lastmod>2015-05-12T14:57:53+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -283,7 +313,19 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/media/4/</loc>
+    <lastmod>2015-05-12T14:57:53+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/merci/2/</loc>
+    <lastmod>2015-05-12T15:41:48+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/merci/3/</loc>
     <lastmod>2015-05-12T15:41:48+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -301,6 +343,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/recommandation/4/</loc>
+    <lastmod>2015-05-12T15:48:23+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/recommandations/2/</loc>
     <lastmod>2015-05-12T15:48:09+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -313,6 +361,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/recommandations/4/</loc>
+    <lastmod>2015-05-12T15:48:09+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/2015/2/</loc>
     <lastmod>2015-05-06T15:21:20+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -320,6 +374,12 @@
   </url>
   <url>
     <loc>https://localhost:4567/2015/3/</loc>
+    <lastmod>2015-05-06T15:21:20+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/4/</loc>
     <lastmod>2015-05-06T15:21:20+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -344,13 +404,13 @@
   </url>
   <url>
     <loc>https://localhost:4567/en/</loc>
-    <lastmod>2015-05-12T15:02:49+02:00</lastmod>
+    <lastmod>2015-05-12T19:01:45+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://localhost:4567/</loc>
-    <lastmod>2015-05-12T15:02:49+02:00</lastmod>
+    <lastmod>2015-05-12T19:01:45+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
