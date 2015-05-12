@@ -3952,8 +3952,8 @@ button[type="button"].file-upload-button {
       right: 17.3913%;
       left: 17.3913%;
       background: white;
-      -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+      -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
       padding: 16px; }
       /* line 1434, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #mosaic .in.active .wrap img {
