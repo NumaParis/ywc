@@ -4152,3 +4152,14 @@ h5.sm-head {
   text-align: left;
   border-bottom: 1px solid #ccc;
   color: #ccc; }
+
+/* line 1636, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+#merci {
+  font-size: 1.8em;
+  line-height: 1.3em;
+  font-family: 'gcmi';
+  max-width: 768px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px; }
