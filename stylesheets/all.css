@@ -4085,14 +4085,15 @@ button[type="button"].file-upload-button {
     max-width: 480px; }
   /* line 1567, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog blockquote.large cite {
+    display: block;
     font-size: 0.5em;
     font-style: normal; }
 
-/* line 1575, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1576, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .posts article img {
   max-width: 100%; }
 
-/* line 1581, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1582, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 a.some {
   top: 0;
   left: 0;
@@ -4116,23 +4117,23 @@ a.some {
   font-size: 0.3em;
   color: transparent; }
 
-/* line 1603, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1604, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 div.small-cover {
   position: relative;
   overflow: hidden;
   height: 200px; }
-  /* line 1607, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1608, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   div.small-cover img {
     border-radius: 2px; }
 
-/* line 1612, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1613, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .participez {
   font-size: 2em;
   float: none;
   text-align: center;
   padding: 30px 0; }
 
-/* line 1619, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1620, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 h1.special {
   margin-top: 0;
   margin-bottom: 3em;
@@ -4140,14 +4141,14 @@ h1.special {
   font-family: 'gcmi';
   font-weight: normal;
   padding-bottom: 0.7em; }
-  /* line 1626, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1627, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   h1.special a {
     text-decoration: none; }
-    /* line 1627, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1628, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     h1.special a:hover {
       text-decoration: underline; }
 
-/* line 1632, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1633, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 h5.sm-head {
   font-weight: normal;
   display: block;
@@ -4155,7 +4156,7 @@ h5.sm-head {
   border-bottom: 1px solid #ccc;
   color: #ccc; }
 
-/* line 1640, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1641, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #merci {
   font-size: 1.8em;
   line-height: 1.3em;
