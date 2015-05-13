@@ -4,9 +4,15 @@ date: 2015-04-28 16:51 CEST
 tags:
 category: blogging
 lang: english
+apercu: Numa launches NUMA Moscow
+cover: EliseNebou+FredOru+YannickTranchier.gif
 ---
 
-*NUMA Moscow: Acceleration à la française to Russia with love*
+![EliseNebou+FredOru+YannickTranchier](EliseNebou+FredOru+YannickTranchier.gif)
+{:.cover}
+
+NUMA Moscow: Acceleration à la française to Russia with love
+{:.lead}
 
 18 months after opening its doors in Paris, the success of NUMA cannot be denied with 650 startup applications for the acceleration program, over 1500 events and 80 000 visitors. Around half the clients of NUMA’s digital transformation and open innovation programs are CAC40 companies, and 90% of the 72 startups accelerated since the inception of NUMA’s acceleration program in 2011 are thriving. **Today, NUMA is accelerating its own development by opening NUMA Moscow.**
 
@@ -20,8 +26,6 @@ lang: english
 - excellent locally-sourced technical skills available
 
 Opening NUMA Moscow is the result of over a year’s collaboration with NUMA’s local partner who has been thriving in Russia for nearly a decade: [Ob’vious](http://www.ob-vious.com/?lang=en "O'bvous russian accelerator"){:target="_blank"}
-
-<%= image_tag 'EliseNebou+FredOru+YannickTranchier.gif', :class => "img-responsive" %>
 
 “NUMA is the culmination of fifteen years of experience in the innovation and entrepreneurial sectors. I started out in Russia ten years ago, I know all too well how hard it can be to import an ecosystem and get it growing. NUMA has demonstrated undeniable know-how and talent in this domain, and what they can bring to Russia represents a great opportunity: a strong and recognized brand, proven methods, a real gateway to an international network,” comments Yannick Tranchier, CEO, Ob’vious. 
 

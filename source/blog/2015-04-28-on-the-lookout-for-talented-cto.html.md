@@ -4,9 +4,15 @@ date: 2015-04-28 16:23 CEST
 tags: 
 category: blogging
 lang: english
+apercu: Adopt a CTO - la rencontre entre technique et exécutif
+cover: adopt_a_cto.jpg
 ---
 
+![adopt_a_cto](adopt_a_cto.jpg)
+{:.cover}
+
 How does NUMA launch new programs? When we detect a need no one in the ecosystem provides an answer to **Adopt a CTO** 
+{:.lead}
 
 Some events that NUMA created met such a success within the community that they became recurring and expected meetings; “Adopt a CTO” is certainly one of the best examples.
 
