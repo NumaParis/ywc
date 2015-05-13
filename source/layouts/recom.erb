@@ -15,20 +15,13 @@
     
     <%= partial "navigation" %>
 
-    <header class="container">
-      <strong><%= current_article.title %></strong><br/>
-      <em><%= current_article.data.info.job %></em><br/>
-      <em><%= current_article.data.info.twitter %></em><br/>
-      <em><%= current_article.data.info.photo %></em><br/>
-      <em><%= image_tag current_article.data.info.photo %></em><br/>
-      <em><%= current_article.data.info.one%></em><br/>
-    </header>
+    <ul id="prez">
+      <li class="img"><%= image_tag current_article.data.info.photo %></li>
+      <li class="name"><span><%= current_article.title %></span><em><%= current_article.data.info.job %></em><a class="tw-icon" target="_blank" title="twitter.com/@<%= current_article.data.info.twitter %>" href="http://twitter.com/@<%= current_article.data.info.twitter %>">@<%= current_article.data.info.twitter %></a></li>
+      <li class="recom"><%= yield %></li>
+    </ul>
 
     <div class="container">
-
-      <article>
-          <%= yield %>
-      </article>
 
       <ul class="page-nav">
         <li>
