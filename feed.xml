@@ -5,10 +5,22 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-12T19:04:00+02:00</updated>
+  <updated>2015-05-13T10:16:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>RKC</title>
+    <link rel="alternate" href="http://blog.url.com/rkc/"/>
+    <id>http://blog.url.com/rkc/</id>
+    <published>2015-05-13T10:16:00+02:00</published>
+    <updated>2015-05-13T10:40:53+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;#YESWECROWD Pionner dans l'art de faire éclore l'innovation @numaparis entend le rester avec votre aide yeswecrowd.co&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Accompagner la DSI de Total dans la transformation de ses processus</title>
     <link rel="alternate" href="http://blog.url.com/accompagner-la-dsi-de-total-dans-la-transformation-de-ses-processus/"/>
@@ -149,18 +161,6 @@ Utiles en partageant notre expérience de structuration et de développement d
 Utile en promouvant un autre modèle que celui de la Silicon Valley, un modèle dont l’essence est l’ouverture, la coopération, la diversité et la performance.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Nathanael Sorin Richez - &lt;a target="_blank" href="https://www.numa.paris/Engage"&gt;Engage Director&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Alexandre Malarewicz</title>
-    <link rel="alternate" href="http://blog.url.com/alexandre-malarewicz/"/>
-    <id>http://blog.url.com/alexandre-malarewicz/</id>
-    <published>2015-05-12T15:49:00+02:00</published>
-    <updated>2015-05-12T15:52:55+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Parce que NUMA c’est un lieu qui vous bouscule, vous transforme et vous fait grandir comme jamais..!&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -158,7 +158,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/emilie-gobin/</loc>
-    <lastmod>2015-05-12T14:57:53+02:00</lastmod>
+    <lastmod>2015-05-13T10:29:54+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -201,6 +201,12 @@
   <url>
     <loc>https://localhost:4567/tendances-actuelles-et-futures-de-l-acceleration-decouvrez-le-white-paper-par-numa-avec-la-collaboration-de-l-atelier-bnp-paribas/</loc>
     <lastmod>2015-05-12T17:04:38+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/rkc/</loc>
+    <lastmod>2015-05-13T10:40:53+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
