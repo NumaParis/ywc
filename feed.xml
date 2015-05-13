@@ -5,10 +5,57 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-13T10:16:00+02:00</updated>
+  <updated>2015-05-13T11:53:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>NUMA Shift - Transformer la culture projet d’une grande entreprise avec deux équipes DSI</title>
+    <link rel="alternate" href="http://blog.url.com/numa-shift-transformer-la-culture-projet-d-une-grande-entreprise-avec-deux-equipes-dsi/"/>
+    <id>http://blog.url.com/numa-shift-transformer-la-culture-projet-d-une-grande-entreprise-avec-deux-equipes-dsi/</id>
+    <published>2015-05-13T11:53:00+02:00</published>
+    <updated>2015-05-13T12:23:11+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="Fiodor and Claudio" src="/images/clau_fiodor.png" /&gt;&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;OBJECTIF&lt;/h5&gt;
+
+&lt;p class="lead"&gt;Tester et développer des solutions centrées utilisateur avec deux équipes de la DSI (Direction des Systèmes d’Information) de Total. Familiariser les équipes aux méthodes Lean Startup et les rendre autonomes dans le développement de leur projet.&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;LE PROJET&lt;/h5&gt;
+&lt;p&gt;Au mois de mars 2014, l’équipe NUMA a accompagné deux équipes de la DSI  Total en résidence au NUMA autour de deux enjeux:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tester la pertinence d’une solution visant à rendre les métiers DSI plus clairs et transparents pour ses clients internes;
+– Concevoir un process qui permette de sortir du mode projet habituel par une approche lean - courte, itérative, et ouverte à un écosystème extérieur.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;L’équipe de NUMA a conçu un dispositif en deux étapes : i) une formation aux méthodes de développement produit lean, c’est à dire une familiarisation aux nouveaux processus de conception issus des startups; ii) un mois en résidence qui a permis aux équipes de valdier leurs hypothèses via des études utilisateurs, des séquences de prototypage et test à rythme rapide. Les deux équipes n’étaient pas en concurrence : chacune travaillait sur un projet différent, avec l’accompagnement d’un mentor-entrepreneur, et ponctuellement des experts du réseau NUMA (UX designer, développeur etc.)&lt;/p&gt;
+
+&lt;blockquote class="large"&gt;
+  &lt;p&gt;Il appartient au sens commun de s’emparer d’une méthode et de la mettre à l’épreuve. Si elle échoue, admettez-le franchement et essayez en une autre. Mais par dessus tout, essayez quelque chose. &lt;cite&gt;- Franklin Delano Roosevelt&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
+&lt;p&gt;Aujourd’hui les deux prototypes sont en cours de développement pour implémentation. Ce programme NUMA a été répliqué en 2015 avec d’autres entreprises et Total s’interroge sur le déploiement de nouveaux formats en immersion adaptés à d’autres objectifs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="schema_lean_process" class="img-responsive" src="/images/schema_lean_process.png" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Pierre-Olivier Cazenave</title>
+    <link rel="alternate" href="http://blog.url.com/pierre-olivier-cazenave/"/>
+    <id>http://blog.url.com/pierre-olivier-cazenave/</id>
+    <published>2015-05-13T11:42:00+02:00</published>
+    <updated>2015-05-13T11:47:36+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;NUMA est un tourbillon d’air chaud ! Tout à la fois un cocon pour les entrepreneurs, un nid pour maturer leurs projets et la piste d’où ils s’envolent. Une expérience exigeante mais structurante et dont on ressort grandi !&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>RKC</title>
     <link rel="alternate" href="http://blog.url.com/rkc/"/>
@@ -19,45 +66,6 @@
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;#YESWECROWD Pionner dans l'art de faire éclore l'innovation @numaparis entend le rester avec votre aide yeswecrowd.co&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Accompagner la DSI de Total dans la transformation de ses processus</title>
-    <link rel="alternate" href="http://blog.url.com/accompagner-la-dsi-de-total-dans-la-transformation-de-ses-processus/"/>
-    <id>http://blog.url.com/accompagner-la-dsi-de-total-dans-la-transformation-de-ses-processus/</id>
-    <published>2015-05-12T19:04:00+02:00</published>
-    <updated>2015-05-13T10:13:00+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="Fashion Tech Week Paris" src="/images/cover_total.jpg" /&gt;&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;PROBLÉMATIQUE&lt;/h5&gt;
-
-&lt;p class="lead"&gt;Comment faire évoluer deux équipes de DSI (Direction Stratégique de l’Information) en immersion au NUMA autour d’un enjeu de transparence et d’un enjeu de simplification des processus de conception ?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Quick win : réaménagement méthodologique heuristique qui produit d’importants bénéfices en exigeant un minimum d’investissement en temps et en infrastructure&lt;/em&gt;&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;RÉFLEXION&lt;/h5&gt;
-
-&lt;p&gt;&lt;em&gt;« J’en suis venu à réaliser qu’il existait un cercle vertueux de la transparence, et un cercle particulièrement vicieux de l’obfuscation »&lt;/em&gt; disait &lt;strong&gt;Jeff Weiner, CEO de LinkedIn&lt;/strong&gt;. C’était le premier sujet sur lequel la DSI souhaitait travailler : rendre limpides et transparents aux yeux des clients internes les corps de métier qui définissent son activité. La seconde problématique se résume assez bien par ces mots de Roosevelt : &lt;em&gt;« Il appartient au sens commun de s’emparer d’une méthode et de la mettre à l’épreuve. Si elle échoue, admettez-le franchement et essayez en une autre. Mais par dessus tout, essayez quelque chose. »&lt;/em&gt; Il fallait trouver de nouvelles manières de penser les initiatives pour permettre l’éclosion, dans des circonstances réactualisées, de méthodes novatrices qui enclenchent des quick wins.&lt;/p&gt;
-
-&lt;blockquote class="large"&gt;
-  &lt;p&gt;Il appartient au sens commun de s’emparer d’une méthode et de la mettre à l’épreuve. Si elle échoue, admettez-le franchement et essayez en une autre. Mais par dessus tout, essayez quelque chose. &lt;cite&gt;- Franklin Delano Roosevelt&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h5 class="sm-head"&gt;SOLUTION&lt;/h5&gt;
-
-&lt;p&gt;L’équipe de NUMA Shift a conçu un dispositif en deux étapes :
-une formation aux méthodes de développement produit lean, c’est à dire une familiarisation aux nouveaux processus de conception issus des startups
-un atelier de développement de solutions en approche lean, c’est à dire une mise en application de la validation des hypothèses via les études utilisateurs, le prototypage, le testing et l’itération à rythme rapide.
-Les deux équipes n’était pas en concurrence : chacune travaillait sur un projet différent, avec l’accompagnement d’un mentor-entrepreneur, et ponctuellement des experts du réseau NUMA (UX designer, développeur etc.)&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="schema_lean_process" class="img-responsive" src="/images/schema_lean_process.png" /&gt;&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
-
-&lt;p&gt;Aujourd’hui les deux prototypes sont en cours de développement pour implémentation. Ce programme va être pérennisé en 2015 et Total s’interroge sur le déploiement de nouveaux formats en immersion adapté à d’autres objectifs.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -131,36 +139,6 @@ This is how we see acceleration at NUMA.&lt;/p&gt;
 &lt;p class="lead"&gt;Découvrez le White Paper par NUMA avec la collaboration de l’Atelier BNP Paribas&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;NUMA is delighted to release this whitepaper based on the insights coming out of our 2-day European Accelerator Summit, which took place in Paris at NUMA last December. The Summit is where together, as sector decision makers, we shape the future of acceleration. No bling, no buzzwords, no incredible-speaker-who-knows- all… Just 150+ leaders from some of the world’s top accelerators, cooperating and collaborating to brainstorm on the current trends and future of acceleration.&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>NUMA au Digital Youth Summit à Peshawar - aspirations et innovation</title>
-    <link rel="alternate" href="http://blog.url.com/numa-au-digital-youth-summit-a-peshawar-aspirations-et-innovation/"/>
-    <id>http://blog.url.com/numa-au-digital-youth-summit-a-peshawar-aspirations-et-innovation/</id>
-    <published>2015-05-12T15:59:00+02:00</published>
-    <updated>2015-05-12T16:21:37+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="Digital Youth Summit2015" src="/images/digitalyouthsummit2015.jpg" /&gt;&lt;/p&gt;
-
-&lt;p class="lead"&gt;«Qu’est ce que je fais dans cet avion ? Mais QU’EST CE QUE JE FAIS DANS CET AVION ?! » A chaque fois c’est la même question, que ce soit en partance pour Alger, Dakar, Bethléem, Le Caire ou Beyrouth.&lt;/p&gt;
-
-&lt;p&gt;Cette fois, c’est Peshawar. Oui, Peshawar, cette ville que l’on connait pour sa proximité avec l’Afghanistan, pour être la grande ville la plus proche des « zones tribales », pour ses attentats meurtriers et ses intégristes.&lt;/p&gt;
-
-&lt;p&gt;Du 6 au 8 mai, c’est là exactement qu’a lieu le &lt;a target="_blank" href="http://www.digitalyouthsummit.pk/"&gt;Digital Youth Summit&lt;/a&gt;, le plus grand événement dédié aux nouvelles technologies et à la jeunesse du Pakistan. L’année dernière, pour la 1ère édition, il y avait plus de 500 personnes, cette année, c’est un millier de participants qui y sont attendus. Pendant 3 jours s’enchaînent les conférences et les panels sur des enjeux d’innovation. Cet événement est organisé par la Banque Mondi- ale &lt;a target="_blank" href="https://www.numa.paris/Actualites/NUMA-3-the-Middle-East"&gt;avec qui nous avons déjà eu l’occasion de collaborer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ce qui me frappe le plus : la joie ! La joie des gens d’être ensemble, la joie d’être la, la joie de se rencontrer de se reconnaitre. Même entouré de militaires en armes, même dans la grande ville la plus dangereuse du Pakistan, même malgré la menace diffuse, cette joie de faire communauté et de se dire que « c’est possible »; possible de changer l’image que les gens peuvent avoir d’eux, possible de monter leur startups et de réussir dans un pays frappé par le terrorisme et l’intégrisme, possible de contribuer à changer cette société. Ensuite la diversité de nombreuses femmes dans le public, nettement plus que dans un événement « start- ups » en France. Elles sont là, attentives, concentrées, le regard plein de conviction.&lt;/p&gt;
-
-&lt;p&gt;Enfin cette soif d’apprendre, les conférences et les panels affichent complets, les speakers sont entourés de jeunes gens pleins de questions, avides de savoir et d’expériences. L’expérience c’est cela que je veux partager avec eux, pas des modèles à suivre, pas des best practices, pas des formules magiques, juste une histoire qui incarne un modèle.&lt;/p&gt;
-
-&lt;p&gt;Alors oui, pour finir, pourquoi est-ce que j’y vais à chaque fois ?
-Parce que je suis convaincu que c’est dans ces lieux là que nous pouvons être le plus utiles.
-Utiles en aidant à faire connaitre des écosystèmes émergents,
-Utiles en partageant notre expérience de structuration et de développement d’écosystèmes qui, dans ces pays, ressemblent souvent en partie à celui de Paris en 2008.
-Utile en promouvant un autre modèle que celui de la Silicon Valley, un modèle dont l’essence est l’ouverture, la coopération, la diversité et la performance.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Nathanael Sorin Richez - &lt;a target="_blank" href="https://www.numa.paris/Engage"&gt;Engage Director&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>

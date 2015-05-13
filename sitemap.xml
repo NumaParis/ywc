@@ -145,12 +145,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:4567/accompagner-la-dsi-de-total-dans-la-transformation-de-ses-processus/</loc>
-    <lastmod>2015-05-13T10:13:00+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://localhost:4567/alexandre-malarewicz/</loc>
     <lastmod>2015-05-12T15:52:55+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -201,6 +195,18 @@
   <url>
     <loc>https://localhost:4567/tendances-actuelles-et-futures-de-l-acceleration-decouvrez-le-white-paper-par-numa-avec-la-collaboration-de-l-atelier-bnp-paribas/</loc>
     <lastmod>2015-05-12T17:04:38+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/numa-shift-transformer-la-culture-projet-d-une-grande-entreprise-avec-deux-equipes-dsi/</loc>
+    <lastmod>2015-05-13T12:23:11+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/pierre-olivier-cazenave/</loc>
+    <lastmod>2015-05-13T11:47:36+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
