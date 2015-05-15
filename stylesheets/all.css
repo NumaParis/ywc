@@ -3880,7 +3880,7 @@ button[type="button"].file-upload-button {
 
 /* line 1356, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #mosaic {
-  padding-top: 8.69565%;
+  padding-top: 4.34783%;
   padding-left: 0; }
   /* line 1371, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #mosaic > div {
@@ -3898,7 +3898,7 @@ button[type="button"].file-upload-button {
   #mosaic .lelogo {
     width: auto;
     position: absolute;
-    margin-top: 6.52174%;
+    margin-top: 8.69565%;
     bottom: auto;
     padding-top: 21.73913%;
     right: 13.04348%;
@@ -3965,51 +3965,51 @@ button[type="button"].file-upload-button {
           right: 26.08696%;
           left: 26.08696%;
           margin-top: 33.04348%; } }
-    /* line 1462, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1461, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #mosaic .in.active ul li {
       display: block;
       margin-left: 120px; }
-      /* line 1465, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 1464, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #mosaic .in.active ul li.avatar {
         float: left;
         margin-left: 0;
         position: static; }
-        /* line 1468, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+        /* line 1467, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
         #mosaic .in.active ul li.avatar img {
           width: 100px;
           height: 100px;
           -webkit-box-shadow: none;
           box-shadow: none; }
-      /* line 1474, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 1473, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #mosaic .in.active ul li.name {
         pading-left: 100px;
         display: block;
         font-size: 1.7em;
         position: relative; }
-        /* line 1476, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+        /* line 1475, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
         #mosaic .in.active ul li.name span {
           font-family: 'UniversLTStdBoldCn'; }
-        /* line 1480, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+        /* line 1479, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
         #mosaic .in.active ul li.name em {
           font-style: normal;
           color: #777777;
           font-size: 0.6em;
           line-height: 1.3em;
           display: block; }
-        /* line 1487, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+        /* line 1486, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
         #mosaic .in.active ul li.name a.tw-icon {
           position: absolute;
           font-size: 0.5em;
           top: 0;
           right: 0; }
-      /* line 1494, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+      /* line 1493, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
       #mosaic .in.active ul li.recom {
         font-size: 1em;
         line-height: 1.3em; }
-        /* line 1497, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+        /* line 1496, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
         #mosaic .in.active ul li.recom p {
           margin-bottom: 0; }
-  /* line 1503, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1502, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #mosaic .in.plus a.addmine {
     display: block;
     background: red;
@@ -4017,7 +4017,7 @@ button[type="button"].file-upload-button {
     width: 90%;
     height: 90%; }
 
-/* line 1513, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1512, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .tw-icon {
   background-image: url("/images/icon_twitter.svg");
   background-repeat: no-repeat;
@@ -4027,7 +4027,7 @@ button[type="button"].file-upload-button {
   padding: 0 0 0 30px;
   display: block; }
 
-/* line 1522, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1521, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .lelogo > div {
   z-index: 99999999999999999;
   position: absolute;
@@ -4036,60 +4036,60 @@ button[type="button"].file-upload-button {
   right: 0;
   bottom: 0; }
 
-/* line 1527, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1526, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .fulllogo {
   width: 100%; }
 
-/* line 1532, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1531, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog p.cover {
   display: block;
   max-width: 1200px;
   margin: 0; }
-  /* line 1537, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1536, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog p.cover img {
     width: 100%; }
-/* line 1539, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1538, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog p.lead {
   font-family: UniversLTStdBoldCn;
   max-width: 1200px;
   display: block;
   font-size: 2em;
   line-height: 1em; }
-/* line 1547, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1546, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog p img.fitit {
   max-width: 300px;
   margin: 0px 19px 0; }
-  /* line 1548, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1547, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog p img.fitit.left {
     float: left; }
-  /* line 1549, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1548, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog p img.fitit.right {
     float: right; }
-  /* line 1550, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1549, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog p img.fitit.center {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-/* line 1558, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1557, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #blog blockquote.large {
   padding: 1em 0;
   font-family: 'gcsbi';
   font-size: 1.7em;
   line-height: 1em; }
-  /* line 1563, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1562, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog blockquote.large p {
     max-width: 480px; }
-  /* line 1566, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1565, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #blog blockquote.large cite {
     display: block;
     font-size: 0.5em;
     font-style: normal; }
 
-/* line 1575, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1574, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .posts article img {
   max-width: 100%; }
 
-/* line 1581, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1580, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 a.some {
   top: 0;
   left: 0;
@@ -4113,23 +4113,23 @@ a.some {
   font-size: 0.3em;
   color: transparent; }
 
-/* line 1603, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1602, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 div.small-cover {
   position: relative;
   overflow: hidden;
   height: 200px; }
-  /* line 1607, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1606, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   div.small-cover img {
     border-radius: 2px; }
 
-/* line 1612, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1611, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 .participez {
   font-size: 2em;
   float: none;
   text-align: center;
   padding: 30px 0; }
 
-/* line 1619, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1618, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 h1.special {
   margin-top: 0;
   margin-bottom: 3em;
@@ -4137,14 +4137,14 @@ h1.special {
   font-family: 'gcmi';
   font-weight: normal;
   padding-bottom: 0.7em; }
-  /* line 1626, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1625, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   h1.special a {
     text-decoration: none; }
-    /* line 1627, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1626, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     h1.special a:hover {
       text-decoration: underline; }
 
-/* line 1632, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1631, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 h5.sm-head {
   font-weight: normal;
   display: block;
@@ -4152,7 +4152,7 @@ h5.sm-head {
   border-bottom: 1px solid #ccc;
   color: #ccc; }
 
-/* line 1640, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1639, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #merci {
   font-size: 1.8em;
   line-height: 1.3em;
@@ -4163,7 +4163,7 @@ h5.sm-head {
   margin-right: auto;
   padding-top: 100px; }
 
-/* line 1649, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+/* line 1648, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
 #prez {
   padding-top: 100px;
   display: block;
@@ -4171,31 +4171,31 @@ h5.sm-head {
   display: block;
   margin-left: auto;
   margin-right: auto; }
-  /* line 1655, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1654, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #prez li.img {
     display: block;
     float: left; }
-    /* line 1657, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1656, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #prez li.img img {
       border-radius: 50%;
       width: 100px;
       height: 100px; }
-  /* line 1664, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1663, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #prez .name {
     height: 100px;
     padding-left: 130px;
     display: block; }
-    /* line 1665, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1664, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #prez .name span {
       font-family: UniversLTStdBoldCn;
       font-size: 1.5em;
       display: block; }
-    /* line 1673, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+    /* line 1672, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
     #prez .name em {
       display: block;
       color: #777777;
       font-size: 0.9em;
       line-height: 1em; }
-  /* line 1680, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
+  /* line 1679, /Users/marius/sites/ywc/source/stylesheets/all.css.scss */
   #prez .tw-icon {
     display: inline-block; }

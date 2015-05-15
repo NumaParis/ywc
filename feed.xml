@@ -5,10 +5,22 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-15T13:02:00+02:00</updated>
+  <updated>2015-05-15T14:25:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Gabriel Poncin</title>
+    <link rel="alternate" href="http://blog.url.com/gabriel-poncin/"/>
+    <id>http://blog.url.com/gabriel-poncin/</id>
+    <published>2015-05-15T14:25:00+02:00</published>
+    <updated>2015-05-15T14:28:50+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Dans un monde en perpétuel mouvement, la création de ce réseau favorisera - sans aucun doute - aussi bien l’émergence des talents de demain que la création d’opportunités encore insoupçonnées.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Sketchfab The place to be pour les fichiers 3D</title>
     <link rel="alternate" href="http://blog.url.com/sketchfab-the-place-to-be-pour-les-fichiers-3d/"/>
@@ -144,39 +156,6 @@
 &lt;p&gt;&lt;strong&gt;Claudio VANDI :&lt;/strong&gt; Bien plus que technologique, la transformation digitale est avant tout humaine. Elle s’appuie sur des cycles d’intégration et de feedback plus courts que sur des projets classiques, non-numériques. De ce point de vue, la transformation numérique vise d’abord l’intégration de nouveaux modes de gestion de projets et de produits.&lt;/p&gt;
 
 &lt;p&gt;&lt;a target="_blank" href="http://www.orange-business.com/fr/blogs/usages-dentreprise/actualites/-la-transformation-numerique-passe-par-l-humain-"&gt;lire la suite&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Ready to Sprint? Dive into the selection process for Numa's next start-ups</title>
-    <link rel="alternate" href="http://blog.url.com/ready-to-sprint-dive-into-the-selection-process-for-numa-s-next-start-ups/"/>
-    <id>http://blog.url.com/ready-to-sprint-dive-into-the-selection-process-for-numa-s-next-start-ups/</id>
-    <published>2015-05-12T17:07:00+02:00</published>
-    <updated>2015-05-15T10:02:08+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img alt="NUMA Sprint Jury" src="/images/numa_sprint_jury.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;As most of the tech ecosystem is now aware of, NUMA is accelerating and launching a very innovative equity-crowdfunding campaign to provide itself with the means to extend its model to the entire world within a few years!
-Not only we recently opened a brand new NUMA Moscow, but we also are seeing things big as we plan on opening no less than 15 other Tech Hubs before 2019! 
-This is how we see acceleration at NUMA.&lt;/p&gt;
-
-&lt;h2&gt;Be ambitious, and give yourself the means to achieve it.&lt;/h2&gt;
-
-&lt;h3&gt;We gathered amazing internationational jury members for this new season:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Startups coming by NUMA for the selections those last weeks have met the following people from various part of the world…&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.linkedin.com/in/haynesdave"&gt;&lt;strong&gt;David Hayes&lt;/strong&gt;&lt;/a&gt; : Business developper at SeedCamp in UK.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.linkedin.com/in/bmhinnawi"&gt;&lt;strong&gt;Bashara Hinnawi&lt;/strong&gt;&lt;/a&gt; : President at Lisbon Challenge, it is the accelerator based in Lisbon.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pt.linkedin.com/in/marianamhsantos"&gt;&lt;strong&gt;Mariana Santos&lt;/strong&gt;&lt;/a&gt; : Analytics manager at Beta-I. It is an association basically doing in Lisbon what NUMA does in Paris.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.linkedin.com/in/julioterra"&gt;&lt;strong&gt;Julio Terra&lt;/strong&gt;&lt;/a&gt; : Designer, developper and Community Manager at KickStarter. Is there a need to present KickStarter here?..&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://es.linkedin.com/in/karelescobar/fr"&gt;&lt;strong&gt;Karel Escobar&lt;/strong&gt;&lt;/a&gt; : Strategist at Tetuan Valley. Like NUMA in France, this is an association helping the development of startups in Madrid.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.linkedin.com/in/renitakalhorn"&gt;&lt;strong&gt;Renita Kalhorn&lt;/strong&gt;&lt;/a&gt; : Coach in Leadership Development for entrepreneurs coming right from New York City.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://fr.linkedin.com/in/tristabridges/fr"&gt;&lt;strong&gt;Trista Bridges&lt;/strong&gt;&lt;/a&gt; : Marketing expert from UK, Trista also is confounder and director at Rude Baguette, the tech oriented French media.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thanks, gracias and obrigado to all of them for their wise expertise!&lt;/p&gt;
 </content>
   </entry>
 </feed>
