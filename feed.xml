@@ -5,10 +5,72 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-13T11:53:00+02:00</updated>
+  <updated>2015-05-15T13:02:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Sketchfab The place to be pour les fichiers 3D</title>
+    <link rel="alternate" href="http://blog.url.com/sketchfab-the-place-to-be-pour-les-fichiers-3d/"/>
+    <id>http://blog.url.com/sketchfab-the-place-to-be-pour-les-fichiers-3d/</id>
+    <published>2015-05-15T13:02:00+02:00</published>
+    <updated>2015-05-15T13:41:13+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="sketchfab" src="/images/team-sketchfab-alban-cedric.jpg" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Interview d’Alban Denoyel, CEO and Co-founder de Sketchfab&lt;/h3&gt;
+&lt;p&gt;Twitter : &lt;a target="_blank" href="https://twitter.com/@albn"&gt;@albn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Peux tu nous présenter en quelques mots Sketchfab ?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Sketchfab est la plateforme de référence pour partager et trouver des fichiers 3D sur internet. Des millions de personnes font des modèles 3D ou scannent le monde en 3D, nous leur permettons de publier ces contenus. Avec plus de 300,000 fichiers 3D publiés sur Sketchfab, nous sommes l’une des plus grosses librairies de contenus 3D au monde. Ces contenus sont utilisables pour des embeds 3D, la réalité virtuelle et augmentée, l’impression 3D, et plus encore… Notre ambition est de faire pour le format 3D ce que YouTube a fait pour le format video.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target="_blank" href="http://www.techstars.com/startup-stories-sketchfab/"&gt;source - blog Techcrounch ↗:&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class="fluid second"&gt;
+	&lt;div class="mask"&gt;
+		&lt;iframe src="https://www.youtube.com/embed/gc-nGshX54Y" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;— Quelle était ta problématique/situation/étape lorsque tu as intégré le Camping ?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nous étions juste 2 co-fondateurs, et la société n’était même pas encore créée.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;— Qu’est ce que le programme d’accélération as apporté ?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;De l’exposition, des conseils, un réseau.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;— Quelles ont été les étapes qui ont suivi pour Sketchfab ?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Une premiere levée de fonds en France aupres de business angels, puis la selection par TechStars NYC, l’ouverture d’un bureau là bas, et une seconde levée aux USA avec 4 fonds (Balderton, Partech, Borealis, TechStars).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;— Quels sont les prochaines ?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nous préparons une nouvelle levée de fonds, tout en poursuivant nos développements techniques et commerciaux, et l’accroissement de l’équipe.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;— Quelques datas et éléments clefs (CA, Equipe, progression, nom des dirigeants, twitter, Facebook, site web)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nous sommes une équipe de 15 personnes, réparties entre NYC et Paris.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mars 2012: lancement de sketchfab.com&lt;/li&gt;
+  &lt;li&gt;Avril 2012: sélection par le camping et création de la société&lt;/li&gt;
+  &lt;li&gt;Décembre 2012: 1ere levee de fonds de $500k en France&lt;/li&gt;
+  &lt;li&gt;Avril 2013: sélection par TechStars et ouverture d’un bureau a NYC&lt;/li&gt;
+  &lt;li&gt;Décembre 2013: seconde levée de $2m&lt;/li&gt;
+  &lt;li&gt;Janvier 2014: intégration native dans Photoshop&lt;/li&gt;
+  &lt;li&gt;Février 2015: intégration native dans Facebook&lt;/li&gt;
+  &lt;li&gt;Avril 2015: intégration native avec Microsoft HoloLens&lt;/li&gt;
+  &lt;li&gt;Mai 2015: Sketchfab atteint 200k users, 300k fichiers 3D, 10m page views / mois&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://www.techstars.com/startup-stories-sketchfab/"&gt;lien vers vidéo ou contenu souhaité:&lt;/a&gt;
+&lt;a href="http://techcrunch.com/2014/04/08/sketchfab-revamps-its-platform-to-become-the-soundcloud-of-3d-files/"&gt;lien vers article de presse:&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>NUMA Shift - Transformer la culture projet d’une grande entreprise avec deux équipes DSI</title>
     <link rel="alternate" href="http://blog.url.com/numa-shift-transformer-la-culture-projet-d-une-grande-entreprise-avec-deux-equipes-dsi/"/>
@@ -117,26 +179,6 @@ This is how we see acceleration at NUMA.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Thanks, gracias and obrigado to all of them for their wise expertise!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Tendances actuelles et futures de l'Accélération. Découvrez le White Paper par NUMA avec la collaboration de l'Atelier BNP Paribas</title>
-    <link rel="alternate" href="http://blog.url.com/tendances-actuelles-et-futures-de-l-acceleration-decouvrez-le-white-paper-par-numa-avec-la-collaboration-de-l-atelier-bnp-paribas/"/>
-    <id>http://blog.url.com/tendances-actuelles-et-futures-de-l-acceleration-decouvrez-le-white-paper-par-numa-avec-la-collaboration-de-l-atelier-bnp-paribas/</id>
-    <published>2015-05-12T16:53:00+02:00</published>
-    <updated>2015-05-15T10:02:08+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;div class="fluid second slideshare"&gt;
-	&lt;div class="mask"&gt;
-		&lt;iframe src="//fr.slideshare.net/slideshow/embed_code/key/siJejli7OGYth8" width="100%" height="auto" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p class="lead"&gt;Découvrez le White Paper par NUMA avec la collaboration de l’Atelier BNP Paribas&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;NUMA is delighted to release this whitepaper based on the insights coming out of our 2-day European Accelerator Summit, which took place in Paris at NUMA last December. The Summit is where together, as sector decision makers, we shape the future of acceleration. No bling, no buzzwords, no incredible-speaker-who-knows- all… Just 150+ leaders from some of the world’s top accelerators, cooperating and collaborating to brainstorm on the current trends and future of acceleration.&lt;/em&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
