@@ -14,20 +14,17 @@
     <link rel="alternate" href="http://blog.url.com/sketchfab-the-place-to-be-pour-les-fichiers-3d/"/>
     <id>http://blog.url.com/sketchfab-the-place-to-be-pour-les-fichiers-3d/</id>
     <published>2015-05-15T13:02:00+02:00</published>
-    <updated>2015-05-15T13:46:50+02:00</updated>
+    <updated>2015-05-15T14:18:25+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p class="cover"&gt;&lt;img alt="sketchfab" src="/images/team-sketchfab-alban-cedric.jpg" /&gt;&lt;/p&gt;
 
-&lt;h3&gt;Interview d’Alban Denoyel, CEO and Co-founder de Sketchfab&lt;/h3&gt;
-&lt;p&gt;Twitter : &lt;a target="_blank" href="https://twitter.com/@albn"&gt;@albn&lt;/a&gt;&lt;/p&gt;
+&lt;h3 class="lead"&gt;Interview d’Alban Denoyel, CEO and Co-founder de Sketchfab&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;Peux tu nous présenter en quelques mots Sketchfab ?&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;Peux tu nous présenter en quelques mots Sketchfab ?&lt;/h4&gt;
 
 &lt;p&gt;Sketchfab est la plateforme de référence pour partager et trouver des fichiers 3D sur internet. Des millions de personnes font des modèles 3D ou scannent le monde en 3D, nous leur permettons de publier ces contenus. Avec plus de 300,000 fichiers 3D publiés sur Sketchfab, nous sommes l’une des plus grosses librairies de contenus 3D au monde. Ces contenus sont utilisables pour des embeds 3D, la réalité virtuelle et augmentée, l’impression 3D, et plus encore… Notre ambition est de faire pour le format 3D ce que YouTube a fait pour le format video.&lt;/p&gt;
-
-&lt;p&gt;&lt;a target="_blank" href="http://www.techstars.com/startup-stories-sketchfab/"&gt;source - blog Techcrounch ↗:&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class="fluid second"&gt;
 	&lt;div class="mask"&gt;
@@ -35,23 +32,23 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;em&gt;— Quelle était ta problématique/situation/étape lorsque tu as intégré le Camping ?&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;Quelle était ta problématique/situation/étape lorsque tu as intégré le Camping ?&lt;/h4&gt;
 
 &lt;p&gt;Nous étions juste 2 co-fondateurs, et la société n’était même pas encore créée.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;— Qu’est ce que le programme d’accélération as apporté ?&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;Qu’est ce que le programme d’accélération as apporté ?&lt;/h4&gt;
 
 &lt;p&gt;De l’exposition, des conseils, un réseau.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;— Quelles ont été les étapes qui ont suivi pour Sketchfab ?&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;Quelles ont été les étapes qui ont suivi pour Sketchfab ?&lt;/h4&gt;
 
 &lt;p&gt;Une premiere levée de fonds en France aupres de business angels, puis la selection par TechStars NYC, l’ouverture d’un bureau là bas, et une seconde levée aux USA avec 4 fonds (Balderton, Partech, Borealis, TechStars).&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;— Quels sont les prochaines ?&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;Quels sont les prochaines ?&lt;/h4&gt;
 
 &lt;p&gt;Nous préparons une nouvelle levée de fonds, tout en poursuivant nos développements techniques et commerciaux, et l’accroissement de l’équipe.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;— Quelques datas et éléments clefs (CA, Equipe, progression, nom des dirigeants, twitter, Facebook, site web)&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;Quelques datas et éléments clefs (CA, Equipe, progression, nom des dirigeants, twitter, Facebook, site web)&lt;/h4&gt;
 
 &lt;p&gt;Nous sommes une équipe de 15 personnes, réparties entre NYC et Paris.&lt;/p&gt;
 
@@ -67,7 +64,9 @@
   &lt;li&gt;Mai 2015: Sketchfab atteint 200k users, 300k fichiers 3D, 10m page views / mois&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href="http://techcrunch.com/2014/04/08/sketchfab-revamps-its-platform-to-become-the-soundcloud-of-3d-files/"&gt;Sketchfab revamps it’s platform to become the soundcloud of 3D&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Pour plus d’information sur SketchFab :&lt;/h4&gt;
+
+&lt;p&gt;&lt;a target="_blank" href="http://techcrunch.com/2014/04/08/sketchfab-revamps-its-platform-to-become-the-soundcloud-of-3d-files/"&gt;&lt;img alt="Techcrunch" src="/images/tc-techcrunch.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
