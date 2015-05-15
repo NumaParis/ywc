@@ -43,5 +43,7 @@ Bref, c’est avec cette ambition que nous avons décidé de nous développer à
 
 En somme le futur est là bas et il n’y a pas de temps à perdre !
 
+Nathanael Sorin Richez - [Engage Director](https://www.numa.paris/Engage){:target='_blank'}
+
 ####YESWECROWD !
 
