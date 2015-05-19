@@ -5,11 +5,14 @@ layout: blank
 ---
 
 <div class="container-fluid recom-banner">
-	<%=image_tag 'bannier_recommendations.jpg', :class=> 'center-block img-responsive' %>
+	<div class="holder">
+		<span class="sowo">Nous avons besoin de votre soutien. <a href="#">Ecrivez-nous un mot</a>, soutenez la démarche</span>
+	</div>
 </div>
+
 <div class="container merci">
 	<ul class="recommendations">
-		<h1 class="text-center special"><a href="/recommandation">Ecrire un mot</a></h1>
+		<h1 class="text-center special"><a href="/recommandation">J'écris un mot</a></h1>
 		<% blog.articles.select do |article| %>
 			<% if article.data.category == 'recommandations' %>
 				<li>

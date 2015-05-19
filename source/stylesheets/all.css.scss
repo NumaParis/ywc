@@ -1055,12 +1055,20 @@ button.navbar-toggle {
 }
 
 #zabook {
+	margin-top: 60px;
 	text-align: center;
-	padding: 100px 0 50px;
-
-	> iframe {
+	position: relative;
+	@include background-image('book_cover.jpg');
+	&, a {color: white;}
+	.holder {
+		padding: 20% 0 20%;
+		@include gradient-vertical(fade-out(black, 0.9), fade-out(black, 0.3));
+	}
+	p {
+		max-width: 900px;
 		@include center-block;
 	}
+
 }
 .citations {
 	li {
@@ -1350,7 +1358,26 @@ button[type="button"].file-upload-button {
 .recom-banner {
 	padding: 0;
 	padding-top: 60px;
-	img { width:100%; }
+	@include background-image('bannier_recommendations.jpg');
+	background-size: cover;
+	.holder {
+		padding: 10% 0;
+		text-align: center;
+		text-shadow: 1px 1px 1px #000;
+		@include gradient-vertical(fade-out(black, 0.9), fade-out(black, 0.3));
+		.sowo {
+			a {
+				color: white; border-bottom: 2px solid white;
+				&:hover { border-bottom: 2px solid pink; text-decoration: none; }
+			}
+			color: white;
+			font-family: 'gcsbi';
+			font-size: 3em;
+			line-height: 1em;
+			max-width: $screen-sm;
+			@include center-block;
+		}
+	}
 }
 
 #mosaic {
@@ -1360,7 +1387,7 @@ button[type="button"].file-upload-button {
 	
 	$sq:(100 / 23)*1%;
 	
-	padding-top: $sq * 2;
+	padding-top: $sq;
 	padding-left:0;
 	// background: fade-out(black, 0.7);
 	> div {
@@ -1376,7 +1403,7 @@ button[type="button"].file-upload-button {
 	.lelogo {
 		width: auto;
 		position: absolute;
-		margin-top: $sq + $sq/2;
+		margin-top: $sq * 2;
 		bottom: auto;
 		padding-top: $sq * 5;
 		right: $sq * 3;
@@ -1436,7 +1463,6 @@ button[type="button"].file-upload-button {
 				img {
 					border-radius: 50%;
 					@include size(100%,100%);
-
 				}
 				width: auto;
 				position: absolute;
@@ -1624,7 +1650,8 @@ h1.special {
 	font-weight: normal;
 	padding-bottom:0.7em;
 	a {
-		&:hover { text-decoration: underline; }
+		border-bottom: 3px solid black;
+		&:hover { border-bottom: 3px solid pink; }
 		text-decoration: none;
 	}
 }
@@ -1680,4 +1707,18 @@ h5.sm-head {
 	.tw-icon {
 		display: inline-block;
 	}
+}
+#downflash {
+	@media screen and (max-width: $screen-sm) { display: none; }
+	color: black;
+	font-size: 2.6em;
+	border: 2px solid black;
+	padding-top: 30px;
+	text-align: center;
+	border-radius: 50%;
+	display: block;
+	@include size(70px, 70px);
+	bottom: 50px;
+	left: 48%;
+	position: absolute;
 }
