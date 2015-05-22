@@ -5,22 +5,10 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-22T18:48:00+02:00</updated>
+  <updated>2015-05-22T18:27:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
-  <entry>
-    <title>NUMA at the Digital Youth Summit in Peshawar aspiration and innovation</title>
-    <link rel="alternate" href="http://blog.url.com/numa-at-the-digital-youth-summit-in-peshawar-aspiration-and-innovation/"/>
-    <id>http://blog.url.com/numa-at-the-digital-youth-summit-in-peshawar-aspiration-and-innovation/</id>
-    <published>2015-05-22T18:48:00+02:00</published>
-    <updated>2015-05-22T18:48:43+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">
-</content>
-  </entry>
   <entry>
     <title>DocTrackr l’exit à dix millions de dollars</title>
     <link rel="alternate" href="http://blog.url.com/doctrackr-l-exit-a-dix-millions-de-dollars/"/>
@@ -132,19 +120,21 @@
     <link rel="alternate" href="http://blog.url.com/sketchfab-encyclopedie-des-fichiers-3d/"/>
     <id>http://blog.url.com/sketchfab-encyclopedie-des-fichiers-3d/</id>
     <published>2015-05-22T16:55:00+02:00</published>
-    <updated>2015-05-22T17:27:24+02:00</updated>
+    <updated>2015-05-22T19:03:08+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p class="cover"&gt;&lt;img alt="sketchfab" src="/images/team-sketchfab-alban-cedric.jpg" /&gt;&lt;/p&gt;
 
-&lt;p style="margin-bottom: 30px;"&gt;Sketchfab est la plateforme de référence pour partager et trouver des fichiers 3D sur internet. Des millions de personnes font des modèles 3D ou scannent le monde en 3D, nous leur permettons de publier ces contenus. Avec plus de 300,000 fichiers 3D publiés sur Sketchfab, nous sommes l’une des plus grosses librairies de contenus 3D au monde. Ces contenus sont utilisables pour des embeds 3D, la réalité virtuelle et augmentée, l’impression 3D, et plus encore… Notre ambition est de faire pour le format 3D ce que YouTube a fait pour le format video.&amp;lt;/p&amp;gt;&lt;/p&gt;
+&lt;p&gt;Sketchfab est la plateforme de référence pour partager et trouver des fichiers 3D sur internet. Des millions de personnes font des modèles 3D ou scannent le monde en 3D, nous leur permettons de publier ces contenus. Avec plus de 300,000 fichiers 3D publiés sur Sketchfab, nous sommes l’une des plus grosses librairies de contenus 3D au monde. Ces contenus sont utilisables pour des embeds 3D, la réalité virtuelle et augmentée, l’impression 3D, et plus encore… Notre ambition est de faire pour le format 3D ce que YouTube a fait pour le format video.&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;div class=“fluid second”&amp;gt;
-	&amp;lt;div class=“mask”&amp;gt;
-		&amp;lt;iframe src=“https://www.youtube.com/embed/gc-nGshX54Y” frameborder=“0” allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
-	&amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;!--
+&lt;div class=“fluid second”&gt;
+	&lt;div class=“mask”&gt;
+		&lt;iframe src=“https://www.youtube.com/embed/gc-nGshX54Y” frameborder=“0” allowfullscreen&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+--&gt;
 
 &lt;p&gt;Avant d’intégrer &lt;a href="http://en.numa.paris/Sprint"&gt;NUMA Sprint&lt;/a&gt; (le Camping saison 3) nous étions juste 2 co-fondateurs, et la société n’était même pas encore créée. NUMA nous a apporté de l’exposition, des conseils et un réseau ce qui a considérablement boosté notre développement.&lt;/p&gt;
 
@@ -171,6 +161,18 @@
 &lt;h4&gt;Pour en savoir plus:&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href="http://techcrunch.com/2014/04/08/sketchfab-revamps-its-platform-to-become-the-soundcloud-of-3d-files/"&gt;&lt;img alt="Techcrunch" src="/images/tc-techcrunch.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Valérie Gerard</title>
+    <link rel="alternate" href="http://blog.url.com/valerie-gerard/"/>
+    <id>http://blog.url.com/valerie-gerard/</id>
+    <published>2015-05-22T16:14:00+02:00</published>
+    <updated>2015-05-22T16:22:50+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Parce-que NUMA est l’exception qui confirme la règle : toute personne ayant vraiment envie de changer le monde ne peu le faire qu’en remettant en cause les schémas établis depuis bien trop longtemps! #yeswecrowd&lt;/p&gt;
 </content>
   </entry>
 </feed>
