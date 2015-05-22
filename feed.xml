@@ -5,10 +5,36 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-22T17:35:00+02:00</updated>
+  <updated>2015-05-22T18:09:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Studyka catalyseur dinnovation en entreprise grace aux etudiants</title>
+    <link rel="alternate" href="http://blog.url.com/studyka-catalyseur-dinnovation-en-entreprise-grace-aux-etudiants/"/>
+    <id>http://blog.url.com/studyka-catalyseur-dinnovation-en-entreprise-grace-aux-etudiants/</id>
+    <published>2015-05-22T18:09:00+02:00</published>
+    <updated>2015-05-22T18:21:45+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="sketchfab" src="/images/cover_studyka.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Studyka qui a était accéléré par &lt;a href="http://en.numa.paris/Sprint"&gt;NUMA Sprint&lt;/a&gt; (Le Camping Saison 1) est aujourd’hui leader dans le secteur de l’Open Innovation et des challenges étudiants, Studyka a pour objectif de décloisonner l’enseignement supérieur tout en permettant aux étudiants de se rapprocher du monde de l’entreprise.&lt;/p&gt;
+
+&lt;p&gt;Aujourd’hui, Studyka propose également des challenges internationaux, a structuré une communauté d’étudiants désireux de mettre leurs compétences au profit de l’innovation.&lt;/p&gt;
+
+&lt;p&gt;Studyka a levé 2 millions d’euros en décembre 2014&lt;/p&gt;
+
+&lt;p&gt;Studyka en quelques chiffres c’est :&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="studyka chifre" style="max-width:768px;" src="/images/studyka_chifre.gif" /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Pour en savoir plus:&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href="http://incubateurs.parisandco.com/studyka-plateforme-crowdsourcing-etudiant-denicheuse-talents"&gt;&lt;img alt="incubateurs Paris and co" src="/images/incubateurs_parisandco.gif" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Travailler autrement dans une logique quick-wins</title>
     <link rel="alternate" href="http://blog.url.com/travailler-autrement-dans-une-logique-quick-wins/"/>
@@ -135,18 +161,6 @@
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;Dans un monde en perpétuel mouvement, la création de ce réseau favorisera - sans aucun doute - aussi bien l’émergence des talents de demain que la création d’opportunités encore insoupçonnées.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Pierre-Olivier Cazenave</title>
-    <link rel="alternate" href="http://blog.url.com/pierre-olivier-cazenave/"/>
-    <id>http://blog.url.com/pierre-olivier-cazenave/</id>
-    <published>2015-05-13T11:42:00+02:00</published>
-    <updated>2015-05-15T10:02:08+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;NUMA est un tourbillon d’air chaud ! Tout à la fois un cocon pour les entrepreneurs, un nid pour maturer leurs projets et la piste d’où ils s’envolent. Une expérience exigeante mais structurante et dont on ressort grandi !&lt;/p&gt;
 </content>
   </entry>
 </feed>
