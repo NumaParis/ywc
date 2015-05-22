@@ -218,7 +218,13 @@
   </url>
   <url>
     <loc>https://localhost:4567/doctrackr-l-exit-a-dix-millions-de-dollars/</loc>
-    <lastmod>2015-05-22T18:44:16+02:00</lastmod>
+    <lastmod>2015-05-22T18:48:13+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/numa-at-the-digital-youth-summit-in-peshawar-aspiration-and-innovation/</loc>
+    <lastmod>2015-05-22T18:48:43+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -236,7 +242,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/studyka-catalyseur-dinnovation-en-entreprise-grace-aux-etudiants/</loc>
-    <lastmod>2015-05-22T18:21:45+02:00</lastmod>
+    <lastmod>2015-05-22T18:47:51+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
