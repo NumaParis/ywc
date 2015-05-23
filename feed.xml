@@ -120,7 +120,7 @@
     <link rel="alternate" href="http://blog.url.com/sketchfab-encyclopedie-des-fichiers-3d/"/>
     <id>http://blog.url.com/sketchfab-encyclopedie-des-fichiers-3d/</id>
     <published>2015-05-22T16:55:00+02:00</published>
-    <updated>2015-05-22T19:03:08+02:00</updated>
+    <updated>2015-05-23T19:31:42+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -128,13 +128,11 @@
 
 &lt;p&gt;Sketchfab est la plateforme de référence pour partager et trouver des fichiers 3D sur internet. Des millions de personnes font des modèles 3D ou scannent le monde en 3D, nous leur permettons de publier ces contenus. Avec plus de 300,000 fichiers 3D publiés sur Sketchfab, nous sommes l’une des plus grosses librairies de contenus 3D au monde. Ces contenus sont utilisables pour des embeds 3D, la réalité virtuelle et augmentée, l’impression 3D, et plus encore… Notre ambition est de faire pour le format 3D ce que YouTube a fait pour le format video.&lt;/p&gt;
 
-&lt;!--
-&lt;div class=“fluid second”&gt;
-	&lt;div class=“mask”&gt;
-		&lt;iframe src=“https://www.youtube.com/embed/gc-nGshX54Y” frameborder=“0” allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class="fluid second"&gt;
+	&lt;div class="mask"&gt;
+		&lt;iframe src="https://www.youtube.com/embed/gc-nGshX54Y" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
---&gt;
 
 &lt;p&gt;Avant d’intégrer &lt;a href="http://en.numa.paris/Sprint"&gt;NUMA Sprint&lt;/a&gt; (le Camping saison 3) nous étions juste 2 co-fondateurs, et la société n’était même pas encore créée. NUMA nous a apporté de l’exposition, des conseils et un réseau ce qui a considérablement boosté notre développement.&lt;/p&gt;
 
