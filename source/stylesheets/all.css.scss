@@ -1557,9 +1557,9 @@ button[type="button"].file-upload-button {
 #blog {
 	p.cover {
 		display: block;
-		// width:100%;
 		max-width: $screen-lg;
 		margin:0;
+		margin-bottom: 30px;
 		img { width:100%; }
 	}	
 	p.lead {

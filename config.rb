@@ -84,7 +84,6 @@ set :markdown, :tables        => true,
                :autolink      => true,
                :smartypants   => true,
                :auto_ids      => false
-               # :hard_wrap     => true
 
 
 
