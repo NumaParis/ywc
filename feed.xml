@@ -5,10 +5,42 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-26T16:43:00+02:00</updated>
+  <updated>2015-05-26T17:11:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Amorcer le changement par l’immersion</title>
+    <link rel="alternate" href="http://blog.url.com/amorcer-le-changement-par-l-immersion/"/>
+    <id>http://blog.url.com/amorcer-le-changement-par-l-immersion/</id>
+    <published>2015-05-26T17:11:00+02:00</published>
+    <updated>2015-05-26T17:28:44+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="sanofi" src="/images/cover_sanofi.jpg" /&gt;&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
+
+&lt;p&gt;Les responsables de la stratégie au niveau du groupe Sanofi, en charge de l’innovation, souhaitaient sensibiliser leur équipe aux enjeux de l’économie numérique et à l’approche Lean.&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;ACTION&lt;/h5&gt;
+
+&lt;p&gt;En collaboration, nous avons monté une journée d’immersion autour de :
+–modules de présentations et d’échanges sur des initiatives de notre réseau - mentor, startup, investisseur ;
+–ainsi qu’un atelier sur le Lean amenant les participants à travailler en équipe pour appliquer l’approche sur une problématique concrète. Ces ateliers portaient sur la compréhension et l’application de 3 concepts clés : formalisation et validation des hypothèses, définition d’un Minimum Viable Product et principe du test et itération.&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
+
+&lt;p&gt;Nous discutons aujourd’hui avec la direction de la Stratégie d’une approche globale d’accompagnement et de formation de leurs équipes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“L’innovation ce sont des échecs, de l’itération, de la persévérance et de l’envie.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“J’ai apprécié l’approche cas pratique qui a permis de mieux échanger avec des collègues que je ne connaissais pas.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mathieu Giraud - Senior Corporate Strategy Project Manager&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>La seule startup francaise rachetee par Twitter</title>
     <link rel="alternate" href="http://blog.url.com/la-seule-startup-francaise-rachetee-par-twitter/"/>
@@ -157,30 +189,6 @@
 &lt;p&gt;Ce programme va être pérennisé en 2015 et Total s’interroge sur le déploiement de nouveaux formats en immersion adapté à d’autres objectifs.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Le résultat de ce programme a été remarquable car le travail de ces deux équipes va être directement utilisable, mais aussi dans la méthode qui nous a été apporté. Tout ce qui nous a été raconté lors de ce programme m’a ouvert les yeux sur la pertinence de travailler à proximité des startups et avec la méthode que les startups utilisent.&lt;/em&gt; &lt;br /&gt;Yves-André Valot, CIO chez TOTAL Marketing &amp;amp; Services&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>STREAMROOT transforme vos pics de traffic en atout</title>
-    <link rel="alternate" href="http://blog.url.com/STREAMROOT-transforme-vos-pics-de-traffic-en-atout/"/>
-    <id>http://blog.url.com/STREAMROOT-transforme-vos-pics-de-traffic-en-atout/</id>
-    <published>2015-05-22T17:01:00+02:00</published>
-    <updated>2015-05-22T17:40:43+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="streamroot" src="/images/streamroot_people.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a target="_blank" href="http://www.streamroot.io/"&gt;Streamroot&lt;/a&gt; propose de réduire la consommation de bande passante depuis les serveurs en connectant les personnes qui regardent le même stream vidéo. Ainsi, les utilisateurs téléchargent la vidéo en peer-to-peer directement depuis les uns des autres.&lt;/p&gt;
-
-&lt;p&gt;Ceci a pour conséquence directe de réduire énormément les coûts de bande passante des diffuseurs de vidéos sur internet, tout en améliorant la qualité de lecture pour les utilisateurs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="streamroot" style="max-width:768px;" src="/images/streamroot_diagram.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Fondée en 2013 par trois ingénieurs de l’Ecole Centrale Paris et après être passée par &lt;a target="_blank" href="https://www.numa.paris/Sprint"&gt;NUMA Sprint&lt;/a&gt; (Camping saison 5), StreamRoot a intégrée le programme Techstars Boston en Août 2014. Aujourd’hui, la société vise à renforcer sa présence aux Etats-Unis, au cœur du plus grand marché de la vidéo en ligne.&lt;/p&gt;
-
-&lt;h4&gt;Pour en savoir plus:&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href="http://techcrunch.com/2014/04/08/http://techcrunch.com/2014/03/11/le-camping-5th-demo-day-meet-streamroot-hublo-krack-and-more/"&gt;&lt;img alt="Techcrunch" src="/images/tc-techcrunch.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
