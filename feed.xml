@@ -5,10 +5,22 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-26T17:11:00+02:00</updated>
+  <updated>2015-05-29T01:12:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Natha Sorin Richez</title>
+    <link rel="alternate" href="http://blog.url.com/natha-sorin-richez/"/>
+    <id>http://blog.url.com/natha-sorin-richez/</id>
+    <published>2015-05-29T01:12:00+02:00</published>
+    <updated>2015-05-29T01:15:03+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Parce que c’est à tous que nous permettons de prendre part !&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Amorcer le changement par l’immersion</title>
     <link rel="alternate" href="http://blog.url.com/amorcer-le-changement-par-l-immersion/"/>
@@ -155,40 +167,6 @@
 &lt;h4&gt;Pour en savoir plus:&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href="http://incubateurs.parisandco.com/studyka-plateforme-crowdsourcing-etudiant-denicheuse-talents"&gt;&lt;img alt="incubateurs Paris and co" src="/images/incubateurs_parisandco.gif" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Travailler autrement dans une logique quick-wins</title>
-    <link rel="alternate" href="http://blog.url.com/travailler-autrement-dans-une-logique-quick-wins/"/>
-    <id>http://blog.url.com/travailler-autrement-dans-une-logique-quick-wins/</id>
-    <published>2015-05-22T17:35:00+02:00</published>
-    <updated>2015-05-22T17:53:29+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="Fiodor and Claudio" src="/images/clau_fiodor.png" /&gt;&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
-
-&lt;p&gt;Faire évoluer deux équipes DSI en immersion au NUMA autour de deux différents enjeux :
-– tester la pertinence d’une solution visant à rendre l’image de la DSI et de ses métiers plus clairs et transparents pour ses clients internes ;
-– concevoir un process qui permette de sortir du mode projet habituel par une approche lean - courte, itérative, et ouvert à un écosystème extérieur.&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;ACTION&lt;/h5&gt;
-
-&lt;p&gt;Le programme s’est déroulé en deux étapes en octobre 2014 :
-– un 1er temps dédié à la formation appliquée à la méthode Lean de développement de produit ;
-– un 2nd temps de développement des solutions en approche Lean : validation des hypothèses au travers d’études utilisateurs, prototypage, tests et itérations.&lt;/p&gt;
-
-&lt;p&gt;Les équipes n’étaient pas en concurrence, chacune responsable d’un projet, elles étaient accompagnées par un mentor-entrepreneur et, ponctuellement, par des experts (UX designer, développeur, etc.) de notre réseau.&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
-
-&lt;p&gt;Aujourd’hui les deux prototypes sont en cours de développement pour implémentation.&lt;/p&gt;
-
-&lt;p&gt;Ce programme va être pérennisé en 2015 et Total s’interroge sur le déploiement de nouveaux formats en immersion adapté à d’autres objectifs.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Le résultat de ce programme a été remarquable car le travail de ces deux équipes va être directement utilisable, mais aussi dans la méthode qui nous a été apporté. Tout ce qui nous a été raconté lors de ce programme m’a ouvert les yeux sur la pertinence de travailler à proximité des startups et avec la méthode que les startups utilisent.&lt;/em&gt; &lt;br /&gt;Yves-André Valot, CIO chez TOTAL Marketing &amp;amp; Services&lt;/p&gt;
 </content>
   </entry>
 </feed>
