@@ -6,27 +6,35 @@
 
 // jQuery to collapse the navbar on scroll
 
-var wh = $(window).height();
+// var wh = $(window).height();
 
-if ($('body').hasClass('home')) {
-    $(window).scroll(function() {
-        if ($(".intro").offset().top > wh - 60) {
-            $(".navbar").addClass("isfixed");
-            $(".intro").addClass("disable");
-        } else {
-            $(".navbar").removeClass("isfixed");
-            $(".intro").removeClass("disable");
-        }
-    });
-} else {
-    $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
-            $(".navbar").addClass("isfixed");
-        } else {
-            $(".navbar").removeClass("isfixed");
-        }
-    });
-}
+// if ($('body').hasClass('home')) {
+//     $(window).scroll(function() {
+//         if ($(".intro").offset().top > wh - 60) {
+//             $(".navbar").addClass("isfixed");
+//             $(".intro").addClass("disable");
+//         } else {
+//             $(".navbar").removeClass("isfixed");
+//             $(".intro").removeClass("disable");
+//         }
+//     });
+// } else {
+//     $(window).scroll(function() {
+//         if ($(".navbar").offset().top > 50) {
+//             $(".navbar").addClass("isfixed");
+//         } else {
+//             $(".navbar").removeClass("isfixed");
+//         }
+//     });
+// }
+
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar").addClass("isfixed");
+    } else {
+        $(".navbar").removeClass("isfixed");
+    }
+});
 
 
 // jQuery for page s
