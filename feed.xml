@@ -5,16 +5,57 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-29T19:13:00+02:00</updated>
+  <updated>2015-05-29T19:25:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>SANOFI and NUMA - Deepdive in our ecosystem</title>
+    <link rel="alternate" href="http://blog.url.com/sanofi-and-numa-deepdive-in-our-ecosystem/"/>
+    <id>http://blog.url.com/sanofi-and-numa-deepdive-in-our-ecosystem/</id>
+    <published>2015-05-29T19:25:00+02:00</published>
+    <updated>2015-05-29T19:32:02+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="sanofi" src="/images/cover_sanofi.jpg" /&gt;&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
+
+&lt;p class="lead"&gt;Corporate strategy managers, in charge of innovation at Sanofi, envision to raise awareness among their team on the digital market, venture capitalism approach and lean methodology.&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;ACTION&lt;/h5&gt;
+
+&lt;p&gt;In collaboration with our partner, we build a one day immersive session.
+–a first module to “unfold” their minds through presentations and sharing on initiatives from our network. These talks were lead by various profils - mentors, entrepreneurs and investor.
+–a second module including a workshop on lean product development. Participants worked on a business problem and went throughout the 3 key concepts: hypothesis approval, MVP and test/iteration.&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
+
+&lt;p&gt;We are currently discussing a long term partnership with Sanofi to train and support their teams in developing new product &amp;amp; services.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Innovation is about failure, iteration, dedication and desire&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Use case approach allowed to share a lot with my coworker that I did not know”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Innovation is about failure, iteration, dedication and desire”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mathieu Giraud - Senior Corporate Strategy Project Manager&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class="fluid second"&gt;
+	&lt;div class="mask"&gt;
+		&lt;iframe src="https://www.youtube.com/embed/I_TmfbKI1Ig" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Total and NUMA Shift the way to work and gain quick-wins</title>
     <link rel="alternate" href="http://blog.url.com/total-and-numa-shift-the-way-to-work-and-gain-quick-wins/"/>
     <id>http://blog.url.com/total-and-numa-shift-the-way-to-work-and-gain-quick-wins/</id>
     <published>2015-05-29T19:13:00+02:00</published>
-    <updated>2015-05-29T19:20:44+02:00</updated>
+    <updated>2015-05-29T19:22:26+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -161,28 +202,6 @@ Ministère de l’emploi, du travail, et de la formation professionnelle&lt;/p&g
 &lt;p&gt;&lt;em&gt;“J’ai apprécié l’approche cas pratique qui a permis de mieux échanger avec des collègues que je ne connaissais pas.”&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Mathieu Giraud - Senior Corporate Strategy Project Manager&lt;/strong&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>La seule startup francaise rachetee par Twitter</title>
-    <link rel="alternate" href="http://blog.url.com/la-seule-startup-francaise-rachetee-par-twitter/"/>
-    <id>http://blog.url.com/la-seule-startup-francaise-rachetee-par-twitter/</id>
-    <published>2015-05-26T16:43:00+02:00</published>
-    <updated>2015-05-29T13:36:10+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="sketchfab" src="/images/team-mesagraph.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Avec une technologie publicitaire basée sur l’analyse de hashtag, Mesagraph a su éveiller l’intérêt de Twitter qui, en 2014, a racheté la start-up française soit 2 ans et demi après sa sortie du programme &lt;a target="_blank" href="https://www.numa.paris/Sprint"&gt;NUMA Sprint&lt;/a&gt; (le Camping saison 1) !&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;NUMA est l’environnement le plus propice au développement des idées et à leur validation. Dans un délai très court, nous avons pu définir les meilleures orientations pour Mesagraph et créer les conditions de notre succès&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sebastien Lefebvre, CEO de Mesagraph&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a target="_blank" href="http://techcrunch.com/2014/03/31/twitter-buys-frances-mesagraph-to-ramp-up-social-tv-work-in-euroupe/"&gt;&lt;img alt="Techcrunch" src="/images/tc-techcrunch.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a target="_blank" href="http://www.lesechos.fr/01/04/2014/lesechos.fr/0203414485997_twitter-s-offre-la-start-up-francaise-mesagraph.htm"&gt;&lt;img alt="Les Echos" src="/images/les_echos.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
