@@ -271,6 +271,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/le-gouvernement-et-numa-faire-la-preuve-de-l-open-data/</loc>
+    <lastmod>2015-05-29T19:07:16+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/natha-sorin-richez/</loc>
     <lastmod>2015-05-29T13:36:10+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -512,6 +518,12 @@
   </url>
   <url>
     <loc>https://localhost:4567/2015/05/4/</loc>
+    <lastmod>2015-05-29T13:36:10+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/05/5/</loc>
     <lastmod>2015-05-29T13:36:10+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
