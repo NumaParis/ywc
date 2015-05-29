@@ -5,74 +5,33 @@ per_page: 10
 
 	<header class="intro">
 		<div class="intro-body">
-			<div id="mosaic" class="hidden-xs hidden-sm">
-				<div class="lelogo">
-					<div>
-						<%=image_tag 'yeswecrowd.svg', :class=>'img-responsive fulllogo' %>
-						 	<div id="cbp-qtrotator" class="cbp-qtrotator">
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot1) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot2) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot3) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot4) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot5) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot6) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot7) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot8) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot9) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot10) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot11) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot12) %></p></blockquote></div>
-						 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot13) %></p></blockquote></div>
-							</div>
-					</div>
-				</div>
-				<% blog.articles.select do |article| %>
-					<% if article.data.category == 'recommandations' %>
-						<div>
-							<div class="in">
-								<div class="blow">
-									<div class="wrap">
-										<ul>
-											<li class="avatar"><%= image_tag article.data.info.photo, :alt => article.title %></li>
-											<li class="name"><span><%= article.title %></span><em><%= article.data.info.job %></em><a class="tw-icon" target="_blank" title="twitter.com/@<%= article.data.info.twitter %>" href="http://twitter.com/@<%= article.data.info.twitter %>">@<%= article.data.info.twitter %></a></li>
-											<li class="recom"><%= article.summary(300, '') %></li>
-										</ul>											
-									</div>
-								</div>
-								<a class="some" href="/recommandation">you</a>
-							</div>
-						</div>
-					<% end %>
-				<% end %>
-			</div>
-
-			<div id="le-logo" class="hidden-md hidden-lg">
-				<div>
-					<div class="in">
-						<h1>#YESWECROWD</h1>
-					 	<div id="app-qtrotator" class="cbp-qtrotator">
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot1) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot2) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot3) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot4) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot5) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot6) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot7) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot8) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot9) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot10) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot11) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot12) %></p></blockquote></div>
-					 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot13) %></p></blockquote></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
 			<strong id="downflash">&#9660;</strong>
-
 			<a class="logo-smartangels" href="https://www.smartangels.fr/entreprises/numa" target="_blank"><%= image_tag 'logo_smartangels.png', :alt => "Logo SmartAngels" %></a>
 		</div>
+
+		<div id="le-logo">
+			<div>
+				<div class="in">
+					<h1>#YESWECROWD</h1>
+				 	<div id="app-qtrotator" class="cbp-qtrotator">
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot1) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot2) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot3) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot4) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot5) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot6) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot7) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot8) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot9) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot10) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot11) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot12) %></p></blockquote></div>
+				 		<div class="cbp-qtcontent"><blockquote><p><%= t(:quot13) %></p></blockquote></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</header>
 
 	<div id="main" role="main" class="home clearfix">
