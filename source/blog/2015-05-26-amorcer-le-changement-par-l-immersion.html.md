@@ -8,14 +8,20 @@ cover: cover_sanofi_small.jpg
 apercu: Amorcer le changement par l’immersion
 ---
 
-![sanofi](cover_sanofi.jpg)
-{:.cover}
+<div class="fluid second">
+	<div class="mask">
+		<iframe src="https://www.youtube.com/embed/I_TmfbKI1Ig" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
 
 
 #####AMBITION
 {:.sm-head}
 
 Les responsables de la stratégie au niveau du groupe Sanofi, en charge de l’innovation, souhaitaient sensibiliser leur équipe aux enjeux de l’économie numérique et à l’approche Lean.
+{:.lead}
+
+![sanofi](cover_sanofi.jpg){:.img-responsive}
 
 #####ACTION
 {:.sm-head}

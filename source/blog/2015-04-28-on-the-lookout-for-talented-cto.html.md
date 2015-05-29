@@ -4,7 +4,7 @@ date: 2015-04-28 16:23 CEST
 tags: 
 category: blogging
 lang: english
-apercu: Adopt a CTO - la rencontre entre technique et exécutif
+apercu: On the lookout for talented CTO`s
 cover: adopt_a_cto.jpg
 ---
 
