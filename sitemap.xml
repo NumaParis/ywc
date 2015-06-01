@@ -295,6 +295,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/sncf-and-numa-collaborate-with-an-ecosystem-and-build-win-win-relationships/</loc>
+    <lastmod>2015-05-29T19:34:46+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/total-and-numa-shift-the-way-to-work-and-gain-quick-wins/</loc>
     <lastmod>2015-05-29T19:22:26+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -548,13 +554,13 @@
   </url>
   <url>
     <loc>https://localhost:4567/en/</loc>
-    <lastmod>2015-05-29T13:36:14+02:00</lastmod>
+    <lastmod>2015-06-01T10:19:52+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://localhost:4567/</loc>
-    <lastmod>2015-05-29T13:36:14+02:00</lastmod>
+    <lastmod>2015-06-01T10:19:52+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
