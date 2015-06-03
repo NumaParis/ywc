@@ -5,16 +5,48 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-06-03T10:17:00+02:00</updated>
+  <updated>2015-06-03T10:48:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>SNCF et NUMA S’ouvrir à un éco-système dans une logique win-win</title>
+    <link rel="alternate" href="http://blog.url.com/sncf-et-numa-s-ouvrir-a-un-eco-systeme-dans-une-logique-win-win/"/>
+    <id>http://blog.url.com/sncf-et-numa-s-ouvrir-a-un-eco-systeme-dans-une-logique-win-win/</id>
+    <published>2015-06-03T10:48:00+02:00</published>
+    <updated>2015-06-03T10:57:19+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="sanofi" src="/images/sncf.jpg" /&gt;&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
+
+&lt;p class="lead"&gt;Acteur majeur de la mobilité, la SNCF disposait de nombreuses data encore peu exploitées en 2013. Le groupe, a la recherche de nouveaux services et produits, a souhaité s’inscrire dans une logique de transparence et de collaboration en mettant à disposition ces data (open data).&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;ACTION&lt;/h5&gt;
+
+&lt;p&gt;Numa a proposé un programme d’expérimentation de 6 mois, intitulé le Data Shaker, construit autour de la thématique de la “ Mobilité personnalisée “ et créant un cadre de collaboration entre :
+–Des &lt;strong&gt;porteurs de projets&lt;/strong&gt; indépendants développant des solutions innovantes mais pouvant manquer de cas d’usage pour tester et valider leur projet ;
+–Une implication transverse (8 branches et filiales) d’un &lt;strong&gt;acteur de la mobilité&lt;/strong&gt; disposant de diverses ressources (data, cas pratiques, techniques, etc.) ayant intérêt à soutenir l’émergence d’initiatives sur ses problématiques ;
+–Des &lt;strong&gt;mentors&lt;/strong&gt; issus de l’éco-système Numa ayant contribué à accompagner le développement des équipes-projets.&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
+
+&lt;p&gt;Vingt projets ont émergés dont 6 retenus pour approfondissement et expérimentations au sein des infrastructures de la SNCF : SNCF Maps, une bibliothèque de contenu numérique, etc.
+SNCF s’est depuis complètement réorganisé avec une direction de l’expérience voyageur et une direction de la Transparence - une plateforme open data est désormais accessible à tous et continue à s’enrichir : &lt;a href="https://data.sncf.com/"&gt;https://data.sncf.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote class="large"&gt;
+  &lt;p&gt;Data Shaker nous a sortis de notre zone de confort. Ça a été la rencontre de collaborateurs métier avec des projets externes qui nous ont bousculés. Mais ensemble nous avons travaillé à développer des projets et fait en sorte qu’ils soient réalisables. &lt;cite&gt;Régine Combremont, directrice de la Fabrique Digitale chez SNCF&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
   <entry>
     <title>Unique Sound - La place de marché des compositeurs professionnels</title>
     <link rel="alternate" href="http://blog.url.com/unique-sound-la-place-de-marche-des-compositeurs-professionnels/"/>
     <id>http://blog.url.com/unique-sound-la-place-de-marche-des-compositeurs-professionnels/</id>
     <published>2015-06-03T10:17:00+02:00</published>
-    <updated>2015-06-03T10:40:27+02:00</updated>
+    <updated>2015-06-03T10:46:17+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -30,7 +62,7 @@
 
 &lt;p&gt;&lt;em&gt;Mais voici des exemples de points essentiels sur lesquels faire partie du programme NUMA Sprint va vous apporter énormément.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Le mentorat&lt;/strong&gt; : nous avons été très heureux de travailler avec Boris Golden et Emilie Gobin Mignot notre Entrepreneur en résidence, mais aussi bien sûr avec TechStars car nous avons rencontré le Directeur Général de TechStars à NUMA lors d’un atelier par NUMA.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Le mentorat&lt;/strong&gt; : nous avons été très heureux de travailler avec &lt;a target="_blank" href="http://www.partechventures.com/team/boris-golden/"&gt;Boris Golden&lt;/a&gt; et Emilie Gobin Mignot notre Entrepreneur en résidence, mais aussi bien sûr avec TechStars car nous avons rencontré le Directeur Général de TechStars à NUMA lors d’un atelier par NUMA.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;C’est aussi lorsque nous sommes arrivés à NUMA que fut créée Unique Sound. Notre premier jour à NUMA fut le jour n°1 de Unique Sound. Et c’est grâce à NUMA que nous avons réussi à transformer cette idée en quelque chose de réel.&lt;/em&gt;&lt;/p&gt;
 
@@ -188,32 +220,6 @@ Ministère de l’emploi, du travail, et de la formation professionnelle&lt;/p&g
 	&lt;/div&gt;
 &lt;/div&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>Qunb simplifie la lisibilite de vos donnees</title>
-    <link rel="alternate" href="http://blog.url.com/qunb-simplifie-la-lisibilite-de-vos-donnees/"/>
-    <id>http://blog.url.com/qunb-simplifie-la-lisibilite-de-vos-donnees/</id>
-    <published>2015-05-29T17:49:00+02:00</published>
-    <updated>2015-05-29T18:45:46+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="cover_qunb" src="/images/cover_qunb.jpg" /&gt;&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
-
-&lt;p&gt;&lt;a target="_blank" href="https://www.qunb.com/"&gt;QunB&lt;/a&gt; qui est passé par &lt;a target="_blank" href="https://www.numa.paris/Sprint"&gt;NUMA Sprint&lt;/a&gt; (le Camping saison 2) propose une solution de datavisualisation à partir d’outils tels que Google Insights et Google Analytics. Objectif : rendre toute cette quantité de données plus lisible. En pratique, les données brutes sont ainsi extraites des documents mis à leur disposition, analysées de façon sémantique et retraitées automatiquement sous forme de graphiques.&lt;/p&gt;
-
-&lt;p&gt;QunB a remporté en 2012 la Startup Competition à LeWeb&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Après avoir suivi le programme d’accélération du camping, puis celui de Techstars, la start-up a été rachetée en novembre 2014 par Ve Interactive, pour plusieurs millions d’euros.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h4&gt;Pour en savoir plus:&lt;/h4&gt;
-
-&lt;p&gt;&lt;a target="_blank" href="http://techcrunch.com/2012/12/06/data-visualisation-startup-qunb-wins-leweb-paris-2012-startup-competition/"&gt;&lt;img alt="Techcrunch" src="/images/tc-techcrunch.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.veinteractive.com/press/20141128/ve-acquires-qunb-multi-million-pound-deal-expand-big-data-analytics-offering"&gt;veinteractive.com&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
