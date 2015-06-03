@@ -42,12 +42,6 @@ page "/feed.xml", layout: false
 # GitHub Pages wants 404.html, not 404/index.html
 page '/404.html', :directory_index => false
 
-# page '/Numa-invest/', 
-
-redirect 'Numa-invest/index.html', to: '/'
-redirect 'numa-invest/index.html', to: '/'
-redirect 'NUMA-invest/index.html', to: '/'
-
 
 ###
 # Compass

@@ -36,3 +36,9 @@ Both prototypes are under development for implementation and this program will b
 *The result of this program was amazing because the work of these two teams will be directly usable, and also because of the method that NUMA taught us. Everything that was told to us during the program made me realize the relevance of working closely with startups and use startups method.*
 
 **Yves-André Valot, CIO at TOTAL Marketing & Services**
+
+<div class="fluid second">
+	<div class="mask">
+		<iframe src="https://www.youtube.com/embed/I_TmfbKI1Ig" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
