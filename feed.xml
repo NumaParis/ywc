@@ -5,10 +5,95 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-06-03T10:48:00+02:00</updated>
+  <updated>2015-06-03T11:43:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Sharette quand la voiture se transforme en transport en commun</title>
+    <link rel="alternate" href="http://blog.url.com/sharette-quand-la-voiture-se-transforme-en-transport-en-commun/"/>
+    <id>http://blog.url.com/sharette-quand-la-voiture-se-transforme-en-transport-en-commun/</id>
+    <published>2015-06-03T11:43:00+02:00</published>
+    <updated>2015-06-03T11:58:39+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="lequipe cover" src="/images/sharette_cover_large.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target="_blank" href="https://sharette.fr"&gt;Sharette&lt;/a&gt; est une application mobile (iOS et Android) qui met en relation conducteurs et passagers pour des trajets de courte distance en Ile-de-France. L’application propose des itinéraires combinant trajets de covoiturage et transports en commun afin d’optimiser les déplacements de chacun en toute convivialité. Locale et instantanée, l’application Sharette répond aux besoins de mobilité de tous les Franciliens. Economique, un trajet de covoiturage Sharette coûte 2 € au passager, quelle que soit la distance parcourue (auxquels s’ajoutent 0,36 € de frais de réservation). Sharette a donc pour mission de repenser la voiture comme un transport en commun.&lt;/p&gt;
+
+&lt;p&gt;Lorsque nous avons intégré le programme &lt;a target="_blank" href="http://www.numa.paris/sprint/"&gt;NUMA Sprint&lt;/a&gt; (le Camping saison 6) Sharette devait passer d’une startup ”garage” et expérimentale à une startup prête à affronter un lancement grand public l’été suivant et donc avoir un business model scalable. Nous avions aussi  besoin de soutien pour la gestion de notre partenariat avec un grand compte, la RATP. Dernière étape, une 2ème levée de fonds en cours actuellement pour laquelle NUMA nous a apporté de nombreux conseils.&lt;/p&gt;
+
+&lt;p&gt;Le programme d’accélération du NUMA a été très enrichissant pour nous. Nous avons pu bénéficier d’un réseau incroyable, de mentors très actifs, de compétences concrètes sur tous les sujets d’une entreprise pour chaque membre de l’équipe (RH, stratégie, produit, tech, open innovation). Le programme nous a aussi apporté un soutien psychologique appréciable pour affronter le parcours non sans embûches des entrepreneurs.&lt;/p&gt;
+
+&lt;p&gt;Sharette a un agenda très actif depuis la sortie du programme d’accélération. L’application s’ouvre au grand public en Ile-de-France cet été. De plus, nous sommes en train de consolider une deuxième levée de fonds de 750K€. Enfin, nous avons pu embaucher nous deux premières recrues, un lead developer et une responsable communication.&lt;/p&gt;
+
+&lt;div class="fluid second"&gt;
+	&lt;div class="mask"&gt;
+		&lt;iframe src="https://www.youtube.com/embed/X77hQLrvb1k" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <title>L’EQUIPE &amp; NUMA - New services in record-breaking time</title>
+    <link rel="alternate" href="http://blog.url.com/lequipe-and-numa-new-services-in-record-breaking-time/"/>
+    <id>http://blog.url.com/lequipe-and-numa-new-services-in-record-breaking-time/</id>
+    <published>2015-06-03T11:33:00+02:00</published>
+    <updated>2015-06-03T12:03:16+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="lequipe cover" src="/images/lequipe_cover_large.jpg" /&gt;&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
+
+&lt;p class="lead"&gt;In the context of questioning its future business model, L’Equipe envisioned to leverage the 20th Soccer World Cup in Brazil and its archives to provide new content based on these data.&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;ACTION&lt;/h5&gt;
+
+&lt;p&gt;In collaboration with NUMA, we develop a program in 2 phases:
+–a 48 hours hackathon to help emerge and prototype new ways and means to give coverage to the worldwide event;
+–followed by a 5 days bootcamp to jump from the prototype to  a ready-to-go-to-market product.&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
+
+&lt;p&gt;The program ended up with 2 finalized products &lt;a target="_blank" href="http://www.lequipe.fr/Football/Coupe-du-monde/Mundial-Memories/"&gt;Mundial Memories&lt;/a&gt; and Mythe ou Mytho.
+In addition, L’Equipe is working with us on putting in place new short track program involving external stakeholders and they engage a restructuration of their databases.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="lequipe2" class="img-responsive" src="/images/lequipe2.jpg" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Explorer de nouvelles manières de couvrir l’actualité</title>
+    <link rel="alternate" href="http://blog.url.com/explorer-de-nouvelles-manieres-de-couvrir-lactualite/"/>
+    <id>http://blog.url.com/explorer-de-nouvelles-manieres-de-couvrir-lactualite/</id>
+    <published>2015-06-03T11:11:00+02:00</published>
+    <updated>2015-06-03T11:35:30+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="lequipe cover" src="/images/lequipe_cover_large.jpg" /&gt;&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
+
+&lt;p class="lead"&gt;À l’occasion de la XXe édition de la Coupe du Monde de football au Brésil en 2014, L’Equipe a souhaité expérimenter de manière de couvrir l’actualité et à travers l’exploitation des données sportives collectées sur les précédentes éditions.&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;ACTION&lt;/h5&gt;
+
+&lt;p&gt;Associé au Numa, nous avons mis en place un programme, intitulé le Data+Foot, en deux temps :
+–un hackathon de 48h pour faire émerger et prototyper de nouvelles manières de couvrir la Coupe du Monde au Brésil ;
+–Puis un bootcamp de 5 jours pour finaliser les productions en vue d’une publication.&lt;/p&gt;
+
+&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
+
+&lt;p&gt;Le programme a permis la réalisation de 2 projets &lt;a target="_blank" href="http://www.lequipe.fr/Football/Coupe-du-monde/Mundial-Memories/"&gt;Mundial Memories&lt;/a&gt; et Mythe ou Mytho publiés lors de la Coupe du Monde (plusieurs millions de VU).
+L’Equipe a également engagé un projet en interne de refonte globale de sa database.
+Enfin nous travaillons en ce moment à l’élaboration d’un nouveau programme en cycle court et ouvert à notre écosystème.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="lequipe2" class="img-responsive" src="/images/lequipe2.jpg" /&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>SNCF et NUMA S’ouvrir à un éco-système dans une logique win-win</title>
     <link rel="alternate" href="http://blog.url.com/sncf-et-numa-s-ouvrir-a-un-eco-systeme-dans-une-logique-win-win/"/>
@@ -115,131 +200,6 @@ SCNF also went further with a complete cultural shift. They now have a complete 
 &lt;blockquote class="large"&gt;
   &lt;p&gt;Data Shaker moved us out of our comfort zone. It was an opportunity to have our operational teams collaborating with external project leaders who shake us up but together we developed viable projects. &lt;cite&gt;Régine Combremont, directrice de la Fabrique Digitale chez SNCF&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-</content>
-  </entry>
-  <entry>
-    <title>SANOFI and NUMA - Deepdive in our ecosystem</title>
-    <link rel="alternate" href="http://blog.url.com/sanofi-and-numa-deepdive-in-our-ecosystem/"/>
-    <id>http://blog.url.com/sanofi-and-numa-deepdive-in-our-ecosystem/</id>
-    <published>2015-05-29T19:25:00+02:00</published>
-    <updated>2015-05-29T19:32:02+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="sanofi" src="/images/cover_sanofi.jpg" /&gt;&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
-
-&lt;p class="lead"&gt;Corporate strategy managers, in charge of innovation at Sanofi, envision to raise awareness among their team on the digital market, venture capitalism approach and lean methodology.&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;ACTION&lt;/h5&gt;
-
-&lt;p&gt;In collaboration with our partner, we build a one day immersive session.
-–a first module to “unfold” their minds through presentations and sharing on initiatives from our network. These talks were lead by various profils - mentors, entrepreneurs and investor.
-–a second module including a workshop on lean product development. Participants worked on a business problem and went throughout the 3 key concepts: hypothesis approval, MVP and test/iteration.&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
-
-&lt;p&gt;We are currently discussing a long term partnership with Sanofi to train and support their teams in developing new product &amp;amp; services.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Innovation is about failure, iteration, dedication and desire&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“Use case approach allowed to share a lot with my coworker that I did not know”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“Innovation is about failure, iteration, dedication and desire”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Mathieu Giraud - Senior Corporate Strategy Project Manager&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class="fluid second"&gt;
-	&lt;div class="mask"&gt;
-		&lt;iframe src="https://www.youtube.com/embed/I_TmfbKI1Ig" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Total and NUMA Shift the way to work and gain quick-wins</title>
-    <link rel="alternate" href="http://blog.url.com/total-and-numa-shift-the-way-to-work-and-gain-quick-wins/"/>
-    <id>http://blog.url.com/total-and-numa-shift-the-way-to-work-and-gain-quick-wins/</id>
-    <published>2015-05-29T19:13:00+02:00</published>
-    <updated>2015-06-03T10:11:14+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="Fiodor and Claudio" src="/images/clau_fiodor.png" /&gt;&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
-
-&lt;p&gt;The IT department came in with 2 teams to work on 2 different problems:
-–a lack of understanding internally on the role and functions of the IT department;
-–design a process that will allow identification and management of IT projects off the usual track and collaborating with an external ecosystem.&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;ACTION&lt;/h5&gt;
-
-&lt;p&gt;Program was run in 2 steps in October 2014:
-–train the team through hands on workshops on lean product development;
-–accelerate the projects applying lean approach including user research to challenge assumptions and prototypes and allow tests and iterations.
-Each team was responsible for its own solution and supported by a team of entrepreneur-mentor. Occasionally experts from our network (UX designer, developer, etc.) would join the teams to recreate conditions of a design studio.&lt;/p&gt;
-
-&lt;p&gt;Les équipes n’étaient pas en concurrence, chacune responsable d’un projet, elles étaient accompagnées par un mentor-entrepreneur et, ponctuellement, par des experts (UX designer, développeur, etc.) de notre réseau.&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
-
-&lt;p&gt;Both prototypes are under development for implementation and this program will be renewed in 2015. Total also thinks of new externalised format programs to lead at NUMA.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The result of this program was amazing because the work of these two teams will be directly usable, and also because of the method that NUMA taught us. Everything that was told to us during the program made me realize the relevance of working closely with startups and use startups method.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Yves-André Valot, CIO at TOTAL Marketing &amp;amp; Services&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class="fluid second"&gt;
-	&lt;div class="mask"&gt;
-		&lt;iframe src="https://www.youtube.com/embed/I_TmfbKI1Ig" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Le Gouvernement et NUMA Faire la preuve de l’open data</title>
-    <link rel="alternate" href="http://blog.url.com/le-gouvernement-et-numa-faire-la-preuve-de-l-open-data/"/>
-    <id>http://blog.url.com/le-gouvernement-et-numa-faire-la-preuve-de-l-open-data/</id>
-    <published>2015-05-29T18:48:00+02:00</published>
-    <updated>2015-05-29T19:07:16+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="gov_img" src="/images/gov_img.gif" /&gt;&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
-
-&lt;p&gt;Le Ministère du travail travaille au positionnement de Pole Emploi comme acteur majeur de la formation et de l’emploi.
-Dans cette optique, une des pistes à explorer consiste dans l’ouverture de l’accès aux datas dont disposent Pole Emploi.&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;ACTION&lt;/h5&gt;
-
-&lt;p&gt;En collaboration avec les services du cabinet et de la DSI du ministère, nous avons conçu un programme sur 2 mois d’open innovation visant à faire naitre des collaborations entre les institutions publiques - Pole Emploi, INSEE, DARES - et des privés, startups ou intermédiaires.
-Le programme consistait en :
--une première phase préalable d’analyse des enjeux et d’identification des acteurs via une série d’entretiens ;
--une seconde phase de travail via 3 ateliers d’ideation et de conception.&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
-
-&lt;p&gt;Aujourd’hui le ministère du travail et des partenaires européens discutent pour monter et financer le développement de 4 prototypes autour de projets tels que :
--une cartographie des sociocompétences - en remplacement du CV traditionnel
--un outil d’aide à la définition d’un parcours de formation
--et un outil d’assistance au pilotage d’un recrutement.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Ce qui a changé dans le rapport de mes équipes à la question du numérique c’est qu’on est passé d’une forme de désintérêt du type “il se passe quelque chose dans le milieu numérique” mais ça ne me touche pas, à un vrai questionnement qui est de se dire : qu’est-ce que l’on pourrait en faire si tout ça arrivait chez nous. Comment est-ce qu’on se pose des questions différentes et comment est-ce qu’on veut y apporter des solutions différentes. Et une fois qu’on a passer ça oui, on trouve les moyens technologiques de le faire. C’est donc un sujet profond de culture.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;François-Xavier Petit&lt;/strong&gt; - Conseiller Numérique, innovation et prospective
-Ministère de l’emploi, du travail, et de la formation professionnelle&lt;/p&gt;
-
-&lt;div class="fluid second"&gt;
-	&lt;div class="mask"&gt;
-		&lt;iframe src="https://www.youtube.com/embed/I_TmfbKI1Ig" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
 </content>
   </entry>
 </feed>
