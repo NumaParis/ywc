@@ -5,10 +5,32 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-06-03T11:43:00+02:00</updated>
+  <updated>2015-06-04T11:47:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>NUMA Sprint est lance</title>
+    <link rel="alternate" href="http://blog.url.com/numa-sprint-est-lance/"/>
+    <id>http://blog.url.com/numa-sprint-est-lance/</id>
+    <published>2015-06-04T11:47:00+02:00</published>
+    <updated>2015-06-04T11:57:33+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;div class="fluid second"&gt;
+	&lt;div class="mask"&gt;
+		&lt;iframe src="https://www.youtube.com/embed/y96FmEPAU0g" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;La saison 7 commence.&lt;/h3&gt;
+
+&lt;p&gt;Après 3 mois de sélections, nous sommes heureux de vous dévoiler &lt;a target="_blank" href="http://www.journaldunet.com/web-tech/start-up/numa-sprint-lancement-0515.shtml"&gt;la liste des 25 startups&lt;/a&gt; sélectionnées pour le programme d’accélération du NUMA. À l’occasion de ce lancement, le programme a été reconfiguré et adopte un nouveau branding  : Le Camping et Rise fusionnent et deviennent &lt;a target="_blank" href="http://www.numa.paris/Sprint"&gt;NUMA Sprint&lt;/a&gt; !&lt;/p&gt;
+
+&lt;p&gt;Si vous souhaitez plus d’informations, rencontrer des startups, interviewer des membres de l’équipe, veuillez envoyer un mail à Tristan Lebleu (communication@numa.paris).&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Sharette quand la voiture se transforme en transport en commun</title>
     <link rel="alternate" href="http://blog.url.com/sharette-quand-la-voiture-se-transforme-en-transport-en-commun/"/>
@@ -168,38 +190,6 @@ SNCF s’est depuis complètement réorganisé avec une direction de l’expéri
 		&lt;iframe src="https://www.youtube.com/embed/sUNJ3kq5b6Q" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <title>SNCF and NUMA - Collaborate with an ecosystem and build win-win relationships</title>
-    <link rel="alternate" href="http://blog.url.com/sncf-and-numa-collaborate-with-an-ecosystem-and-build-win-win-relationships/"/>
-    <id>http://blog.url.com/sncf-and-numa-collaborate-with-an-ecosystem-and-build-win-win-relationships/</id>
-    <published>2015-05-29T19:34:00+02:00</published>
-    <updated>2015-06-03T11:08:17+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="sanofi" src="/images/sncf.jpg" /&gt;&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;AMBITION&lt;/h5&gt;
-
-&lt;p class="lead"&gt;Being a leader in mobility, SNCF has massive data that were not exploited back in 2013. Looking for new business models, the company sow in giving access to its data an opportunity to develop new products or services.&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;ACTION&lt;/h5&gt;
-
-&lt;p&gt;Called the Data Shaker, NUMA conceived a 6 months experimentation program built on the core theme ‘Personalised mobility’. It provides a structure for collaboration between:
-–&lt;strong&gt;Project leaders&lt;/strong&gt; working on new solutions but missing use cases to test and validate their intuitions;
-–A &lt;strong&gt;cross and deep involvement&lt;/strong&gt; from the SNCF committed with 8 departments and affiliates on providing multiple ressources (data, uses cases, technical expertises etc.);
-–Mentors from our ecosystem to support project teams.&lt;/p&gt;
-
-&lt;h5 class="sm-head"&gt;IMPACT&lt;/h5&gt;
-
-&lt;p&gt;20 projects came out this open innovation program and 6 were selected for further development like SNCF Maps (live mapping of the trains) or the SNCF Library (digital content that fit the time of the journey).
-SCNF also went further with a complete cultural shift. They now have a complete new organisation including Traveller experience departments and Transparency. An open data online platform is now available: &lt;a href="https://data.sncf.com/"&gt;https://data.sncf.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote class="large"&gt;
-  &lt;p&gt;Data Shaker moved us out of our comfort zone. It was an opportunity to have our operational teams collaborating with external project leaders who shake us up but together we developed viable projects. &lt;cite&gt;Régine Combremont, directrice de la Fabrique Digitale chez SNCF&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 </content>
   </entry>
 </feed>
