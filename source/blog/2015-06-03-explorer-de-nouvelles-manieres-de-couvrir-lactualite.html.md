@@ -15,7 +15,6 @@ apercu: Explorer de nouvelles manières de couvrir l’actualité
 {:.sm-head}
 
 À l'occasion de la XXe édition de la Coupe du Monde de football au Brésil en 2014, L’Equipe a souhaité expérimenter de manière de couvrir l’actualité et à travers l’exploitation des données sportives collectées sur les précédentes éditions. 
-{:.lead}
 
 #####ACTION
 {:.sm-head}

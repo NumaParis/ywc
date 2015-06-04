@@ -4,7 +4,7 @@ date: 2015-06-03 11:43 CEST
 lang: french
 category: blogging
 cover: sharette_cover.jpg
-apercu: Explorer de nouvelles manières de couvrir l’actualité
+apercu: Sharette quand la voiture se transforme en transport en commun
 ---
 
 ![lequipe cover](sharette_cover_large.gif)
