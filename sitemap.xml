@@ -308,7 +308,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/explorer-de-nouvelles-manieres-de-couvrir-lactualite/</loc>
-    <lastmod>2015-06-03T11:35:30+02:00</lastmod>
+    <lastmod>2015-06-04T11:16:39+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -320,7 +320,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/sharette-quand-la-voiture-se-transforme-en-transport-en-commun/</loc>
-    <lastmod>2015-06-03T11:58:39+02:00</lastmod>
+    <lastmod>2015-06-04T11:17:08+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -380,7 +380,7 @@
   </url>
   <url>
     <loc>https://localhost:4567/partials/navigation/</loc>
-    <lastmod>2015-05-29T13:36:14+02:00</lastmod>
+    <lastmod>2015-06-03T12:08:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -553,20 +553,68 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/2015/3/</loc>
+    <lastmod>2015-05-29T13:36:10+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/4/</loc>
+    <lastmod>2015-05-29T13:36:10+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/5/</loc>
+    <lastmod>2015-05-29T13:36:10+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/6/</loc>
+    <lastmod>2015-05-29T13:36:10+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/2015/05/2/</loc>
     <lastmod>2015-05-29T13:36:10+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:4567/2015/05/3/</loc>
+    <lastmod>2015-05-29T13:36:10+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/05/4/</loc>
+    <lastmod>2015-05-29T13:36:10+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/05/5/</loc>
+    <lastmod>2015-05-29T13:36:10+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:4567/2015/05/09/2/</loc>
+    <lastmod>2015-05-29T13:36:10+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:4567/en/</loc>
-    <lastmod>2015-06-03T11:26:32+02:00</lastmod>
+    <lastmod>2015-06-03T12:11:11+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://localhost:4567/</loc>
-    <lastmod>2015-06-03T11:26:32+02:00</lastmod>
+    <lastmod>2015-06-03T12:11:11+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
