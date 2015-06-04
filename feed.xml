@@ -5,10 +5,36 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-06-04T11:47:00+02:00</updated>
+  <updated>2015-06-04T11:59:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Sharette when the car turns into public transport</title>
+    <link rel="alternate" href="http://blog.url.com/sharette-when-the-car-turns-into-public-transport/"/>
+    <id>http://blog.url.com/sharette-when-the-car-turns-into-public-transport/</id>
+    <published>2015-06-04T11:59:00+02:00</published>
+    <updated>2015-06-04T12:19:07+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p class="cover"&gt;&lt;img alt="lequipe cover" src="/images/sharette_cover_large.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target="_blank" href="https://sharette.fr"&gt;Sharette&lt;/a&gt; is a smartphone app connecting drivers and passengers for short-distance rides in Paris area. The app shows itineraries combining carpooling ride and public transports to optimize the ways of commuting around Paris. Local, and instantaneous, Sharette is a smart answer to the commuting needs in Ile-de-France. Economical, carpooling with Sharette costs 2€ to the passenger, regardless from the distance driven (plus 0,36 € as booking fees). Sharette yearns to rethink private car as a public transportation.&lt;/p&gt;
+
+&lt;p&gt;Sharette aimed to go from a “garage” startup to a startup ready to face a public launch this summer. So, we needed a scalable and profitable business model. We also needed coaching to manage our partnership with a big company, la RATP. Finally, NUMA has been a precious support and advisor during our second fundraising.&lt;/p&gt;
+
+&lt;p&gt;We learn a lot from the &lt;a target="_blank" href="http://www.numa.paris/sprint/"&gt;NUMA Sprint&lt;/a&gt;, thanks to active mentors in each field : HR, strategy, product, tech, open innovation, etc). Moreover, we now have a incredible network supporting our growth. Finally, NUMA teaches you personally how to be strong enough to overcome problems encountered all your entrepreneurial journey.&lt;/p&gt;
+
+&lt;p&gt;Sharette has got quite an agenda since we left NUMA : public launch in Ile-de-France and a second fundraising (750K). We also hired a communication manager and a lead developer to strengthen the team for the take-off this summer.&lt;/p&gt;
+
+&lt;div class="fluid second"&gt;
+	&lt;div class="mask"&gt;
+		&lt;iframe src="https://www.youtube.com/embed/X77hQLrvb1k" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   <entry>
     <title>NUMA Sprint est lance</title>
     <link rel="alternate" href="http://blog.url.com/numa-sprint-est-lance/"/>
@@ -36,7 +62,7 @@
     <link rel="alternate" href="http://blog.url.com/sharette-quand-la-voiture-se-transforme-en-transport-en-commun/"/>
     <id>http://blog.url.com/sharette-quand-la-voiture-se-transforme-en-transport-en-commun/</id>
     <published>2015-06-03T11:43:00+02:00</published>
-    <updated>2015-06-04T11:17:08+02:00</updated>
+    <updated>2015-06-04T12:18:58+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -62,7 +88,7 @@
     <link rel="alternate" href="http://blog.url.com/lequipe-and-numa-new-services-in-record-breaking-time/"/>
     <id>http://blog.url.com/lequipe-and-numa-new-services-in-record-breaking-time/</id>
     <published>2015-06-03T11:33:00+02:00</published>
-    <updated>2015-06-03T12:06:48+02:00</updated>
+    <updated>2015-06-04T12:03:51+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -146,50 +172,6 @@ SNCF s’est depuis complètement réorganisé avec une direction de l’expéri
 &lt;blockquote class="large"&gt;
   &lt;p&gt;Data Shaker nous a sortis de notre zone de confort. Ça a été la rencontre de collaborateurs métier avec des projets externes qui nous ont bousculés. Mais ensemble nous avons travaillé à développer des projets et fait en sorte qu’ils soient réalisables. &lt;cite&gt;Régine Combremont, directrice de la Fabrique Digitale chez SNCF&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Unique Sound - La place de marché des compositeurs professionnels</title>
-    <link rel="alternate" href="http://blog.url.com/unique-sound-la-place-de-marche-des-compositeurs-professionnels/"/>
-    <id>http://blog.url.com/unique-sound-la-place-de-marche-des-compositeurs-professionnels/</id>
-    <published>2015-06-03T10:17:00+02:00</published>
-    <updated>2015-06-03T10:46:17+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p class="cover"&gt;&lt;img alt="sanofi" src="/images/uniquesound_cover.jpg" /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Romain - CEO de Unique Sound&lt;/h3&gt;
-
-&lt;p&gt;Le marché de la vidéo va doubler dans les prochaines années. De nombreux acteurs proposent de la musique, comme Soundcloud, Deezer ou Spotify. Mais il est difficile pour les marques ou agences de savoir comment chercher dans la masse de musiques, puis comment négocier les droits.&lt;/p&gt;
-
-&lt;p&gt;&lt;a target="_blank" href="http://www.uniquesound.com/aboutUS"&gt;Unique Sound&lt;/a&gt; passé par le programme &lt;a target="_blank" href="http://www.numa.paris/sprint"&gt;NUMA Sprint&lt;/a&gt; (le Camping, saison 5) est une place de marché qui permet aux marques, créateurs de contenus ou agences de commander directement de la musique aux compositeurs pour leurs vidéos en ligne. Une fois la musique acquise, les droits sont illimités dans le temps et valables dans le monde entier.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Il reste encore un long chemin à parcourir pour que Unique Sound soit une entreprise prospère et qui a réussi mais nous faisons des progrès chaque semaine, et bien sûr NUMA n’est pas responsable de cela. Nous le sommes, c’est notre équipe qui en est responsable.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Mais voici des exemples de points essentiels sur lesquels faire partie du programme NUMA Sprint va vous apporter énormément.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Le mentorat&lt;/strong&gt; : nous avons été très heureux de travailler avec &lt;a target="_blank" href="http://www.partechventures.com/team/boris-golden/"&gt;Boris Golden&lt;/a&gt; et Emilie Gobin Mignot notre Entrepreneur en résidence, mais aussi bien sûr avec TechStars car nous avons rencontré le Directeur Général de TechStars à NUMA lors d’un atelier par NUMA.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;C’est aussi lorsque nous sommes arrivés à NUMA que fut créée Unique Sound. Notre premier jour à NUMA fut le jour n°1 de Unique Sound. Et c’est grâce à NUMA que nous avons réussi à transformer cette idée en quelque chose de réel.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Pour finir, NUMA va vous apporter énormément d’énergie, le lieu en lui-même, va vous apporter cette énergie qui chaque matin va faire que vous allez être heureux de venir et de travailler tous ensemble pour faire progresser chaque jour, chaque semaine, et chaque mois votre entreprise.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Alors, prenez tout ce que l’on vous donne, ne soyez pas timide et apprécier car cela passe très vite.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Extrait du discours de &lt;strong&gt;Romain, CEO de Unique Sound&lt;/strong&gt;, lors du kick-off de la saison 7 de &lt;a target="_blank" href="http://www.numa.paris/sprint"&gt;NUMA Sprint&lt;/a&gt; le 27/05/2015.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;La plateforme, lancée en octobre 2014, compte plus de 1 000 compositeurs dans le monde entier. Suite au Camping la start-up a été accélérée par Techstars aux Etats-Unis&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;En mai 2015, Uniquesound (et Soundsgood - Saison 6) sont finalistes du MIDEMLAB 2015 : &lt;a target="_blank" href="http://blog.midem.com/2015/04/meet-the-midemlab-2015-finalists/#.VWnXNFntmkr"&gt;voir l’article&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class="fluid second"&gt;
-	&lt;div class="mask"&gt;
-		&lt;iframe src="https://www.youtube.com/embed/sUNJ3kq5b6Q" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
 </content>
   </entry>
 </feed>
