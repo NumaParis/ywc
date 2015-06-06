@@ -64,6 +64,7 @@ canvas {
 .intro {
 	@include background-image('thankyouimage.jpg');
 	background-size: cover;
+	background-color: #000;
 	z-index: 0;
 	overflow: hidden;
 	&.disable { #particles-js {display: none;} }

@@ -1,6 +1,7 @@
 ---
 title: L’EQUIPE & NUMA - New services in record-breaking time
 date: 2015-06-03 11:33 CEST
+tags: 
 lang: english
 category: blogging
 cover: lequipe_cover.jpg

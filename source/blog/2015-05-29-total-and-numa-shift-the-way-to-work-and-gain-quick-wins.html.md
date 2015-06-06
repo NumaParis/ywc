@@ -2,8 +2,8 @@
 title: Total and NUMA Shift the way to work and gain quick-wins
 date: 2015-05-29 19:13 CEST
 tags:
-category: blogging
 lang: english
+category: blogging
 cover: clau_fiodor.png
 apercu: Total and NUMA Shift - The way to work and gain quick-wins
 ---
