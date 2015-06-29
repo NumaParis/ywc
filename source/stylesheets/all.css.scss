@@ -72,7 +72,7 @@ canvas {
 	position: relative;
 	display: block;
 	padding-top: 18%;
-	padding-bottom: 2%;
+	padding-bottom: 10%;
 }
 
 .intro-body {
@@ -93,7 +93,7 @@ canvas {
 
 #le-logo {
 	> div { // the inner container
-		// @include size(100%, 100%);
+		@include center-block;
 		display: table;
 		.in {
 			img { z-index: 100; width: 70%; position: relative; }
@@ -116,31 +116,32 @@ canvas {
 		font-size: ($fs * $pi) * 2;
 	}
 
+
 	font-size: ($fs * $pi/2);
 
 	@media screen and (min-width: $screen-xs) {
 		$fs: 0.60em;
-		h1 { font-size: ($fs * $pi) * 2; }
+		h1 { font-size: ($fs * $pi) * 1.6; }
 		font-size: ($fs * $pi/2);
 	}
 	@media screen and (min-width: $screen-sm) {
 		$fs: 0.67em;
-		h1 { font-size: ($fs * $pi) * 2; }
+		h1 { font-size: ($fs * $pi) * 1.6; }
 		font-size: ($fs * $pi/2);
 	}
 	@media screen and (min-width: $screen-md) {
 		$fs: 0.86em;
-		h1 { font-size: ($fs * $pi) * 2; }
+		h1 { font-size: ($fs * $pi) * 1.6; }
 		font-size: ($fs * $pi/2);
 	}
 	@media screen and (min-width: $screen-lg) {
 		$fs: 0.9em;
-		h1 { font-size: ($fs * $pi) * 2; }
+		h1 { font-size: ($fs * $pi) * 1.6; }
 		font-size: ($fs * $pi/2) ;
 	}
 	@media screen and (min-width: $screen-lg + $screen-xs/2) { // a bit extra for the extra large
 		$fs: 1em;
-		h1 { font-size: ($fs * $pi) * 2; }
+		h1 { font-size: ($fs * $pi) * 1.6; }
 		font-size: ($fs * $pi/2) ;
 	}
 	display: table;
@@ -1066,6 +1067,9 @@ button.navbar-toggle {
 }
 
 #zabook {
+	> div {
+		padding: 10% 0;
+	}
 	margin-top: 60px;
 	text-align: center;
 	position: relative;
