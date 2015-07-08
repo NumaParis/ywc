@@ -12,8 +12,6 @@ gem "nokogiri", "~> 1.6.6.2"
 
 gem 'middleman-deploy', '~> 1.0'
 
-gem 'middleman-google_drive'
-
 # For feed.xml.builder
 gem 'middleman-search_engine_sitemap', '~> 1.3.0'
 
